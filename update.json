@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 6,
-  "versionName": "0.1.1-beta.3",
+  "versionCode": 7,
+  "versionName": "0.1.1-beta.4",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.3/SmartVoice-0.1.1-beta.3-release.apk",
-  "bytes": 85368653,
-  "sha256": "154adaf0c95f6068dbe0088a94175eb02cae3910b6b5a0308408a633b674e28e",
-  "notes": "新增全局語速倍數、本地更新，改善介面與啟動速度。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.4/SmartVoice-0.1.1-beta.4-release.apk",
+  "bytes": 80117987,
+  "sha256": "9e712044dbb095b3020ff69d94c9c828416e11ac1646407ccfc98ddda2fec109",
+  "notes": "調整安裝資源與原生庫封裝，提供 HyperOS 安裝相容測試。"
 }
