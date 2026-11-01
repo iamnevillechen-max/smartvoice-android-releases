@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "smartvoice-original",
+      "version": 1,
+      "engineFormat": "legacy-vocalizer-compact",
+      "url": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.3/bundledvoices.zip",
+      "bytes": 72106919,
+      "sha256": "0b4592dac9d8b3cb442e5548bc4d189015499e38fbf1acce2a178e434a5733f6",
+      "files": [
+        {
+          "relativePath": "all/clc_arw_cfg1.dat",
+          "bytes": 4317605,
+          "sha256": "58f8df9af622b58afb63587e00cfb79e54816be6380a5bb6c29a28d2dc86435e"
+        },
+        {
+          "relativePath": "all/clc_arw_maged_cfg1.dat",
+          "bytes": 44638,
+          "sha256": "57773b3b9a110c416c643e5512b18613e129d994ae5faa8cf32486b46212d9a7"
+        },
+        {
+          "relativePath": "all/clc_cah_cfg1.dat",
+          "bytes": 1871342,
+          "sha256": "6cc30a20484b340dd5566fb04d173a29d6a64d286b1e32712559014b1b8f7ee3"
+        },
+        {
+          "relativePath": "all/clc_cah_sin-ji_cfg1.dat",
+          "bytes": 35613,
+          "sha256": "dace64a4402f92629a449bb6be5e58dedb0c94eeba30812435d1716870138291"
+        },
+        {
+          "relativePath": "all/clc_czc_cfg1.dat",
+          "bytes": 879825,
+          "sha256": "dc742852a2e2152e6f6e068dc6962c073d8a0ee0077fd45b7ac1d68270697c96"
+        },
+        {
+          "relativePath": "all/clc_czc_zuzana_cfg1.dat",
+          "bytes": 33916,
+          "sha256": "d9c2e50143fce13f3a02277aeb33dfb5bde21fc10623661e9de0bf74cde6902a"
+        },
+        {
+          "relativePath": "all/clc_dad_cfg1.dat",
+          "bytes": 809525,
+          "sha256": "5ef902006fc04c2f75a29c9f6bef35e9578a869139d61ac85273de739e293e5b"
+        },
+        {
+          "relativePath": "all/clc_dad_sara_cfg1.dat",
+          "bytes": 30647,
+          "sha256": "38f0aebeb87877764b10c47dfb1a1e417b1482c9d308cce7e8b4a8e607f8b1dc"
+        },
+        {
+          "relativePath": "all/clc_dub_cfg1.dat",
+          "bytes": 845654,
+          "sha256": "206ed39068379c999b01f9dc9fc1f239e08c93e6b1583f756ec7081cb97a4df9"
+        },
+        {
+          "relativePath": "all/clc_dub_ellen_cfg1.dat",
+          "bytes": 29514,
+          "sha256": "c575fea8e0b9a0b049d18b70a672090a5a8857ffd43de11555c0ed2d9555339b"
+        },
+        {
+          "relativePath": "all/clc_dun_cfg1.dat",
+          "bytes": 840523,
+          "sha256": "cb61ec09685f610e49acbc7e98f047a8685961cbd033dfd5bbbd4cd3f1a229d7"
+        },
+        {
+          "relativePath": "all/clc_dun_xander_cfg1.dat",
+          "bytes": 31207,
+          "sha256": "4b9525dd867f0e0a02df5f6497ed5838c011714431eba0cdab58b7b408bdcdf5"
+        },
+        {
+          "relativePath": "all/clc_ena_cfg1.dat",
+          "bytes": 813316,
+          "sha256": "9145ee59e36fd698021bbd3844c155dccb4b88f9f04ae06c813eb0900d938e31"
+        },
+        {
+          "relativePath": "all/clc_ena_karen_cfg1.dat",
+          "bytes": 23969,
+          "sha256": "6881ae0452ce5c67936ad4f8e1de25a997759673e0d82bda69a444df56f943bd"
+        },
+        {
+          "relativePath": "all/clc_ene_cfg1.dat",
+          "bytes": 584318,
+          "sha256": "d0d7b2db84fb7468a18289da913ee8483b0f8ec559a34d3000ed73fb068bf9b6"
+        },
+        {
+          "relativePath": "all/clc_ene_moira_cfg1.dat",
+          "bytes": 18327,
+          "sha256": "8eaed678f483e9fcf9ae36b7ce6935816ca88d7606d5b9ca68998e2817931ec3"
+        },
+        {
+          "relativePath": "all/clc_eng_cfg1.dat",
+          "bytes": 788314,
+          "sha256": "93f8a8b9b6317e96077b8272564f85b7c53ff663e07c4620ab1d1fc0d30538e5"
+        },
+        {
+          "relativePath": "all/clc_eng_daniel_cfg1.dat",
+          "bytes": 17931,
+          "sha256": "fa8bdd0810ab3d2598e8f4c9f57aa471a1405656865b6879f361df28656be9b8"
+        },
+        {
+          "relativePath": "all/clc_enu_cfg1.dat",
+          "bytes": 857734,
+          "sha256": "60e5f968f68e65d5c0627b2554caa4c801308b665dcad3d869beff3f9d65aafd"
+        },
+        {
+          "relativePath": "all/clc_enu_samantha_cfg1.dat",
+          "bytes": 27419,
+          "sha256": "ecdcf53194300f5d3dfd4cb30cd550928803539b530053f6038002099af2572b"
+        },
+        {
+          "relativePath": "all/clc_enz_cfg1.dat",
+          "bytes": 774884,
+          "sha256": "a855cf7fdeb9bc30e0e78933703f9ddb64e1b88a86ac301c4c97f19b4c1585bf"
+        },
+        {
+          "relativePath": "all/clc_enz_tessa_cfg1.dat",
+          "bytes": 21058,
+          "sha256": "b599960a898d10e053f68717b60f405a81bcbe8a8f955e89406806e7483792f4"
+        },
+        {
+          "relativePath": "all/clc_fif_cfg1.dat",
+          "bytes": 682336,
+          "sha256": "d0df667508830e7c08b3b63757ba6d4f86e923c284ed6cd88581c1002990de45"
+        },
+        {
+          "relativePath": "all/clc_fif_satu_cfg1.dat",
+          "bytes": 56874,
+          "sha256": "3fd2a7743c48757cc7f07c9b8e8212d84ac05b39fedf9da707c928cad8047713"
+        },
+        {
+          "relativePath": "all/clc_frc_amelie_cfg1.dat",
+          "bytes": 45455,
+          "sha256": "bffb0bf483959b6b16f6d597c9df58777040e9bf1c8fc7d8a38231065ca64864"
+        },
+        {
+          "relativePath": "all/clc_frc_cfg1.dat",
+          "bytes": 649651,
+          "sha256": "ecd1026afd1dfdf99ff8a36bd3dee7856ce9b3f6bb232a6fce4575c62b931809"
+        },
+        {
+          "relativePath": "all/clc_frf_cfg1.dat",
+          "bytes": 656281,
+          "sha256": "70e2a9a7e805fcc16a065c850a33458319ab9e4522eb72722d5a2482436eb0fc"
+        },
+        {
+          "relativePath": "all/clc_frf_thomas_cfg1.dat",
+          "bytes": 39553,
+          "sha256": "6fd53c1e9aaf7b5e4dfcf06c1001e59dfd34730b3e815a9ab4da58f25503fa6e"
+        },
+        {
+          "relativePath": "all/clc_ged_anna_cfg1.dat",
+          "bytes": 28234,
+          "sha256": "92439867827db189ebf041a9644762a7e9cdbc68636186c8c28a3a5ffd5857cf"
+        },
+        {
+          "relativePath": "all/clc_ged_cfg1.dat",
+          "bytes": 953873,
+          "sha256": "35bcf6136e5a789538e442be3b34010dbd0e82d1b038c5d8347a9f34238e8c48"
+        },
+        {
+          "relativePath": "all/clc_grg_cfg1.dat",
+          "bytes": 670460,
+          "sha256": "2780d899f36d658a1f1fdddafc6a42dbae8a2d39289e52e84380d572dbb2ac81"
+        },
+        {
+          "relativePath": "all/clc_grg_melina_cfg1.dat",
+          "bytes": 27697,
+          "sha256": "54f51e0b71877ea88ea28404c6f36c1f5e732edf1c7e130168b60e43e8b14c59"
+        },
+        {
+          "relativePath": "all/clc_hei_carmit_cfg1.dat",
+          "bytes": 17902,
+          "sha256": "2324366f4b106a0390420db45951db24b2116257ef03d9748ff0bd63ea44e3aa"
+        },
+        {
+          "relativePath": "all/clc_hei_cfg1.dat",
+          "bytes": 5834820,
+          "sha256": "1cc7a0dec36db92530e2410e1479dee45edbcedddfc8b8831a42010f4857841f"
+        },
+        {
+          "relativePath": "all/clc_hii_cfg1.dat",
+          "bytes": 2065495,
+          "sha256": "bc9ee3a11489978bd406e0b8179e96c56b1471c16d7120b8fcc5c733987c17f0"
+        },
+        {
+          "relativePath": "all/clc_hii_lekha_cfg1.dat",
+          "bytes": 35457,
+          "sha256": "ef7e1032deafeeb0625a9b0a6d34cb6383b5e7c2cd2e1ff67eeda011c2dfda3c"
+        },
+        {
+          "relativePath": "all/clc_huh_cfg1.dat",
+          "bytes": 498301,
+          "sha256": "0037cc0f53733c5c995087ec8ac903624fedd018414a246470493e13cb5cf7a2"
+        },
+        {
+          "relativePath": "all/clc_huh_mariska_cfg1.dat",
+          "bytes": 24641,
+          "sha256": "5875eebe6224e4c66ffccf6c3182e0816dfe6f34b20f7f5f56dedf29abbaad67"
+        },
+        {
+          "relativePath": "all/clc_idi_cfg1.dat",
+          "bytes": 340385,
+          "sha256": "33ad4c627d7813ade935be095258165527d0f4dcd79866df2d4e9735ba623d0e"
+        },
+        {
+          "relativePath": "all/clc_idi_damayanti_cfg1.dat",
+          "bytes": 15993,
+          "sha256": "0a976a1e7507667d6f414d8507ab3ea0198e060c94ba42dbcee37401f4b37c06"
+        },
+        {
+          "relativePath": "all/clc_iti_alice_cfg1.dat",
+          "bytes": 21799,
+          "sha256": "bf692fa39cf2bec2fa688abac9a135bb8877d2e448ee0dc303d09445de2716b5"
+        },
+        {
+          "relativePath": "all/clc_iti_cfg1.dat",
+          "bytes": 554805,
+          "sha256": "b8cc5d428d94504ab28880c15ffec60181092408aa6a5fcf2c00825238d83428"
+        },
+        {
+          "relativePath": "all/clc_jpj_cfg1.dat",
+          "bytes": 3118006,
+          "sha256": "e44aaefe72170a226b85b4ee94aa3015b5a7f82a8df3ec861b61f463ceaf3f3d"
+        },
+        {
+          "relativePath": "all/clc_jpj_kyoko_cfg1.dat",
+          "bytes": 26470,
+          "sha256": "defeb1083dbb15ec027d6e2d7474aee7dcf3365f9dd8a5e303c469677a016c81"
+        },
+        {
+          "relativePath": "all/clc_kok_cfg1.dat",
+          "bytes": 648789,
+          "sha256": "68d1b57f74aab3cb40a2bd5a86c3fbab9833538f7290a39d58d7280a6b9e699d"
+        },
+        {
+          "relativePath": "all/clc_kok_yuna_cfg1.dat",
+          "bytes": 32305,
+          "sha256": "ffe6b62bd7a7a9c13c0812ef8c4e9cf2dc9fdc31c3bff7f1c48feb108b03d51e"
+        },
+        {
+          "relativePath": "all/clc_mnc_cfg1.dat",
+          "bytes": 1747844,
+          "sha256": "4888322e2eb5c1a18d93460c458f3b7b81135f934d0ae27ea7c44a70731c64c3"
+        },
+        {
+          "relativePath": "all/clc_mnc_ting-ting_cfg1.dat",
+          "bytes": 37154,
+          "sha256": "167e4ec12a46bbed921422a898d8c2e8954737607a9c55a69ecb81dc0a01579f"
+        },
+        {
+          "relativePath": "all/clc_mnt_cfg4.dat",
+          "bytes": 5193527,
+          "sha256": "6f257bee547b42794c612b3840d05ce267189a5de26ad1b00894f8d2a3479189"
+        },
+        {
+          "relativePath": "all/clc_mnt_mei-jia_cfg4.dat",
+          "bytes": 45330,
+          "sha256": "66fdc58589aa7408c523d311b3e4802cce867c0045a11c75bf49cfeddc40c3c7"
+        },
+        {
+          "relativePath": "all/clc_non_cfg1.dat",
+          "bytes": 934381,
+          "sha256": "4250eb334b23b4ba02fba6a74c4f29dfc9710ed1bceba1cff0a51cfe457d3e0c"
+        },
+        {
+          "relativePath": "all/clc_non_nora_cfg1.dat",
+          "bytes": 24600,
+          "sha256": "c68ea6858627c10efaf006e0b31c000aa02abb6591cbf367a89d6f8c954ed655"
+        },
+        {
+          "relativePath": "all/clc_plp_cfg1.dat",
+          "bytes": 563543,
+          "sha256": "ed2a8b0f4acf03fa27426681cd50cc092a04fa3853755a6096e4a1a5095981bc"
+        },
+        {
+          "relativePath": "all/clc_plp_zosia_cfg1.dat",
+          "bytes": 38512,
+          "sha256": "63eae1dc48934522a4734f1473435cba19e8067809d6f8e1d1d029f655cfb371"
+        },
+        {
+          "relativePath": "all/clc_ptb_cfg1.dat",
+          "bytes": 563460,
+          "sha256": "c88fd6262323679050675faac5158e3fc5031ebb1d9c87750255d4410b7187f2"
+        },
+        {
+          "relativePath": "all/clc_ptb_luciana_cfg1.dat",
+          "bytes": 28540,
+          "sha256": "abb6074b73db85adc62e596c7635f85f062d99e489f0505b0c3fa0102df681f8"
+        },
+        {
+          "relativePath": "all/clc_ptp_cfg1.dat",
+          "bytes": 501851,
+          "sha256": "b7ea4ad2c4fae7d22d74dc9d3681a9146cd074b2890fb2b51a7da2e0d09f6d11"
+        },
+        {
+          "relativePath": "all/clc_ptp_joana_cfg1.dat",
+          "bytes": 30743,
+          "sha256": "6e56b361ccbd0ad264249623daf1ff8b098f6f375054c0a9e0b31437ebb7abd3"
+        },
+        {
+          "relativePath": "all/clc_ror_cfg1.dat",
+          "bytes": 527004,
+          "sha256": "b65710fdbeaefa3f4899ab3bc7bcc822c60962e3a7b0659ad14c84d2e7e720cc"
+        },
+        {
+          "relativePath": "all/clc_ror_ioana_cfg1.dat",
+          "bytes": 17860,
+          "sha256": "eafcd50a10e71cf95b117e08e2006dfcf063c1fb302f4b8772a143e001ae96ac"
+        },
+        {
+          "relativePath": "all/clc_rur_cfg1.dat",
+          "bytes": 2348348,
+          "sha256": "43c54589cd97806474179ab6e04343a83ce1d05ac0148f7f20bbfba7ce722cfc"
+        },
+        {
+          "relativePath": "all/clc_rur_milena_cfg1.dat",
+          "bytes": 62904,
+          "sha256": "944639fec6f024f6fa2acd1b1bd05e229d3cbb543ce49a74679259a6a955040a"
+        },
+        {
+          "relativePath": "all/clc_sks_cfg1.dat",
+          "bytes": 459743,
+          "sha256": "4b2c13b0cc56a2ef6dd79b1e072338c078acb1f999fb28fb8604708cbee984fb"
+        },
+        {
+          "relativePath": "all/clc_sks_laura_cfg1.dat",
+          "bytes": 26974,
+          "sha256": "e63eb952982b24437c69bed54361b2f53574dae70292897ee6d939b1c4ce18dc"
+        },
+        {
+          "relativePath": "all/clc_spe_cfg1.dat",
+          "bytes": 519164,
+          "sha256": "a3711c962c1be99d93121f55a096c6ed30a27a2e5b6b6be78ea4e37dd353e0ac"
+        },
+        {
+          "relativePath": "all/clc_spe_monica_cfg1.dat",
+          "bytes": 21791,
+          "sha256": "7ab577540940a4274d1abe4198780636b279c9f74fbc205d91d837fa21d6710a"
+        },
+        {
+          "relativePath": "all/clc_spm_cfg1.dat",
+          "bytes": 529587,
+          "sha256": "078930ad063b574eb25e315c7d316d9a6da9286d3c6ff1f65b279b81c060c063"
+        },
+        {
+          "relativePath": "all/clc_spm_paulina_cfg1.dat",
+          "bytes": 23002,
+          "sha256": "e23331ab5088d7976e7b9110ce4cf77e9da913c79e5aeefdae25824fd77155a7"
+        },
+        {
+          "relativePath": "all/clc_sws_alva_cfg1.dat",
+          "bytes": 27021,
+          "sha256": "bf555427a813fc4f7e024787641cef4c588f988245e2de6a158f48f88cb558ca"
+        },
+        {
+          "relativePath": "all/clc_sws_cfg1.dat",
+          "bytes": 818897,
+          "sha256": "0ad850b623d2685dc3e003aab55fe2ea5980a8d51a624d0c06e21c507ec4fe18"
+        },
+        {
+          "relativePath": "all/clc_tht_cfg1.dat",
+          "bytes": 1290879,
+          "sha256": "58dc03a25d2928f4fd0267c2e6d875a7915a1de1a44051b31c7f37c3f75e3945"
+        },
+        {
+          "relativePath": "all/clc_tht_kanya_cfg1.dat",
+          "bytes": 24561,
+          "sha256": "0e317ecd7889ce282c38261455907224c81a3a9f28484cfeec4a689276ecf29e"
+        },
+        {
+          "relativePath": "all/clc_trt_cfg1.dat",
+          "bytes": 574521,
+          "sha256": "4e414396ece6b7800de659876d1372776efe56a8e073d59ceff54f7ccaca906d"
+        },
+        {
+          "relativePath": "all/clc_trt_yelda_cfg1.dat",
+          "bytes": 35771,
+          "sha256": "c9132b9db7156463947351dc3b5175331fb6dd0eed8450d73a45ea49ac601fed"
+        },
+        {
+          "relativePath": "all/select_alice_bet3f22.dat",
+          "bytes": 524992,
+          "sha256": "862e047953eb1d48cae41feaaf841c5c8ce243eb24d324938e7f6f3e4f1c168f"
+        },
+        {
+          "relativePath": "all/select_alva_bet3f22.dat",
+          "bytes": 723252,
+          "sha256": "1ea09e2e35ee38491c8c6a333c2dfec0d12493d1f9c0221b9702685d09df7f01"
+        },
+        {
+          "relativePath": "all/select_amelie_bet3f22.dat",
+          "bytes": 450064,
+          "sha256": "4be8b60e81eac6958faae356c97d26a50eacaec29a02ef19b13fd5f37ff42a0e"
+        },
+        {
+          "relativePath": "all/select_anna_bet3f22.dat",
+          "bytes": 515476,
+          "sha256": "c430bec96c37bf120b0d589b611cb0859c777ad805d556e963dd9cbc4d3e73e5"
+        },
+        {
+          "relativePath": "all/select_carmit_bet3f22.dat",
+          "bytes": 455412,
+          "sha256": "2dd14d1f01118cf0089325dc7e56195f81cab0e97a4d5b502cb347b13104f902"
+        },
+        {
+          "relativePath": "all/select_damayanti_bet3f22.dat",
+          "bytes": 656484,
+          "sha256": "8359e560e65ced9291546a72fdc2cd4e9d8f45caabd5baacdbb7dd182cc15782"
+        },
+        {
+          "relativePath": "all/select_daniel_bet3f22.dat",
+          "bytes": 1168152,
+          "sha256": "37e0a39c21840e293caa9c8d6979a604efda302a75e67ae58f2ae6aa6ef3c270"
+        },
+        {
+          "relativePath": "all/select_ellen_bet3f22.dat",
+          "bytes": 612988,
+          "sha256": "31edc6eb0378dee02566949c082fc163aec1ef8f2b263123fa4fd035f325c305"
+        },
+        {
+          "relativePath": "all/select_ioana_bet3f22.dat",
+          "bytes": 368068,
+          "sha256": "8d8e3ba23c4bdb57402d86d361cc29d2c37e667d7e71fa217058e6c83e522670"
+        },
+        {
+          "relativePath": "all/select_joana_bet3f22.dat",
+          "bytes": 662384,
+          "sha256": "3d71957b4d5595a1a26923f7f0d37a492bd54dd439e43d867895ec682cca010c"
+        },
+        {
+          "relativePath": "all/select_kanya_bet3f22.dat",
+          "bytes": 617684,
+          "sha256": "ab83f58f2d9b6ac2758886ad5614973e866047beb826a902a66885ad17d29c65"
+        },
+        {
+          "relativePath": "all/select_karen_bet3f22.dat",
+          "bytes": 743848,
+          "sha256": "06f2dcb826bf42faf9803b980c4b8905ddcb90214906305ec566e8ec4daa1bad"
+        },
+        {
+          "relativePath": "all/select_kyoko_bet3f22.dat",
+          "bytes": 681544,
+          "sha256": "43d06149e2934c3c97bbcd76fb7d1b742fca3d0dbcfd138f3dfc8f8676210b92"
+        },
+        {
+          "relativePath": "all/select_laura_bet3f22.dat",
+          "bytes": 582448,
+          "sha256": "f3ca62de245b2fcf08c13e98c88d4d7655109a33f526283caaa47a8bec0aa4d7"
+        },
+        {
+          "relativePath": "all/select_lekha_bet3f22.dat",
+          "bytes": 767356,
+          "sha256": "e3d42b66c45aae5e5b14d43a8e1d473703ef809cfe974ad320aae6fe9938aee9"
+        },
+        {
+          "relativePath": "all/select_luciana_bet3f22.dat",
+          "bytes": 370020,
+          "sha256": "215e2c1f4840f025ab16642a2883549378843a6acb7d2aad41112ed528bdb072"
+        },
+        {
+          "relativePath": "all/select_maged_bet3f22.dat",
+          "bytes": 1068084,
+          "sha256": "1462543dfa188c3f0b4ac1f7d104e3e62e49acf68e710f877cd0016e3301de8d"
+        },
+        {
+          "relativePath": "all/select_mariska_bet3f22.dat",
+          "bytes": 441888,
+          "sha256": "a28106174448d6089123caeb485c2ba347c5dc9bd4a7c96fc90a756f1ad1a34e"
+        },
+        {
+          "relativePath": "all/select_mei-jia_bet3f22.dat",
+          "bytes": 1538648,
+          "sha256": "0d44e1eab9224d686cfc628dd4a6265bb51f5cca0a3a5e5efb08909e9cab4598"
+        },
+        {
+          "relativePath": "all/select_melina_bet3f22.dat",
+          "bytes": 829452,
+          "sha256": "35a9b03e0d4b81a6b7287f3ba9a698e5e598021bf49570b0f368a2ea41abe522"
+        },
+        {
+          "relativePath": "all/select_milena_bet3f22.dat",
+          "bytes": 947228,
+          "sha256": "8118628c954bf8dd2346bc20275fbe06efd45bd61e8e4ccbb42412dc1cacd048"
+        },
+        {
+          "relativePath": "all/select_moira_bet3f22.dat",
+          "bytes": 601220,
+          "sha256": "ec55b984daffbd67a7411b1704d86b28d86cbe8e02296a1ef1dac7f7179bb82d"
+        },
+        {
+          "relativePath": "all/select_monica_bet3f22.dat",
+          "bytes": 574668,
+          "sha256": "b15557c0cfb77495ae8ff3aca8c9284667dd29837ac86024d4ce3082d71cc476"
+        },
+        {
+          "relativePath": "all/select_nora_bet3f22.dat",
+          "bytes": 430076,
+          "sha256": "c878b160e6d54f4109650c4e0bf09a2043367971939877978d593858055335f2"
+        },
+        {
+          "relativePath": "all/select_paulina_bet3f22.dat",
+          "bytes": 756908,
+          "sha256": "b419638452165579416845627262bc352385c7333a132e7e54c06ae438625e5f"
+        },
+        {
+          "relativePath": "all/select_samantha_bet3f22.dat",
+          "bytes": 691012,
+          "sha256": "e20aee3577be7b3ede589ec2781828c1d666f5b7ee28f446eea06d08fe93605f"
+        },
+        {
+          "relativePath": "all/select_sara_bet3f22.dat",
+          "bytes": 396216,
+          "sha256": "c954b1e506c556c9cbe67dfa2fcb87de3b758ee6c620fcaf8426b516d82b020f"
+        },
+        {
+          "relativePath": "all/select_satu_bet3f22.dat",
+          "bytes": 483032,
+          "sha256": "a57ffa721bab00f1aa7d7e5221e9cbb9a2cf0d03bbfb997020def083165b4394"
+        },
+        {
+          "relativePath": "all/select_sin-ji_bet3f22.dat",
+          "bytes": 1361088,
+          "sha256": "e174d5d7455bb5d1ca05ed2f6544b4f4341f095d6b95da1fac4715128cdcd7da"
+        },
+        {
+          "relativePath": "all/select_tessa_bet3f22.dat",
+          "bytes": 781004,
+          "sha256": "aceb49d51c2698e06a425655001878cda573d52318801ec7b746fc8fdf0fa554"
+        },
+        {
+          "relativePath": "all/select_thomas_bet3f22.dat",
+          "bytes": 691816,
+          "sha256": "0c44ca9d09a4c1eb707af49027bfb3f02e68f53c6794568c223df6045cbe3b02"
+        },
+        {
+          "relativePath": "all/select_ting-ting_bet3f22.dat",
+          "bytes": 1550620,
+          "sha256": "a39e11a0d81e0046f3631b0904d8a6c0bb17d0f3487b56b9b1b6ce46f892bc04"
+        },
+        {
+          "relativePath": "all/select_xander_bet3f22.dat",
+          "bytes": 633852,
+          "sha256": "6417b66095a21ebbda3c7046eda243b8ff304355f7cd2654c9979847e718028f"
+        },
+        {
+          "relativePath": "all/select_yelda_bet3f22.dat",
+          "bytes": 357316,
+          "sha256": "16bad0ca694368b8dd1e35f717d7b8129dd309ca97fd6bcfd0394b66f6c36e13"
+        },
+        {
+          "relativePath": "all/select_yuna_bet3f22.dat",
+          "bytes": 501020,
+          "sha256": "f4e3aaf8cc6db245dc44250ac6365326318cff2960191a0574c82dd40d057486"
+        },
+        {
+          "relativePath": "all/select_zosia_bet3f22.dat",
+          "bytes": 349988,
+          "sha256": "0f1e1a759af025efe7eef0f3d4a256e48fa677d2ba7815f49d12d5a566772f43"
+        },
+        {
+          "relativePath": "all/select_zuzana_bet3f22.dat",
+          "bytes": 541948,
+          "sha256": "1fbdb90b002cb4c45a0128ea1ecf6d647341a1c5bb2d90e5d10c717b25d5bcd3"
+        },
+        {
+          "relativePath": "all/ve_arw_maged_compact.hdr",
+          "bytes": 3450,
+          "sha256": "159319e8d0d859aaec1e198265ead359d8bba40d4ce3715de95c9d505f7be1b4"
+        },
+        {
+          "relativePath": "all/ve_cah_sin-ji_compact.hdr",
+          "bytes": 3443,
+          "sha256": "f830fddeadff160b9cb65114e99d0ea9179d46c1b0de2c10c68275f246fb110c"
+        },
+        {
+          "relativePath": "all/ve_czc_zuzana_compact.hdr",
+          "bytes": 3410,
+          "sha256": "104ec8d5278549f613111227eea3abe3faf8e1b04bf8bfda3e4dbd38dd402264"
+        },
+        {
+          "relativePath": "all/ve_dad_sara_compact.hdr",
+          "bytes": 3531,
+          "sha256": "7828515427a4366d491687a678978b5d4ba7d2d8fdf62a202ac2e9bf62e0a1b8"
+        },
+        {
+          "relativePath": "all/ve_dub_ellen_compact.hdr",
+          "bytes": 3422,
+          "sha256": "53ae88b439dbccdcfc30d0731f7e2db8b8042c668ca85ce3ac1e74031f585ff9"
+        },
+        {
+          "relativePath": "all/ve_dun_xander_compact.hdr",
+          "bytes": 3531,
+          "sha256": "c133300b0a6f9ea2f654727324cf2a3124ebc4e69f784e77665ac49d3cb95e89"
+        },
+        {
+          "relativePath": "all/ve_ena_karen_compact.hdr",
+          "bytes": 3560,
+          "sha256": "64d3bbb4ec91aa688299a5a7e39b8d408f5dfd14e0cc618866cdb6e254aedef7"
+        },
+        {
+          "relativePath": "all/ve_ene_moira_compact.hdr",
+          "bytes": 3550,
+          "sha256": "f965038056532d0e3417089b48aa30b3d475ab5b11335908a78851d0fb60806d"
+        },
+        {
+          "relativePath": "all/ve_eng_daniel_compact.hdr",
+          "bytes": 3555,
+          "sha256": "83b5c7a082d814ad9c0b8bdd887cee3566aa930573087475a378b1776e0d2ab9"
+        },
+        {
+          "relativePath": "all/ve_enu_samantha_compact.hdr",
+          "bytes": 3708,
+          "sha256": "9d08ec3ba956a80764ec883d84607850ed5a4c00b5aba6ed8c1778ff94e07a5b"
+        },
+        {
+          "relativePath": "all/ve_enz_tessa_compact.hdr",
+          "bytes": 3561,
+          "sha256": "3878c651766cd414bc5a687265fbf570265724f2a59923dfda509139c86da668"
+        },
+        {
+          "relativePath": "all/ve_fif_satu_compact.hdr",
+          "bytes": 3533,
+          "sha256": "ca470c60d60e92bdc863d50fae566531fe67dd76c88939dc6c0bb34432052fb3"
+        },
+        {
+          "relativePath": "all/ve_frc_amelie_compact.hdr",
+          "bytes": 3432,
+          "sha256": "e8246608ffd9d60fdf900aceb24972a0fe854d3914f953de38139b0b67dba24d"
+        },
+        {
+          "relativePath": "all/ve_frf_thomas_compact.hdr",
+          "bytes": 3796,
+          "sha256": "70ba8d8a42792f444f0dc5a25b323f104b099b495b8699ce8e551e8fa081d4d1"
+        },
+        {
+          "relativePath": "all/ve_ged_anna_compact.hdr",
+          "bytes": 3531,
+          "sha256": "3d184eb55aee407431fc85ea4186db694d9794ce4c08bb22caf237a82bfdb95f"
+        },
+        {
+          "relativePath": "all/ve_grg_melina_compact.hdr",
+          "bytes": 3538,
+          "sha256": "98c1d4bb5a184156387abef352a331a74e8373fb8862f9905428313a38a8ccbf"
+        },
+        {
+          "relativePath": "all/ve_hei_carmit_compact.hdr",
+          "bytes": 3705,
+          "sha256": "fdfdce0110ab9ad8418738e3cdbaed0686aa268ca722c39cd800934a2de01039"
+        },
+        {
+          "relativePath": "all/ve_hii_lekha_compact.hdr",
+          "bytes": 3280,
+          "sha256": "77aae7a61892fd2a7ddc0004c5d2140935df816a60bd4dc68cbb4c1836c700be"
+        },
+        {
+          "relativePath": "all/ve_huh_mariska_compact.hdr",
+          "bytes": 3296,
+          "sha256": "dbce0fbd34d708971d51a114a94e78d151e05b5fc700156fe2bbd10c8fb152b5"
+        },
+        {
+          "relativePath": "all/ve_idi_damayanti_compact.hdr",
+          "bytes": 3432,
+          "sha256": "ec8c50b1f19402dc5cb00cda2f841771e63382f8a2d11fc6e4b95eceb763a00b"
+        },
+        {
+          "relativePath": "all/ve_iti_alice_compact.hdr",
+          "bytes": 3336,
+          "sha256": "e639096805947217e8a31ff6496714a8872d50fa42d75d1e9ab585b925408bef"
+        },
+        {
+          "relativePath": "all/ve_jpj_kyoko_compact.hdr",
+          "bytes": 3444,
+          "sha256": "4ea44ed2044097d9e3af3ccec3d3523eba7f8fe32ae82bbb9ac26edb06b1e8cc"
+        },
+        {
+          "relativePath": "all/ve_kok_yuna_compact.hdr",
+          "bytes": 3532,
+          "sha256": "ce1fbe65f7320380efe1e35d8a4c05815181de6cd3924e0495035d8b8599764b"
+        },
+        {
+          "relativePath": "all/ve_mnc_ting-ting_compact.hdr",
+          "bytes": 3481,
+          "sha256": "838a7c56310ab591fe10ffd08599ccbeecb4c022d53928f94ffaaa73b62b6757"
+        },
+        {
+          "relativePath": "all/ve_mnt_mei-jia_compact.hdr",
+          "bytes": 3506,
+          "sha256": "c8d71e2a9bac7c94e0d3417288bac6898b8bd68a6920626db6efa85d83341f04"
+        },
+        {
+          "relativePath": "all/ve_non_nora_compact.hdr",
+          "bytes": 3665,
+          "sha256": "e0cad3d0e635512a58bddb73de18dada6ac1d9c58c166c431069ed3d00501e17"
+        },
+        {
+          "relativePath": "all/ve_plp_zosia_compact.hdr",
+          "bytes": 3405,
+          "sha256": "9512d6b8495aabd6c9137eeb84a9e6389b9f7144e411bb986efa5a631ba5d1f9"
+        },
+        {
+          "relativePath": "all/ve_ptb_luciana_compact.hdr",
+          "bytes": 3567,
+          "sha256": "88385e40b6cb6bce763ded54c796ac50c060beb858584c2269a0e18697a8ef34"
+        },
+        {
+          "relativePath": "all/ve_ptp_joana_compact.hdr",
+          "bytes": 3667,
+          "sha256": "0ffd538c2bc4b6688e4dfd1dc442acc1d8244e56fefe415f59100b5c839769ae"
+        },
+        {
+          "relativePath": "all/ve_ror_ioana_compact.hdr",
+          "bytes": 3412,
+          "sha256": "f12673cfebe5b7de6d71bd369b31e9debd431ca44b5ba720a106697d716993f2"
+        },
+        {
+          "relativePath": "all/ve_rur_milena_compact.hdr",
+          "bytes": 3537,
+          "sha256": "9d465a245461ded93247e7f1c7ea514daddd81ac818ab8fe2f0b31a1db6c947d"
+        },
+        {
+          "relativePath": "all/ve_sks_laura_compact.hdr",
+          "bytes": 3282,
+          "sha256": "472baf0cd53423472f4e0f0a2a646d6a561568658a9293b3295394aecd2237b8"
+        },
+        {
+          "relativePath": "all/ve_spe_monica_compact.hdr",
+          "bytes": 3536,
+          "sha256": "355c48fbd5d4d835186ee60a62d3bc3a7f4f4cc3ae8a025226efbd0ec5d20004"
+        },
+        {
+          "relativePath": "all/ve_spm_paulina_compact.hdr",
+          "bytes": 3557,
+          "sha256": "2f54314db7f4c9219f87b54023eac10f807a82de0caca437e6cea210e7866e92"
+        },
+        {
+          "relativePath": "all/ve_sws_alva_compact.hdr",
+          "bytes": 3407,
+          "sha256": "1f312fb818ba0aca507e1ab7f72dca1901e99cbab99c52ac3ef206f74de6efbe"
+        },
+        {
+          "relativePath": "all/ve_tht_kanya_compact.hdr",
+          "bytes": 2983,
+          "sha256": "fcee35e90cb51285ad05859ed018b4f41869f7ced23bfbe7f5e43950e5059eb7"
+        },
+        {
+          "relativePath": "all/ve_trt_yelda_compact.hdr",
+          "bytes": 3284,
+          "sha256": "3dc315c2705f603f971ea6f62d49478275b753b9a1e50c112265bf01a7c32075"
+        },
+        {
+          "relativePath": "enu/clc_enu_aaron_cfg4.dat",
+          "bytes": 427678,
+          "sha256": "c65d9f2672f543f727b7a2396f1cd11663698899d912f86e09757cffd91aeed5"
+        },
+        {
+          "relativePath": "enu/clc_enu_ava_cfg3.dat",
+          "bytes": 24138,
+          "sha256": "5d1104b068ff385188a00e419166f0aec01ea8413d8ecfd0ebc7582396d73bac"
+        },
+        {
+          "relativePath": "enu/clc_enu_cfg1.dat",
+          "bytes": 857734,
+          "sha256": "60e5f968f68e65d5c0627b2554caa4c801308b665dcad3d869beff3f9d65aafd"
+        },
+        {
+          "relativePath": "enu/clc_enu_cfg3.dat",
+          "bytes": 4343773,
+          "sha256": "64664f38cd4366e8189b2e4d9b36c04881899af8794a1e127f2eb3ffacb46bbf"
+        },
+        {
+          "relativePath": "enu/clc_enu_cfg4.dat",
+          "bytes": 10476679,
+          "sha256": "17023e8fd69af7642fd3aad22b64292c82a5cc9a402cbbbbbbcb02d52c90e17a"
+        },
+        {
+          "relativePath": "enu/clc_enu_nicky_cfg4.dat",
+          "bytes": 476870,
+          "sha256": "3e1ca9f166e4d90a33b94bcd9c6999500fd39d70b36dff34b1114a427ba2fe5c"
+        },
+        {
+          "relativePath": "enu/clc_enu_samantha_cfg1.dat",
+          "bytes": 27419,
+          "sha256": "ecdcf53194300f5d3dfd4cb30cd550928803539b530053f6038002099af2572b"
+        },
+        {
+          "relativePath": "enu/clc_enu_susan_cfg4.dat",
+          "bytes": 476870,
+          "sha256": "202e3838e7c9106cefd84f867afa2968cc1e71bfb54535f9a12adb6721628fee"
+        },
+        {
+          "relativePath": "enu/select_aaron_bet3f22.dat",
+          "bytes": 671884,
+          "sha256": "716e968b197837594d5644b58f97479d30160d73f4698769ba38b7fa8d3a6a79"
+        },
+        {
+          "relativePath": "enu/select_ava_bet3f22.dat",
+          "bytes": 574288,
+          "sha256": "f0317ece5a52edf007ab1c62f76feb4fba28e9644ff9e49b3136fd3f84266b2c"
+        },
+        {
+          "relativePath": "enu/select_nicky_bet3f22.dat",
+          "bytes": 923180,
+          "sha256": "f9a05c7c84cbff9c65fa30a580f875c6e10f59ae707852f720970b403587b4a5"
+        },
+        {
+          "relativePath": "enu/select_samantha_bet3f22.dat",
+          "bytes": 691012,
+          "sha256": "e20aee3577be7b3ede589ec2781828c1d666f5b7ee28f446eea06d08fe93605f"
+        },
+        {
+          "relativePath": "enu/select_susan_bet3f22.dat",
+          "bytes": 462688,
+          "sha256": "77e157d70b7a2c6101c46e169a9f4f8107df54ebeaf8b418f5a9636ace63d357"
+        },
+        {
+          "relativePath": "enu/select_tom_bet3f22.dat",
+          "bytes": 802084,
+          "sha256": "ae5ecc4a652decaa54c6e3fa1e268a7fe32c25061ce5b37a5d9ef8b72e5edec8"
+        },
+        {
+          "relativePath": "enu/ve_enu_aaron_compact.hdr",
+          "bytes": 3324,
+          "sha256": "6b6bab9441d4f83d08c84b086da46e81da99dcad22b7d7a40aacfff60e9065bf"
+        },
+        {
+          "relativePath": "enu/ve_enu_ava_22_bet3.hdr",
+          "bytes": 2804,
+          "sha256": "2218db0c8b68ba6331ac95def220c03e562d05e68743a0133ef54e2d95499e67"
+        },
+        {
+          "relativePath": "enu/ve_enu_nicky_compact.hdr",
+          "bytes": 3277,
+          "sha256": "827608e4cfa84720c8f13ccd40a781ec204283bda80dbc808952e10851fb92c7"
+        },
+        {
+          "relativePath": "enu/ve_enu_samantha_compact.hdr",
+          "bytes": 3597,
+          "sha256": "ca003642926bb50d0a00cd5a5629e20533b9c502998e8898b396e341df46df3d"
+        },
+        {
+          "relativePath": "enu/ve_enu_susan_compact.hdr",
+          "bytes": 3277,
+          "sha256": "d1d12f9f9c657028f1f6243aa4ced4aa956708178078d5d9211b53e4df7bbf18"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_cfg1.dat",
+          "bytes": 1747844,
+          "sha256": "5e99c5d8129d9b3509777da0d8106b689f15aa0f760119bf3f7af418e248fd48"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_cfg4.dat",
+          "bytes": 11736737,
+          "sha256": "c92241bd77aceaaba8d357e87f61fc3fcfc9f30bc315283726359b2c01062759"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_li-li_cfg4.dat",
+          "bytes": 45351,
+          "sha256": "4ebba505eb6921cf23148071e6bc022c603c0ed384913eeaa6509038e0352f8c"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_li-mu_cfg4.dat",
+          "bytes": 45399,
+          "sha256": "ca61b3cb739b8fea082099daa8b98056812f643c903d4e9e0ae942984986e3a9"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_tian-tian_cfg4.dat",
+          "bytes": 42106,
+          "sha256": "b3f17122f2df5e8665ad2be5472f2f2ea20c105735d8a99e3a6757acd18f6a3b"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_ting-ting_cfg1.dat",
+          "bytes": 37154,
+          "sha256": "167e4ec12a46bbed921422a898d8c2e8954737607a9c55a69ecb81dc0a01579f"
+        },
+        {
+          "relativePath": "mnc/clc_mnc_yu-shu_cfg4.dat",
+          "bytes": 45401,
+          "sha256": "6261d093dee8eb736a30d2b275b93d876ec8763c4eada2b728137a097c8706eb"
+        },
+        {
+          "relativePath": "mnc/select_li-li_bet3f22.dat",
+          "bytes": 887068,
+          "sha256": "ae3412fa4b7b1a21af890c068a8ebb4ff4612fc20a83e536b4566ccdfc610bad"
+        },
+        {
+          "relativePath": "mnc/select_li-mu_bet3f22.dat",
+          "bytes": 966340,
+          "sha256": "71fd3ec510c7e04d015ea9c808c5c5e8551700452709c280fa2f3173504f1cd8"
+        },
+        {
+          "relativePath": "mnc/select_tian-tian_bet3f22.dat",
+          "bytes": 1023996,
+          "sha256": "b39a6428449b25e6a82b6bf50fcabd09ef4c744b9c8a055f3d8155d7d4cc77a4"
+        },
+        {
+          "relativePath": "mnc/select_ting-ting_bet3f22.dat",
+          "bytes": 1550620,
+          "sha256": "a39e11a0d81e0046f3631b0904d8a6c0bb17d0f3487b56b9b1b6ce46f892bc04"
+        },
+        {
+          "relativePath": "mnc/select_yu-shu_bet3f22.dat",
+          "bytes": 934996,
+          "sha256": "48734af138f3ec33d61a2bcc9626a28a60aec6d2794afb483d06fac870e8ecb0"
+        },
+        {
+          "relativePath": "mnc/ve_MNC_Tian-Tian_Compact.hdr",
+          "bytes": 3006,
+          "sha256": "15d53c73652959c537f2d16c7f262041513da9e8bc43da47c92e52dae3748f72"
+        },
+        {
+          "relativePath": "mnc/ve_mnc_li-li_22_compact.hdr",
+          "bytes": 3547,
+          "sha256": "d8f80f1aa82a80e9aaf409338eac2fef3779033c316838a30b68dbc8371df41c"
+        },
+        {
+          "relativePath": "mnc/ve_mnc_li-mu_compact.hdr",
+          "bytes": 3494,
+          "sha256": "7131e4d420034c37cc12847ebbe56d75a71932a0e2249f7bbb5f8878a384c23d"
+        },
+        {
+          "relativePath": "mnc/ve_mnc_ting-ting_compact.hdr",
+          "bytes": 3570,
+          "sha256": "90a86da90c63fc0dffe37908f443454e154b0af5687ca66daecb2cd5e6ce8b87"
+        },
+        {
+          "relativePath": "mnc/ve_mnc_yu-shu_compact.hdr",
+          "bytes": 3524,
+          "sha256": "f9b7a4c234bc91e18f1f74c2b8b9335eea74a03f74dbdd34b1ffb755b7198e16"
+        }
+      ],
+      "voices": [
+        {
+          "languageCode": "ARW",
+          "languageName": "Arabic",
+          "name": "Maged"
+        },
+        {
+          "languageCode": "CAH",
+          "languageName": "Hong Kong Cantonese",
+          "name": "Sin-Ji"
+        },
+        {
+          "languageCode": "CZC",
+          "languageName": "Czech",
+          "name": "Zuzana"
+        },
+        {
+          "languageCode": "DAD",
+          "languageName": "Danish",
+          "name": "Sara"
+        },
+        {
+          "languageCode": "DUB",
+          "languageName": "Belgian Dutch",
+          "name": "Ellen"
+        },
+        {
+          "languageCode": "DUN",
+          "languageName": "Dutch",
+          "name": "Xander"
+        },
+        {
+          "languageCode": "ENA",
+          "languageName": "Australian English",
+          "name": "Karen"
+        },
+        {
+          "languageCode": "ENE",
+          "languageName": "Irish English",
+          "name": "Moira"
+        },
+        {
+          "languageCode": "ENG",
+          "languageName": "British English",
+          "name": "Daniel"
+        },
+        {
+          "languageCode": "ENU",
+          "languageName": "American English",
+          "name": "Aaron"
+        },
+        {
+          "languageCode": "ENU",
+          "languageName": "American English",
+          "name": "Ava"
+        },
+        {
+          "languageCode": "ENU",
+          "languageName": "American English",
+          "name": "Nicky"
+        },
+        {
+          "languageCode": "ENU",
+          "languageName": "American English",
+          "name": "Samantha"
+        },
+        {
+          "languageCode": "ENU",
+          "languageName": "American English",
+          "name": "Susan"
+        },
+        {
+          "languageCode": "ENZ",
+          "languageName": "South African English",
+          "name": "Tessa"
+        },
+        {
+          "languageCode": "FIF",
+          "languageName": "Finnish",
+          "name": "Satu"
+        },
+        {
+          "languageCode": "FRC",
+          "languageName": "Canadian French",
+          "name": "Amelie"
+        },
+        {
+          "languageCode": "FRF",
+          "languageName": "French",
+          "name": "Thomas"
+        },
+        {
+          "languageCode": "GED",
+          "languageName": "German",
+          "name": "Anna"
+        },
+        {
+          "languageCode": "GRG",
+          "languageName": "Greek",
+          "name": "Melina"
+        },
+        {
+          "languageCode": "HEI",
+          "languageName": "Hebrew",
+          "name": "Carmit"
+        },
+        {
+          "languageCode": "HII",
+          "languageName": "Hindi",
+          "name": "Lekha"
+        },
+        {
+          "languageCode": "HUH",
+          "languageName": "Hungarian",
+          "name": "Mariska"
+        },
+        {
+          "languageCode": "IDI",
+          "languageName": "Indonesian",
+          "name": "Damayanti"
+        },
+        {
+          "languageCode": "ITI",
+          "languageName": "Italian",
+          "name": "Alice"
+        },
+        {
+          "languageCode": "JPJ",
+          "languageName": "Japanese",
+          "name": "Kyoko"
+        },
+        {
+          "languageCode": "KOK",
+          "languageName": "Korean",
+          "name": "Yuna"
+        },
+        {
+          "languageCode": "MNC",
+          "languageName": "Chinese Mandarin",
+          "name": "Li-Li"
+        },
+        {
+          "languageCode": "MNC",
+          "languageName": "Chinese Mandarin",
+          "name": "Li-Mu"
+        },
+        {
+          "languageCode": "MNC",
+          "languageName": "Chinese Mandarin",
+          "name": "Tian-Tian"
+        },
+        {
+          "languageCode": "MNC",
+          "languageName": "Chinese Mandarin",
+          "name": "Ting-Ting"
+        },
+        {
+          "languageCode": "MNC",
+          "languageName": "Chinese Mandarin",
+          "name": "Yu-Shu"
+        },
+        {
+          "languageCode": "MNT",
+          "languageName": "Taiwanese Mandarin",
+          "name": "Mei-Jia"
+        },
+        {
+          "languageCode": "NON",
+          "languageName": "Norwegian",
+          "name": "Nora"
+        },
+        {
+          "languageCode": "PLP",
+          "languageName": "Polish",
+          "name": "Zosia"
+        },
+        {
+          "languageCode": "PTB",
+          "languageName": "Brazilian Portuguese",
+          "name": "Luciana"
+        },
+        {
+          "languageCode": "PTP",
+          "languageName": "Portuguese",
+          "name": "Joana"
+        },
+        {
+          "languageCode": "ROR",
+          "languageName": "Romanian",
+          "name": "Ioana"
+        },
+        {
+          "languageCode": "RUR",
+          "languageName": "Russian",
+          "name": "Milena"
+        },
+        {
+          "languageCode": "SKS",
+          "languageName": "Slovak",
+          "name": "Laura"
+        },
+        {
+          "languageCode": "SPE",
+          "languageName": "Spanish",
+          "name": "Monica"
+        },
+        {
+          "languageCode": "SPM",
+          "languageName": "Mexican Spanish",
+          "name": "Paulina"
+        },
+        {
+          "languageCode": "SWS",
+          "languageName": "Swedish",
+          "name": "Alva"
+        },
+        {
+          "languageCode": "THT",
+          "languageName": "Thai",
+          "name": "Kanya"
+        },
+        {
+          "languageCode": "TRT",
+          "languageName": "Turkish",
+          "name": "Yelda"
+        }
+      ]
+    }
+  ]
+}

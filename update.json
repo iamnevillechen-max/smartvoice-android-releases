@@ -1,0 +1,10 @@
+{
+  "packageName": "hk.neville.smartvoice",
+  "versionCode": 6,
+  "versionName": "0.1.1-beta.3",
+  "minSdk": 26,
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.3/SmartVoice-0.1.1-beta.3-release.apk",
+  "bytes": 85368653,
+  "sha256": "154adaf0c95f6068dbe0088a94175eb02cae3910b6b5a0308408a633b674e28e",
+  "notes": "新增全局語速倍數、本地更新，改善介面與啟動速度。"
+}
