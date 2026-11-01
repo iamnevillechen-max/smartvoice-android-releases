@@ -1,11 +1,13 @@
-# SmartVoice 中文版
+# SmartVoice
 
-Android 系統 TTS 引擎，含原有45個音色。中文介面為音色、語言分配及設定，支援全局語速倍數、音色包下載、線上與本地APK更新。
+Android系統TTS引擎，中文介面，底部分頁「音色／語言分配／設定」，隨附45個原音色、37種語言／地區。支援全局語速倍數、線上檢查更新、音色下載及本地APK更新。
 
-[直接下載0.1.1-beta.4 APK（80.12MB）](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.4/SmartVoice-0.1.1-beta.4-release.apk)
+[直接下載SmartVoice 0.1.1-beta.6 APK](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.6/SmartVoice-0.1.1-beta.6-release.apk)
 
-本版是安裝相容測試：調整名稱／主題資源、加入普通PNG圖示，原生庫明確採解壓安裝。Android17 AOSP 已通過套件解析、系統確認安裝、45音色及8組長短句；REDMI Turbo 5 Max／HyperOS4的原有解析(33)問題，仍待實機確認是否解決。
+versionCode9，80,122,083 bytes；SHA-256 `20c902084e052aad579b51900bbac5589f78808992d28687b35fb120d6184783`。最低Android8，目標Android17，ARM64宿主透過相容層執行未修改的原ARM32核心。
 
-最低Android8，ARM64，目標Android17。使用者聆聽／TalkBack及16KB實際運行仍未驗收。
+完整APK已在REDMI Turbo5Max／Android17安裝：45音色驗證約19秒、冷啟語音準備約2.6秒，8組系統TTS及App內試聽播放通過；8組PCM與原核心基準逐位元相同。人耳聆聽及TalkBack操作另行驗收。
 
-`update.json`及`voices.json`為App的穩定目錄；APK及音色放在固定版本Release assets。此庫不存放簽署私鑰。
+先前 `(33) packageInfo is null` 已確認為手機下載副本內有零填充損壞；此完整APK已通過該機小米安裝器簽章解析。
+
+App讀取本庫main/update.json及main/voices.json，更新沿用同一專案簽署。

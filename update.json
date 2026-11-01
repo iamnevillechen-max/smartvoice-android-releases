@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 7,
-  "versionName": "0.1.1-beta.4",
+  "versionCode": 9,
+  "versionName": "0.1.1-beta.6",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.4/SmartVoice-0.1.1-beta.4-release.apk",
-  "bytes": 80117987,
-  "sha256": "9e712044dbb095b3020ff69d94c9c828416e11ac1646407ccfc98ddda2fec109",
-  "notes": "調整安裝資源與原生庫封裝，提供 HyperOS 安裝相容測試。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.6/SmartVoice-0.1.1-beta.6-release.apk",
+  "bytes": 80122083,
+  "sha256": "20c902084e052aad579b51900bbac5589f78808992d28687b35fb120d6184783",
+  "notes": "名稱改回SmartVoice，改善原音色冷啟動，內含全部45個音色。"
 }
