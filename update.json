@@ -1,10 +1,15 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 87,
-  "versionName": "1.8.3.3",
+  "versionCode": 88,
+  "versionName": "1.8.3.4",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.3/MultiTTS-1.8.3.3-arm64.apk",
-  "bytes": 221244286,
-  "sha256": "a701be8740d2be82b8dccb38d6f33ea2e5b2f0e8b82578ff168339c1be89fe12",
-  "notes": "缩短原音色串流缓冲，改善快速切换时的接续。统一语音导入入口，设置按功能分组。新增新版提示，更新流程简化为取消／更新与取消／后台下载；移除本地更新按钮。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.4/MultiTTS-1.8.3.4-arm64.apk",
+  "bytes": 221256574,
+  "sha256": "89d37a6be74fa4cf708feca7e8829df83e9b1d831f1bb52ac8b1b980105de749",
+  "notes": "语音列表每个音色只保留一个焦点，集中试听／停止、选用和参数；未选用也可试听。移除首页语音调节区。修复内置语音参数无法保存的问题。改善原音色工作调度和重复短句响应，保留完整音讯。更新前显示更新说明，在原有设置内显示电池和通知权限状态，安装更新时说明安装权限。系统引擎名称固定 MultiTTS。",
+  "notesLocalized": {
+    "zh-CN": "语音列表每个音色只保留一个焦点，集中试听／停止、选用和参数；未选用也可试听。移除首页语音调节区。修复内置语音参数无法保存的问题。改善原音色工作调度和重复短句响应，保留完整音讯。更新前显示更新说明，在原有设置内显示电池和通知权限状态，安装更新时说明安装权限。系统引擎名称固定 MultiTTS。",
+    "zh-TW": "語音列表每個音色只保留一個焦點，集中試聽／停止、選用及參數；未選用也可試聽。移除首頁語音調節區。修正內置語音參數無法保存的問題。改善原音色工作排程及重複短句反應，保留完整音訊。更新前顯示更新說明，在原有設定內顯示電池及通知權限狀態，安裝更新時說明安裝權限。系統引擎名稱固定 MultiTTS。",
+    "en-US": "One focus target per voice, with preview / stop, selection and parameters together; preview works without selection. Remove home speech controls and fix saving bundled voice parameters. Improve original-voice scheduling and repeated short labels while preserving complete audio. Show release notes before updating and battery / notification permission status beside the existing settings. Explain installation permission when installing an update. System engine name: MultiTTS."
+  }
 }
