@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 10,
-  "versionName": "0.2.0-beta.1",
+  "versionCode": 85,
+  "versionName": "1.8.3.1",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.2.0-beta.1/SmartVoice-0.2.0-beta.1-release.apk",
-  "bytes": 71275365,
-  "sha256": "06c45c6272173973435e0aa6574f934617702a861a18215c7bf08275c2b030e5",
-  "notes": "新增简体中文、引擎分类及 Kokoro 音色下载；精简按钮，优化朗读响应，清理重复和不稳定音色。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/MultiTTS-1.8.3.1-arm64.apk",
+  "bytes": 221215614,
+  "sha256": "27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176",
+  "notes": "更新为 MultiTTS，保留音色内语速编辑，优化中断与接续，新增音库试听及下载导入、简体／繁体／英文和本地更新，移除 Kokoro。"
 }
