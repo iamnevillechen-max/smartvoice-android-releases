@@ -1,0 +1,92 @@
+name: Reconstruct signed APK in draft release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Existing draft release tag
+        required: true
+        type: string
+      kit_name:
+        description: Existing reconstruction kit ZIP asset
+        required: true
+        type: string
+      kit_sha256:
+        description: Locally verified reconstruction kit SHA-256
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reconstruct-signed-apk
+  cancel-in-progress: false
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_PAGER: cat
+      RELEASE_TAG: ${{ inputs.release_tag }}
+      KIT_NAME: ${{ inputs.kit_name }}
+      KIT_SHA256: ${{ inputs.kit_sha256 }}
+      BASE_SHA256: 27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176
+    steps:
+      - name: Verify inputs, reconstruct public signed bytes and upload only to draft
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os, re
+          assert os.environ['GITHUB_REPOSITORY'] == 'iamnevillechen-max/smartvoice-android-releases'
+          assert re.fullmatch(r'multitts-v[0-9]+(?:\.[0-9]+){1,4}', os.environ['RELEASE_TAG'])
+          assert re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,127}\.zip', os.environ['KIT_NAME'])
+          assert re.fullmatch(r'[0-9a-f]{64}', os.environ['KIT_SHA256'])
+          assert re.fullmatch(r'[0-9a-f]{40}', os.environ['GITHUB_SHA'])
+          PY
+          work=$(mktemp -d "$RUNNER_TEMP/multitts-rebuild.XXXXXX")
+          cd "$work"
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,tagName,assets > draft.json
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open('draft.json'))
+          assert r['isDraft'] is True and r['tagName'] == os.environ['RELEASE_TAG']
+          a = next(a for a in r['assets'] if a['name'] == os.environ['KIT_NAME'])
+          assert a['state'] == 'uploaded' and a['digest'] == 'sha256:' + os.environ['KIT_SHA256']
+          PY
+          gh api "repos/$GITHUB_REPOSITORY/contents/tools/release-rebuild/rebuild_apk.py?ref=$GITHUB_SHA" --jq .content | base64 --decode > rebuild_apk.py
+          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern "$KIT_NAME" --dir .
+          printf '%s  %s\n' "$KIT_SHA256" "$KIT_NAME" | sha256sum --check --status
+          python3 rebuild_apk.py inspect --kit "$KIT_NAME" > metadata.json
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open('metadata.json'))
+          assert r['base']['sha256'] == os.environ['BASE_SHA256']
+          assert r['base']['bytes'] == 221215614
+          assert r['target']['name'] == 'MultiTTS-' + os.environ['RELEASE_TAG'].removeprefix('multitts-v') + '-arm64.apk'
+          PY
+          curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 30 --max-time 600 --output base85.apk 'https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/MultiTTS-1.8.3.1-arm64.apk'
+          printf '%s  %s\n' "$BASE_SHA256" base85.apk | sha256sum --check --status
+          target=$(python3 -c "import json; print(json.load(open('metadata.json'))['target']['name'])")
+          python3 rebuild_apk.py rebuild --base base85.apk --kit "$KIT_NAME" --kit-sha256 "$KIT_SHA256" --output "$target"
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,tagName > draft-before-upload.json
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open('draft-before-upload.json'))
+          assert r['isDraft'] is True and r['tagName'] == os.environ['RELEASE_TAG']
+          PY
+          gh release upload "$RELEASE_TAG" "$target" --repo "$GITHUB_REPOSITORY"
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,assets > uploaded.json
+          python3 - <<'PY'
+          import json
+          expected = json.load(open('metadata.json'))['target']
+          release = json.load(open('uploaded.json'))
+          assert release['isDraft'] is True
+          a = next(a for a in release['assets'] if a['name'] == expected['name'])
+          assert a['state'] == 'uploaded' and a['size'] == expected['bytes']
+          assert a['digest'] == 'sha256:' + expected['sha256']
+          print('Draft APK verified:', expected['name'], expected['bytes'], expected['sha256'])
+          PY
