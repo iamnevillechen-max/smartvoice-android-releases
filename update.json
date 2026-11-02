@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 85,
-  "versionName": "1.8.3.1",
+  "versionCode": 86,
+  "versionName": "1.8.3.2",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/MultiTTS-1.8.3.1-arm64.apk",
-  "bytes": 221215614,
-  "sha256": "27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176",
-  "notes": "更新为 MultiTTS，保留音色内语速编辑，优化中断与接续，新增音库试听及下载导入、简体／繁体／英文和本地更新，移除 Kokoro。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.2/MultiTTS-1.8.3.2-arm64.apk",
+  "bytes": 221227902,
+  "sha256": "e96c734d3c3be22789f4f17572b4723d3e6cf908d7973ec3e01a17253e649f2b",
+  "notes": "修复原36音色未显示的问题，恢复 Vocalizer 分类并自动刷新；原音色说明改为语言名称。新增首页后台检查更新，保留手动及本地 APK 更新。"
 }
