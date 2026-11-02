@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "microsoft-xiaoxiao",
+      "name": "晓晓",
+      "engine": "Microsoft TTS",
+      "language": "中文",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-xiaoxiao-v1.zip",
+      "bytes": 53299434,
+      "sha256": "366366f34ebdb1f973bfa1da98f08cff66ae40e8c4deba1fbedf88d8d711bfe9",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-xiaoxiao.wav",
+      "previewBytes": 193644,
+      "previewSha256": "26775a786c0d395dd22c69fafcddc93ccad9ccfe62786539adc2b3e8fadf40b5"
+    },
+    {
+      "id": "microsoft-yunxi",
+      "name": "云希",
+      "engine": "Microsoft TTS",
+      "language": "中文",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-yunxi-v1.zip",
+      "bytes": 53328474,
+      "sha256": "e5f9482fd54b8c81bcd8c95a14ea6f21730d00d119a7680259a4d3a4ba2ba914",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-yunxi.wav",
+      "previewBytes": 172844,
+      "previewSha256": "4846ae6456bebab6804bbec4161eb6d23542f19163574093bf00445fed639ef8"
+    },
+    {
+      "id": "microsoft-aria",
+      "name": "Aria",
+      "engine": "Microsoft TTS",
+      "language": "English",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-aria-v1.zip",
+      "bytes": 15465595,
+      "sha256": "99b6e23b8939dfa907148c7aafbff9ef6c6a6538e160e86b3c815d433e1231a2",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-aria.wav",
+      "previewBytes": 161644,
+      "previewSha256": "a88a947bb11409586046c309d21794b04f4e1c3121ce99491dff14f605e7cd46"
+    },
+    {
+      "id": "microsoft-guy",
+      "name": "Guy",
+      "engine": "Microsoft TTS",
+      "language": "English",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-guy-v1.zip",
+      "bytes": 15458546,
+      "sha256": "f1b9c3c437039d103673ea10a40b62a4d1781e2557cfe716eab20a49706c77ac",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-guy.wav",
+      "previewBytes": 161324,
+      "previewSha256": "8683b2e21235b0859d4b31afc742949eaa54de6234105b69b6b6ec9f6e919496"
+    },
+    {
+      "id": "sherpa-libritts-r",
+      "name": "LibriTTS-R",
+      "engine": "Sherpa ONNX",
+      "language": "English",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-libritts-r-v1.zip",
+      "bytes": 24791022,
+      "sha256": "4bf3b7ff925fd5e39876ac9f469b61e07be46f3ae18e77ad98800bf97b8037c9",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-libritts-r.wav",
+      "previewBytes": 189484,
+      "previewSha256": "40f719d0fdae5a5974a4d87afab79beb467e63956a25416736101961b06e9454"
+    },
+    {
+      "id": "sherpa-matcha-baker",
+      "name": "Matcha Baker",
+      "engine": "Sherpa ONNX",
+      "language": "中文",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-matcha-baker-v1.zip",
+      "bytes": 78458498,
+      "sha256": "3902bb2f71358120dc5ba80976c94fd8bf8043926c74dd8ffa44f552c8346362",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-matcha-baker.wav",
+      "previewBytes": 287454,
+      "previewSha256": "275cb6efba819e5c313193bfbdd2342b63229182a9dbec625fbef14ea3154d45"
+    },
+    {
+      "id": "sherpa-aishell3",
+      "name": "AISHELL3",
+      "engine": "Sherpa ONNX",
+      "language": "中文",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-aishell3-v1.zip",
+      "bytes": 33237266,
+      "sha256": "bb8f667b2034b98a5ad7dfcd689e184e9a798898a54ab49bb986d965aba2bf79",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/sherpa-aishell3.wav",
+      "previewBytes": 242840,
+      "previewSha256": "7587236e88f62435bdd632dcbc0764df86be8aff0056b3ebe5b84f91625a6655"
+    }
+  ]
+}
