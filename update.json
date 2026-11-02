@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 9,
-  "versionName": "0.1.1-beta.6",
+  "versionCode": 10,
+  "versionName": "0.2.0-beta.1",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.1.1-beta.6/SmartVoice-0.1.1-beta.6-release.apk",
-  "bytes": 80122083,
-  "sha256": "20c902084e052aad579b51900bbac5589f78808992d28687b35fb120d6184783",
-  "notes": "名稱改回SmartVoice，改善原音色冷啟動，內含全部45個音色。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.2.0-beta.1/SmartVoice-0.2.0-beta.1-release.apk",
+  "bytes": 71275365,
+  "sha256": "06c45c6272173973435e0aa6574f934617702a861a18215c7bf08275c2b030e5",
+  "notes": "新增简体中文、引擎分类及 Kokoro 音色下载；精简按钮，优化朗读响应，清理重复和不稳定音色。"
 }
