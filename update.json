@@ -1,10 +1,10 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 86,
-  "versionName": "1.8.3.2",
+  "versionCode": 87,
+  "versionName": "1.8.3.3",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.2/MultiTTS-1.8.3.2-arm64.apk",
-  "bytes": 221227902,
-  "sha256": "e96c734d3c3be22789f4f17572b4723d3e6cf908d7973ec3e01a17253e649f2b",
-  "notes": "修复原36音色未显示的问题，恢复 Vocalizer 分类并自动刷新；原音色说明改为语言名称。新增首页后台检查更新，保留手动及本地 APK 更新。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.3/MultiTTS-1.8.3.3-arm64.apk",
+  "bytes": 221244286,
+  "sha256": "a701be8740d2be82b8dccb38d6f33ea2e5b2f0e8b82578ff168339c1be89fe12",
+  "notes": "缩短原音色串流缓冲，改善快速切换时的接续。统一语音导入入口，设置按功能分组。新增新版提示，更新流程简化为取消／更新与取消／后台下载；移除本地更新按钮。"
 }
