@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "everyday-foley",
+      "name": "Everyday Moments",
+      "nameZh": "日常片刻",
+      "nameHant": "日常片刻",
+      "description": "Opening and closing doors, turning pages and handling coins.",
+      "descriptionZh": "开门、关门、翻页与硬币声。",
+      "descriptionHant": "開門、關門、翻頁與硬幣聲。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/everyday-foley-v1.zip",
+      "bytes": 79976,
+      "sha256": "362c2269a6a1db81552407e6d81ded2b57f7daee3f3e27d80a20b9e357b55a9c",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/everyday-foley-preview.wav",
+      "previewBytes": 293664,
+      "previewSha256": "fba377eb2cae827151df4a946df3df6e9f76715d830d3af6a05adf5b4cb825f6"
+    },
+    {
+      "id": "walking-foley",
+      "name": "Passing Footsteps",
+      "nameZh": "来往的脚步",
+      "nameHant": "來往的腳步",
+      "description": "High heels, soft leather footsteps and metal armour movement.",
+      "descriptionZh": "高跟鞋、轻柔脚步与金属盔甲走动声。",
+      "descriptionHant": "高跟鞋、輕柔腳步與金屬盔甲走動聲。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/walking-foley-v1.zip",
+      "bytes": 190417,
+      "sha256": "871bc853b6dcae67f4bdac37f337617572929706a7ac09a67ba757e928cbab54",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/walking-foley-preview.wav",
+      "previewBytes": 829052,
+      "previewSha256": "c137252733ece1715fc9f955de2cce6b67bd7436896432045d6e3a46581f59d8"
+    },
+    {
+      "id": "crackling-fire",
+      "name": "By the Fire",
+      "nameZh": "炉边微光",
+      "nameHant": "爐邊微光",
+      "description": "A short, warm recording of a popping and crackling fire.",
+      "descriptionZh": "炉火燃烧、木柴噼啪作响。",
+      "descriptionHant": "爐火燃燒、木柴劈啪作響。",
+      "engine": "Ambience",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/crackling-fire-v1.zip",
+      "bytes": 110574,
+      "sha256": "b1baa7d9ed8c20975da02fa85264b69bfd3bb577cce2642c78b5cda08f5be0e3",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/crackling-fire-preview.wav",
+      "previewBytes": 280456,
+      "previewSha256": "41b934bdefe62f8aad484a194ba83506a9e28b8dcc242e861cfd0ff74559ea4a"
+    },
+    {
+      "id": "rain-and-thunder",
+      "name": "A Rainy Hideaway",
+      "nameZh": "雨中的小屋",
+      "nameHant": "雨中的小屋",
+      "description": "Outdoor rainfall, a thunderstorm and rain heard through a chimney.",
+      "descriptionZh": "室外雨声、雷雨与屋内听见的雨声。",
+      "descriptionHant": "室外雨聲、雷雨與屋內聽見的雨聲。",
+      "engine": "Ambience",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/rain-and-thunder-v1.zip",
+      "bytes": 754791,
+      "sha256": "7d6b3ec3f79966e2ebc1df7487e48a0be100f95741e46ab8728fa3a84f5263b1",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/rain-and-thunder-preview.wav",
+      "previewBytes": 1669572,
+      "previewSha256": "0027bf059e894bead618dda095bb752cc6e915eb64a0147afa26b4bdd548cb5f"
+    }
+  ]
+}
