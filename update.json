@@ -6,10 +6,10 @@
   "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.5/MultiTTS-1.8.3.5-arm64.apk",
   "bytes": 221264766,
   "sha256": "6f6bfa3d657525fc36a1ad4509c258fc074b79b9acaadab0d4bbc8bd0986391b",
-  "notes": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。\n维护者：Lucious QIN。",
+  "notes": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。",
   "notesLocalized": {
-    "zh-CN": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。\n维护者：Lucious QIN。",
-    "zh-TW": "修正快速切換焦點時舊請求繼續合成。\n音色列表顯示語言，保留單一焦點。\n自動模式：中文婷婷，英文 Samantha。\n左上角選單新增免帳號「問題回饋」。\n維護者：Lucious QIN。",
-    "en-US": "Fix stopped speech restarting during rapid focus changes.\nShow the language in each voice row, keeping one focus target.\nAutomatic mode: Ting-Ting for Chinese, Samantha for English.\nAdd account-free problem feedback to the left menu.\nMaintainer: Lucious QIN."
+    "zh-CN": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。",
+    "zh-TW": "修正快速切換焦點時舊請求繼續合成。\n音色列表顯示語言，保留單一焦點。\n自動模式：中文婷婷，英文 Samantha。\n左上角選單新增免帳號「問題回饋」。",
+    "en-US": "Fix stopped speech restarting during rapid focus changes.\nShow the language in each voice row, keeping one focus target.\nAutomatic mode: Ting-Ting for Chinese, Samantha for English.\nAdd account-free problem feedback to the left menu."
   }
 }
