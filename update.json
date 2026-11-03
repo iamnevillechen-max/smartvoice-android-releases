@@ -1,15 +1,15 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 88,
-  "versionName": "1.8.3.4",
+  "versionCode": 89,
+  "versionName": "1.8.3.5",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.4/MultiTTS-1.8.3.4-arm64.apk",
-  "bytes": 221256574,
-  "sha256": "89d37a6be74fa4cf708feca7e8829df83e9b1d831f1bb52ac8b1b980105de749",
-  "notes": "语音列表每个音色只保留一个焦点，集中试听／停止、选用和参数；未选用也可试听。移除首页语音调节区。修复内置语音参数无法保存的问题。改善原音色工作调度和重复短句响应，保留完整音讯。更新前显示更新说明，在原有设置内显示电池和通知权限状态，安装更新时说明安装权限。系统引擎名称固定 MultiTTS。",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.5/MultiTTS-1.8.3.5-arm64.apk",
+  "bytes": 221264766,
+  "sha256": "6f6bfa3d657525fc36a1ad4509c258fc074b79b9acaadab0d4bbc8bd0986391b",
+  "notes": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。\n维护者：Lucious QIN。",
   "notesLocalized": {
-    "zh-CN": "语音列表每个音色只保留一个焦点，集中试听／停止、选用和参数；未选用也可试听。移除首页语音调节区。修复内置语音参数无法保存的问题。改善原音色工作调度和重复短句响应，保留完整音讯。更新前显示更新说明，在原有设置内显示电池和通知权限状态，安装更新时说明安装权限。系统引擎名称固定 MultiTTS。",
-    "zh-TW": "語音列表每個音色只保留一個焦點，集中試聽／停止、選用及參數；未選用也可試聽。移除首頁語音調節區。修正內置語音參數無法保存的問題。改善原音色工作排程及重複短句反應，保留完整音訊。更新前顯示更新說明，在原有設定內顯示電池及通知權限狀態，安裝更新時說明安裝權限。系統引擎名稱固定 MultiTTS。",
-    "en-US": "One focus target per voice, with preview / stop, selection and parameters together; preview works without selection. Remove home speech controls and fix saving bundled voice parameters. Improve original-voice scheduling and repeated short labels while preserving complete audio. Show release notes before updating and battery / notification permission status beside the existing settings. Explain installation permission when installing an update. System engine name: MultiTTS."
+    "zh-CN": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。\n维护者：Lucious QIN。",
+    "zh-TW": "修正快速切換焦點時舊請求繼續合成。\n音色列表顯示語言，保留單一焦點。\n自動模式：中文婷婷，英文 Samantha。\n左上角選單新增免帳號「問題回饋」。\n維護者：Lucious QIN。",
+    "en-US": "Fix stopped speech restarting during rapid focus changes.\nShow the language in each voice row, keeping one focus target.\nAutomatic mode: Ting-Ting for Chinese, Samantha for English.\nAdd account-free problem feedback to the left menu.\nMaintainer: Lucious QIN."
   }
 }
