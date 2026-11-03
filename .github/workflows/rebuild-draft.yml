@@ -16,6 +16,12 @@ on:
         required: true
         type: string
 
+      kit_parts:
+        description: Number of 1 MiB parts (0 for a single ZIP)
+        required: false
+        default: 0
+        type: number
+
 permissions:
   contents: write
 
@@ -33,6 +39,7 @@ jobs:
       RELEASE_TAG: ${{ inputs.release_tag }}
       KIT_NAME: ${{ inputs.kit_name }}
       KIT_SHA256: ${{ inputs.kit_sha256 }}
+      KIT_PARTS: ${{ inputs.kit_parts || 0 }}
       BASE_SHA256: 27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176
     steps:
       - name: Verify inputs, reconstruct public signed bytes and upload only to draft
@@ -46,6 +53,7 @@ jobs:
           assert re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,127}\.zip', os.environ['KIT_NAME'])
           assert re.fullmatch(r'[0-9a-f]{64}', os.environ['KIT_SHA256'])
           assert re.fullmatch(r'[0-9a-f]{40}', os.environ['GITHUB_SHA'])
+          assert re.fullmatch(r'[0-9]{1,2}', os.environ['KIT_PARTS']) and 0 <= int(os.environ['KIT_PARTS']) <= 32
           PY
           work=$(mktemp -d "$RUNNER_TEMP/multitts-rebuild.XXXXXX")
           cd "$work"
@@ -54,11 +62,30 @@ jobs:
           import json, os
           r = json.load(open('draft.json'))
           assert r['isDraft'] is True and r['tagName'] == os.environ['RELEASE_TAG']
-          a = next(a for a in r['assets'] if a['name'] == os.environ['KIT_NAME'])
-          assert a['state'] == 'uploaded' and a['digest'] == 'sha256:' + os.environ['KIT_SHA256']
+          count = int(os.environ['KIT_PARTS'])
+          names = [os.environ['KIT_NAME'] + '.part%03d' % i for i in range(1, count + 1)] if count else [os.environ['KIT_NAME']]
+          assets = {a['name']: a for a in r['assets']}
+          for name in names:
+              a = assets[name]
+              assert a['state'] == 'uploaded' and a['size'] > 0
+              if count: assert a['size'] <= 1048576
+              else: assert a['digest'] == 'sha256:' + os.environ['KIT_SHA256']
           PY
           gh api "repos/$GITHUB_REPOSITORY/contents/tools/release-rebuild/rebuild_apk.py?ref=$GITHUB_SHA" --jq .content | base64 --decode > rebuild_apk.py
-          gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern "$KIT_NAME" --dir .
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, subprocess
+          count = int(os.environ['KIT_PARTS'])
+          names = [os.environ['KIT_NAME'] + '.part%03d' % i for i in range(1, count + 1)] if count else [os.environ['KIT_NAME']]
+          assets = {a['name']: a for a in json.load(open('draft.json'))['assets']}
+          for name in names:
+              subprocess.run(['gh', 'release', 'download', os.environ['RELEASE_TAG'], '--repo', os.environ['GITHUB_REPOSITORY'], '--pattern', name, '--dir', '.'], check=True)
+              data = pathlib.Path(name).read_bytes()
+              assert len(data) == assets[name]['size']
+              assert assets[name]['digest'] == 'sha256:' + hashlib.sha256(data).hexdigest()
+          if count:
+              with open(os.environ['KIT_NAME'], 'xb') as output:
+                  for name in names: output.write(pathlib.Path(name).read_bytes())
+          PY
           printf '%s  %s\n' "$KIT_SHA256" "$KIT_NAME" | sha256sum --check --status
           python3 rebuild_apk.py inspect --kit "$KIT_NAME" > metadata.json
           python3 - <<'PY'
