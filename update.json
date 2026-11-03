@@ -1,15 +1,15 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 90,
-  "versionName": "2.0.0",
+  "versionCode": 91,
+  "versionName": "2.0.1",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.0.0/SceneVox-TTS-2.0.0-arm64.apk",
-  "bytes": 221404177,
-  "sha256": "f1fd3a0a5b81791bed37c4fa8cb850b245746367a30b100821f3ec1e6a7df152",
-  "notes": "全新声音、功能、设置三页，保留多角色与原有参数。\n按语言优先使用已选声音，首次预设中文婷婷、英文 Samantha。\n优化快速切换和标点停顿，导入中断后保留已有声音和设置。\n音效支持空间方位、淡入淡出、情绪版本和本地音效包。\n资源库提供78个语音、26套音效，先试听再单独下载。\n问题反馈在应用内填写，更新前可查看新内容。",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.0.1/SceneVox-TTS-2.0.1-arm64.apk",
+  "bytes": 221469872,
+  "sha256": "8cdc797c05e93a5b3a2f1169c03928011109d2390334e64aa192c66f81d82c12",
+  "notes": "优化焦点切换和连续浏览时的响应。\n单独的数字、日期和时间默认用中文朗读，保留对应语言的声音选择。\n调整标点停顿和音效字尾淡出，替换默认试听文字。\n语音与音效支持多选、全选和批量下载导入，相同配置不再反复询问覆盖。\n音效增至38套、84段录音，扩展触发词并改善短句起音。\n修复反馈提交，失败保留草稿；关于页改为功能介绍。",
   "notesLocalized": {
-    "zh-CN": "全新声音、功能、设置三页，保留多角色与原有参数。\n按语言优先使用已选声音，首次预设中文婷婷、英文 Samantha。\n优化快速切换和标点停顿，导入中断后保留已有声音和设置。\n音效支持空间方位、淡入淡出、情绪版本和本地音效包。\n资源库提供78个语音、26套音效，先试听再单独下载。\n问题反馈在应用内填写，更新前可查看新内容。",
-    "zh-TW": "全新聲音、功能、設定三頁，保留多角色與原有參數。\n按語言優先使用已選聲音，首次預設中文婷婷、英文 Samantha。\n優化快速切換和標點停頓，匯入中斷後保留已有聲音和設定。\n音效支援空間方位、淡入淡出、情緒版本和本地音效包。\n資源庫提供78個語音、26套音效，先試聽再單獨下載。\n問題回饋在應用內填寫，更新前可查看新內容。",
-    "en-US": "New Voices, Features and Settings screens, preserving roles and voice parameters.\nPrefer selected voices for each language; start with Ting-Ting and Samantha.\nImprove rapid speech switching and punctuation pauses; recover interrupted imports.\nSpatial sounds support fades, mood variations and local sound packages.\nPreview and download 78 voices and 26 sound packs individually.\nSend feedback inside the app and read release notes before updating."
+    "zh-CN": "优化焦点切换和连续浏览时的响应。\n单独的数字、日期和时间默认用中文朗读，保留对应语言的声音选择。\n调整标点停顿和音效字尾淡出，替换默认试听文字。\n语音与音效支持多选、全选和批量下载导入，相同配置不再反复询问覆盖。\n音效增至38套、84段录音，扩展触发词并改善短句起音。\n修复反馈提交，失败保留草稿；关于页改为功能介绍。",
+    "zh-TW": "優化焦點切換和連續瀏覽時的回應。\n單獨的數字、日期和時間預設用中文朗讀，保留對應語言的聲音選擇。\n調整標點停頓和音效字尾淡出，更換預設試聽文字。\n語音與音效支援多選、全選和批量下載匯入，相同配置不再反覆詢問覆蓋。\n音效增至38套、84段錄音，擴展觸發詞並改善短句起音。\n修復回饋提交，失敗保留草稿；關於頁改為功能介紹。",
+    "en-US": "Improve response when switching focus and browsing continuously.\nUse Chinese for standalone numbers, dates and times while preserving language and voice choices.\nRestore natural punctuation pauses, soften sound effect endings and refresh preview text.\nSelect and download multiple voices or sound packs together; avoid repeated overwrite prompts for identical configurations.\nThe sound library now offers 38 packs and 84 clips with more triggers and faster starts in short passages.\nFix feedback submission and retain failed drafts. About now lists app features."
   }
 }
