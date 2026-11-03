@@ -1,15 +1,15 @@
 {
   "packageName": "hk.neville.smartvoice",
-  "versionCode": 89,
-  "versionName": "1.8.3.5",
+  "versionCode": 90,
+  "versionName": "2.0.0",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.5/MultiTTS-1.8.3.5-arm64.apk",
-  "bytes": 221264766,
-  "sha256": "6f6bfa3d657525fc36a1ad4509c258fc074b79b9acaadab0d4bbc8bd0986391b",
-  "notes": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.0.0/SceneVox-TTS-2.0.0-arm64.apk",
+  "bytes": 221404177,
+  "sha256": "f1fd3a0a5b81791bed37c4fa8cb850b245746367a30b100821f3ec1e6a7df152",
+  "notes": "全新声音、功能、设置三页，保留多角色与原有参数。\n按语言优先使用已选声音，首次预设中文婷婷、英文 Samantha。\n优化快速切换和标点停顿，导入中断后保留已有声音和设置。\n音效支持空间方位、淡入淡出、情绪版本和本地音效包。\n资源库提供78个语音、26套音效，先试听再单独下载。\n问题反馈在应用内填写，更新前可查看新内容。",
   "notesLocalized": {
-    "zh-CN": "修复快速切换焦点时旧请求继续合成。\n音色列表显示语言，保留单一焦点。\n自动模式：中文婷婷，英文 Samantha。\n左上角菜单新增免账号「问题反馈」。",
-    "zh-TW": "修正快速切換焦點時舊請求繼續合成。\n音色列表顯示語言，保留單一焦點。\n自動模式：中文婷婷，英文 Samantha。\n左上角選單新增免帳號「問題回饋」。",
-    "en-US": "Fix stopped speech restarting during rapid focus changes.\nShow the language in each voice row, keeping one focus target.\nAutomatic mode: Ting-Ting for Chinese, Samantha for English.\nAdd account-free problem feedback to the left menu."
+    "zh-CN": "全新声音、功能、设置三页，保留多角色与原有参数。\n按语言优先使用已选声音，首次预设中文婷婷、英文 Samantha。\n优化快速切换和标点停顿，导入中断后保留已有声音和设置。\n音效支持空间方位、淡入淡出、情绪版本和本地音效包。\n资源库提供78个语音、26套音效，先试听再单独下载。\n问题反馈在应用内填写，更新前可查看新内容。",
+    "zh-TW": "全新聲音、功能、設定三頁，保留多角色與原有參數。\n按語言優先使用已選聲音，首次預設中文婷婷、英文 Samantha。\n優化快速切換和標點停頓，匯入中斷後保留已有聲音和設定。\n音效支援空間方位、淡入淡出、情緒版本和本地音效包。\n資源庫提供78個語音、26套音效，先試聽再單獨下載。\n問題回饋在應用內填寫，更新前可查看新內容。",
+    "en-US": "New Voices, Features and Settings screens, preserving roles and voice parameters.\nPrefer selected voices for each language; start with Ting-Ting and Samantha.\nImprove rapid speech switching and punctuation pauses; recover interrupted imports.\nSpatial sounds support fades, mood variations and local sound packages.\nPreview and download 78 voices and 26 sound packs individually.\nSend feedback inside the app and read release notes before updating."
   }
 }
