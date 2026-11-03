@@ -1,0 +1,21 @@
+name: 问题反馈 / Report a problem
+description: MultiTTS
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述 / Problem
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤 / Steps
+  - type: input
+    id: reader
+    attributes:
+      label: 读屏软件 / Screen reader
+  - type: input
+    id: version
+    attributes:
+      label: MultiTTS / Android
