@@ -1,0 +1,69 @@
+name: Prepare verified voice resources in draft
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: Existing draft resource release
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: prepare-voice-resources
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_PAGER: cat
+      RELEASE_TAG: ${{ inputs.release_tag }}
+    steps:
+      - name: Reproduce reviewed voice archives without running any voice-package code
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os,re
+          assert os.environ['GITHUB_REPOSITORY']=='iamnevillechen-max/smartvoice-android-releases'
+          assert re.fullmatch(r'scenevox-resources-v[0-9]+',os.environ['RELEASE_TAG'])
+          assert re.fullmatch(r'[0-9a-f]{40}',os.environ['GITHUB_SHA'])
+          PY
+          work=$(mktemp -d "$RUNNER_TEMP/scenevox-resources.XXXXXX")
+          cd "$work"
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,tagName > draft.json
+          python3 - <<'PY'
+          import json,os
+          value=json.load(open('draft.json'));assert value['isDraft'] is True and value['tagName']==os.environ['RELEASE_TAG']
+          PY
+          gh api "repos/$GITHUB_REPOSITORY/contents/tools/resources/split_ms23.py?ref=$GITHUB_SHA" --jq .content | base64 --decode > split_ms23.py
+          gh api "repos/$GITHUB_REPOSITORY/contents/tools/resources/microsoft-plan.json?ref=$GITHUB_SHA" --jq .content | base64 --decode > plan.json
+          curl --fail --location --retry 3 --connect-timeout 30 --max-time 600 --output source.zip 'https://github.com/samitooooo/MultiTTS/releases/download/Hello/Microsoft.23.Update.OfflineVoices.zip'
+          python3 split_ms23.py source.zip --all --output packages
+          python3 - <<'PY'
+          import hashlib,json,pathlib
+          plan=json.load(open('plan.json'));assert plan['sourceSha256']=='3ef02cfc2281fca596a91a52a5e327cbe54d12122e76bbc2496586812213ba03'
+          assert len(plan['items'])==19
+          for entry in plan['items']:
+              assert entry['filename']==entry['id']+'-v1.zip'
+              data=pathlib.Path('packages',entry['filename']).read_bytes()
+              assert len(data)==entry['bytes'] and hashlib.sha256(data).hexdigest()==entry['sha256'],entry['id']
+          PY
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,tagName > before-upload.json
+          python3 - <<'PY'
+          import json,os,subprocess
+          value=json.load(open('before-upload.json'));assert value['isDraft'] is True and value['tagName']==os.environ['RELEASE_TAG']
+          for entry in json.load(open('plan.json'))['items']:
+              subprocess.run(['gh','release','upload',os.environ['RELEASE_TAG'],'packages/'+entry['filename'],'--repo',os.environ['GITHUB_REPOSITORY']],check=True)
+          PY
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,assets > uploaded.json
+          python3 - <<'PY'
+          import json
+          release=json.load(open('uploaded.json'));assert release['isDraft'] is True
+          assets={entry['name']:entry for entry in release['assets']}
+          for entry in json.load(open('plan.json'))['items']:
+              actual=assets[entry['filename']]
+              assert actual['size']==entry['bytes'] and actual['digest']=='sha256:'+entry['sha256'] and actual['state']=='uploaded'
+          print('All 19 draft voice packages match the locally tested bytes.')
+          PY
