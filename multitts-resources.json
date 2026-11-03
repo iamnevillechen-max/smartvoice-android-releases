@@ -15,7 +15,14 @@
       "locale": "zh-CN",
       "description": "Mandarin Chinese, Mainland China. Female voice.",
       "descriptionZh": "中文普通话，中国大陆，女声。",
-      "descriptionHant": "中文普通話，中國大陸，女聲。"
+      "descriptionHant": "中文普通話，中國大陸，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "zh-CN-XiaoxiaoNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-yunxi",
@@ -31,7 +38,14 @@
       "locale": "zh-CN",
       "description": "Mandarin Chinese, Mainland China. Male voice.",
       "descriptionZh": "中文普通话，中国大陆，男声。",
-      "descriptionHant": "中文普通話，中國大陸，男聲。"
+      "descriptionHant": "中文普通話，中國大陸，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "zh-CN-YunxiNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-aria",
@@ -47,7 +61,14 @@
       "locale": "en-US",
       "description": "English, United States. Female voice.",
       "descriptionZh": "英语，美国，女声。",
-      "descriptionHant": "英語，美國，女聲。"
+      "descriptionHant": "英語，美國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-US-AriaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-guy",
@@ -63,7 +84,14 @@
       "locale": "en-US",
       "description": "English, United States. Male voice.",
       "descriptionZh": "英语，美国，男声。",
-      "descriptionHant": "英語，美國，男聲。"
+      "descriptionHant": "英語，美國，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-US-GuyNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-sonia",
@@ -79,7 +107,14 @@
       "locale": "en-GB",
       "description": "English, United Kingdom. Female voice.",
       "descriptionZh": "英语，英国，女声。",
-      "descriptionHant": "英語，英國，女聲。"
+      "descriptionHant": "英語，英國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-GB-SoniaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-ryan",
@@ -95,7 +130,14 @@
       "locale": "en-GB",
       "description": "English, United Kingdom. Male voice.",
       "descriptionZh": "英语，英国，男声。",
-      "descriptionHant": "英語，英國，男聲。"
+      "descriptionHant": "英語，英國，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-GB-RyanNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-jenny",
@@ -111,7 +153,14 @@
       "locale": "en-US",
       "description": "English, United States. Female voice.",
       "descriptionZh": "英语，美国，女声。",
-      "descriptionHant": "英語，美國，女聲。"
+      "descriptionHant": "英語，美國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-US-JennyNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-neerja",
@@ -127,7 +176,14 @@
       "locale": "en-IN",
       "description": "English, India. Female voice.",
       "descriptionZh": "英语，印度，女声。",
-      "descriptionHant": "英語，印度，女聲。"
+      "descriptionHant": "英語，印度，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-IN-NeerjaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-prabhat",
@@ -143,7 +199,14 @@
       "locale": "en-IN",
       "description": "English, India. Male voice.",
       "descriptionZh": "英语，印度，男声。",
-      "descriptionHant": "英語，印度，男聲。"
+      "descriptionHant": "英語，印度，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "en-IN-PrabhatNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-katja",
@@ -159,7 +222,14 @@
       "locale": "de-DE",
       "description": "German, Germany. Female voice.",
       "descriptionZh": "德语，德国，女声。",
-      "descriptionHant": "德語，德國，女聲。"
+      "descriptionHant": "德語，德國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "de-DE-KatjaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-conrad",
@@ -175,7 +245,14 @@
       "locale": "de-DE",
       "description": "German, Germany. Male voice.",
       "descriptionZh": "德语，德国，男声。",
-      "descriptionHant": "德語，德國，男聲。"
+      "descriptionHant": "德語，德國，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "de-DE-ConradNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-elvira",
@@ -191,7 +268,14 @@
       "locale": "es-ES",
       "description": "Spanish, Spain. Female voice.",
       "descriptionZh": "西班牙语，西班牙，女声。",
-      "descriptionHant": "西班牙語，西班牙，女聲。"
+      "descriptionHant": "西班牙語，西班牙，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "es-ES-ElviraNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-alvaro",
@@ -207,7 +291,14 @@
       "locale": "es-ES",
       "description": "Spanish, Spain. Male voice.",
       "descriptionZh": "西班牙语，西班牙，男声。",
-      "descriptionHant": "西班牙語，西班牙，男聲。"
+      "descriptionHant": "西班牙語，西班牙，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "es-ES-AlvaroNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-dalia",
@@ -223,7 +314,14 @@
       "locale": "es-MX",
       "description": "Spanish, Mexico. Female voice.",
       "descriptionZh": "西班牙语，墨西哥，女声。",
-      "descriptionHant": "西班牙語，墨西哥，女聲。"
+      "descriptionHant": "西班牙語，墨西哥，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "es-MX-DaliaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-jorge",
@@ -239,7 +337,14 @@
       "locale": "es-MX",
       "description": "Spanish, Mexico. Male voice.",
       "descriptionZh": "西班牙语，墨西哥，男声。",
-      "descriptionHant": "西班牙語，墨西哥，男聲。"
+      "descriptionHant": "西班牙語，墨西哥，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "es-MX-JorgeNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-denise",
@@ -255,7 +360,14 @@
       "locale": "fr-FR",
       "description": "French, France. Female voice.",
       "descriptionZh": "法语，法国，女声。",
-      "descriptionHant": "法語，法國，女聲。"
+      "descriptionHant": "法語，法國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "fr-FR-DeniseNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-henri",
@@ -271,7 +383,14 @@
       "locale": "fr-FR",
       "description": "French, France. Male voice.",
       "descriptionZh": "法语，法国，男声。",
-      "descriptionHant": "法語，法國，男聲。"
+      "descriptionHant": "法語，法國，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "fr-FR-HenriNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-nanami",
@@ -287,7 +406,14 @@
       "locale": "ja-JP",
       "description": "Japanese, Japan. Female voice.",
       "descriptionZh": "日语，日本，女声。",
-      "descriptionHant": "日語，日本，女聲。"
+      "descriptionHant": "日語，日本，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "ja-JP-NanamiNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-keita",
@@ -303,7 +429,14 @@
       "locale": "ja-JP",
       "description": "Japanese, Japan. Male voice.",
       "descriptionZh": "日语，日本，男声。",
-      "descriptionHant": "日語，日本，男聲。"
+      "descriptionHant": "日語，日本，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "ja-JP-KeitaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-sunhi",
@@ -319,7 +452,14 @@
       "locale": "ko-KR",
       "description": "Korean, South Korea. Female voice.",
       "descriptionZh": "韩语，韩国，女声。",
-      "descriptionHant": "韓語，韓國，女聲。"
+      "descriptionHant": "韓語，韓國，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "ko-KR-SunHiNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-injoon",
@@ -335,7 +475,14 @@
       "locale": "ko-KR",
       "description": "Korean, South Korea. Male voice.",
       "descriptionZh": "韩语，韩国，男声。",
-      "descriptionHant": "韓語，韓國，男聲。"
+      "descriptionHant": "韓語，韓國，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "ko-KR-InJoonNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-francisca",
@@ -351,7 +498,14 @@
       "locale": "pt-BR",
       "description": "Portuguese, Brazil. Female voice.",
       "descriptionZh": "葡萄牙语，巴西，女声。",
-      "descriptionHant": "葡萄牙語，巴西，女聲。"
+      "descriptionHant": "葡萄牙語，巴西，女聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "pt-BR-FranciscaNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "microsoft-antonio",
@@ -367,7 +521,14 @@
       "locale": "pt-BR",
       "description": "Portuguese, Brazil. Male voice.",
       "descriptionZh": "葡萄牙语，巴西，男声。",
-      "descriptionHant": "葡萄牙語，巴西，男聲。"
+      "descriptionHant": "葡萄牙語，巴西，男聲。",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "pt-BR-AntonioNeural",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "sherpa-libritts-r",
@@ -383,7 +544,14 @@
       "locale": "en-US",
       "description": "English, multiple speakers.",
       "descriptionZh": "英语，多音色。",
-      "descriptionHant": "英語，多音色。"
+      "descriptionHant": "英語，多音色。",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "libritts-r",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "sherpa-matcha-baker",
@@ -399,7 +567,14 @@
       "locale": "zh-CN",
       "description": "Mandarin Chinese, one speaker.",
       "descriptionZh": "中文普通话，单一音色。",
-      "descriptionHant": "中文普通話，單一音色。"
+      "descriptionHant": "中文普通話，單一音色。",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "matcha-baker",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "sherpa-aishell3",
@@ -415,7 +590,14 @@
       "locale": "zh-CN",
       "description": "Mandarin Chinese, multiple speakers.",
       "descriptionZh": "中文普通话，多音色。",
-      "descriptionHant": "中文普通話，多音色。"
+      "descriptionHant": "中文普通話，多音色。",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "aishell3",
+          "type": 0
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-xiaochenmultilingualneural",
@@ -431,7 +613,14 @@
       "sha256": "b9329ffa87c813dd6aff34f030a01f18a31f7ff4a37e268e010a332e015363eb",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaochenmultilingualneural-preview.wav",
       "previewBytes": 92298,
-      "previewSha256": "d165548ebf478cdde133be89d8bb74a8bda498a0e9c415d3e60d8631ec64013a"
+      "previewSha256": "d165548ebf478cdde133be89d8bb74a8bda498a0e9c415d3e60d8631ec64013a",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaochenMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-xiaoxiaomultilingualneural",
@@ -447,7 +636,14 @@
       "sha256": "08b75acbc17a37aaaa4f3741f25353da75fab11b191b0f4ecd0b4d30a0624cb0",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaoxiaomultilingualneural-preview.wav",
       "previewBytes": 115338,
-      "previewSha256": "e4a49642dc9aae64f3f57c7a59c6b0b92311d687f730e7c3a9f676c8fdb0d406"
+      "previewSha256": "e4a49642dc9aae64f3f57c7a59c6b0b92311d687f730e7c3a9f676c8fdb0d406",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaoxiaoMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-xiaoyumultilingualneural",
@@ -463,7 +659,14 @@
       "sha256": "21aede82ac21c6efcb8b86c54fae9b4babc7c2ae45d6a82df4c90610a22e3383",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaoyumultilingualneural-preview.wav",
       "previewBytes": 100362,
-      "previewSha256": "4f86d8634c0ab1726566132080b2d3610f459073e4451cf63654daa4a6bf6074"
+      "previewSha256": "4f86d8634c0ab1726566132080b2d3610f459073e4451cf63654daa4a6bf6074",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaoyuMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-yunfanmultilingualneural",
@@ -479,7 +682,14 @@
       "sha256": "10e25fbf8069f0870428bc6879404d07c44e8012a4ab79024018d4362a8892d3",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-yunfanmultilingualneural-preview.wav",
       "previewBytes": 123402,
-      "previewSha256": "2e145b738e74218254f2355b7e584b6c1730cefd30b51f57c79c43b52430d8e1"
+      "previewSha256": "2e145b738e74218254f2355b7e584b6c1730cefd30b51f57c79c43b52430d8e1",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunfanMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-yunxiaomultilingualneural",
@@ -495,7 +705,14 @@
       "sha256": "15d69787400e754860ba9a4989a1771ef852d57240390ccb72212cdb4663e9f9",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-yunxiaomultilingualneural-preview.wav",
       "previewBytes": 110730,
-      "previewSha256": "0d59c58a92c56f517336f1f684ef394d84d9ed4c38eda66f4a0128f5abd00156"
+      "previewSha256": "0d59c58a92c56f517336f1f684ef394d84d9ed4c38eda66f4a0128f5abd00156",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunxiaoMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-yunyimultilingualneural",
@@ -511,7 +728,14 @@
       "sha256": "12f1a9dbcaa9d3ef104bd94850ab4263555a938d68c2ae54b89df883074a3ad9",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-yunyimultilingualneural-preview.wav",
       "previewBytes": 110730,
-      "previewSha256": "e320b5bb1678b35e3b096497be8f285779bb67abfe4a8c966f7975e3a627b236"
+      "previewSha256": "e320b5bb1678b35e3b096497be8f285779bb67abfe4a8c966f7975e3a627b236",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunyiMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-yunfengneural",
@@ -527,7 +751,14 @@
       "sha256": "1833d1ac51e7cb205bb80ab2f636b764fa28d6cde59ed5dbe7ed46ad8495f63c",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-yunfengneural-preview.wav",
       "previewBytes": 69844,
-      "previewSha256": "f5fd76e29f05efb99d586eb4242de84c39405830c0ee80203abcbbbf84947ce9"
+      "previewSha256": "f5fd76e29f05efb99d586eb4242de84c39405830c0ee80203abcbbbf84947ce9",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunfengNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-yunhaoneural",
@@ -543,7 +774,14 @@
       "sha256": "db416dac7e61ea5a340ddd0d3a1c44e189d00d4889ad462dfdcc019d0d9682a0",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-yunhaoneural-preview.wav",
       "previewBytes": 116656,
-      "previewSha256": "4e5fd40974bb7b2cf5d50ceba75d739d6a3945197e433ab54f000990b7f2ca0f"
+      "previewSha256": "4e5fd40974bb7b2cf5d50ceba75d739d6a3945197e433ab54f000990b7f2ca0f",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunhaoNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-xiaomengneural",
@@ -559,7 +797,14 @@
       "sha256": "916afc0a045694b312aa8dbcaa34bd9d2ad20041209022442e6a42663cce7fa3",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaomengneural-preview.wav",
       "previewBytes": 110730,
-      "previewSha256": "307ed772096cdae008683276771b776a36193f6dbf02dad4ff4b81c8f0c53398"
+      "previewSha256": "307ed772096cdae008683276771b776a36193f6dbf02dad4ff4b81c8f0c53398",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaomengNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-cn-xiaorouneural",
@@ -575,7 +820,14 @@
       "sha256": "7d5a4be1923afacc3dbfae87e7db308f6f12a30da3a3e5a9c195bbec71d26a01",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaorouneural-preview.wav",
       "previewBytes": 96906,
-      "previewSha256": "7f853ccb8fa9b12b20451c27a0d2b79603528998c57ee51f9f63d79b779c3ae5"
+      "previewSha256": "7f853ccb8fa9b12b20451c27a0d2b79603528998c57ee51f9f63d79b779c3ae5",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaorouNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-hk-hiumaanneural",
@@ -591,7 +843,14 @@
       "sha256": "4c23806fab6d6a091223c4587d1c37d6ec6ccb17edaa842e00b54ae10498cbd3",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-hiumaanneural-preview.wav",
       "previewBytes": 134922,
-      "previewSha256": "1ab400b5bd9937c5a1f1b01c7a82ba33fe444201a4e9b06fa60b0ea8d80b8214"
+      "previewSha256": "1ab400b5bd9937c5a1f1b01c7a82ba33fe444201a4e9b06fa60b0ea8d80b8214",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-HK-HiuMaanNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-hk-wanlungneural",
@@ -607,7 +866,14 @@
       "sha256": "6b0fa67815cccf66efdad6f17fc6aa006513d1dcd8dfccdc634971a582d5bd4c",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-wanlungneural-preview.wav",
       "previewBytes": 144138,
-      "previewSha256": "6d20c12a94aa12d7730ff8d91d6ce2af2dddc8e939422d927c206d3141cb6915"
+      "previewSha256": "6d20c12a94aa12d7730ff8d91d6ce2af2dddc8e939422d927c206d3141cb6915",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-HK-WanLungNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-hk-hiugaaineural",
@@ -623,7 +889,14 @@
       "sha256": "a37dbb4de8c9d5655972809d939541d7b5ddbb24251729bafa2e41de2b61c133",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-hiugaaineural-preview.wav",
       "previewBytes": 149898,
-      "previewSha256": "4761bf99b0695bae8a5c0eb3b7a30d7661b889e34899458915e678b1fee7d580"
+      "previewSha256": "4761bf99b0695bae8a5c0eb3b7a30d7661b889e34899458915e678b1fee7d580",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-HK-HiuGaaiNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-tw-hsiaochenneural",
@@ -639,7 +912,14 @@
       "sha256": "30418b4af75d7580e17799b4c1287dbf601593168377c3a4607ea071264e596f",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-tw-hsiaochenneural-preview.wav",
       "previewBytes": 126858,
-      "previewSha256": "1c0ffe382a54127a65059f72bf8a6e72dcfd170087bbfcb7945861fd2b0f6bea"
+      "previewSha256": "1c0ffe382a54127a65059f72bf8a6e72dcfd170087bbfcb7945861fd2b0f6bea",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-TW-HsiaoChenNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-tw-yunjheneural",
@@ -655,7 +935,14 @@
       "sha256": "59d81d790045f80da5d23de3223f2c58ec4d401229f100f09924b78454e189db",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-tw-yunjheneural-preview.wav",
       "previewBytes": 129162,
-      "previewSha256": "4265965cb6a44b6659677cfbf9537d2ea34ba8e1361926615b75c4f0a3c8aba2"
+      "previewSha256": "4265965cb6a44b6659677cfbf9537d2ea34ba8e1361926615b75c4f0a3c8aba2",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-TW-YunJheNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-zh-tw-hsiaoyuneural",
@@ -671,7 +958,14 @@
       "sha256": "ba115c484b43e530bff20e26245298747cb77f8f8a0ac1a97587bcd04d33e3a5",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-tw-hsiaoyuneural-preview.wav",
       "previewBytes": 137226,
-      "previewSha256": "9058bf1c8c1fc8e30e3c4dccb2ece2029c0cfb6d00f9c8f6ca7ce33ee16b1561"
+      "previewSha256": "9058bf1c8c1fc8e30e3c4dccb2ece2029c0cfb6d00f9c8f6ca7ce33ee16b1561",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-TW-HsiaoYuNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-us-avamultilingualneural",
@@ -687,7 +981,14 @@
       "sha256": "31820e5f32535d4bcd44ca8a455f9a85f9ebf8490f90e109f4c24e1c32df9398",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-avamultilingualneural-preview.wav",
       "previewBytes": 117642,
-      "previewSha256": "4b9458d61f3309153fba8221d00c47c20f3b319312c1dcb8c5c62b5212e4004f"
+      "previewSha256": "4b9458d61f3309153fba8221d00c47c20f3b319312c1dcb8c5c62b5212e4004f",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-AvaMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-us-andrewmultilingualneural",
@@ -703,7 +1004,14 @@
       "sha256": "c28f43c7f37c9588c8c76ffa6e94c3404508c50a496cc01b2db1261f201f0fbb",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-andrewmultilingualneural-preview.wav",
       "previewBytes": 109578,
-      "previewSha256": "1d85c2ddfb0c7f5c36b6093ff8a0cb9644fc9e3f129692642f39f4ea1758a932"
+      "previewSha256": "1d85c2ddfb0c7f5c36b6093ff8a0cb9644fc9e3f129692642f39f4ea1758a932",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-AndrewMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-us-emmamultilingualneural",
@@ -719,7 +1027,14 @@
       "sha256": "fe8f9ea534d4b7dcaabb213d964411e9a06594b58cc649a2923fab2a1434c828",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-emmamultilingualneural-preview.wav",
       "previewBytes": 106122,
-      "previewSha256": "37796da84c4d16d820b75f52d27604056066ff5f408cb6cde4409fdfa7e8d8c8"
+      "previewSha256": "37796da84c4d16d820b75f52d27604056066ff5f408cb6cde4409fdfa7e8d8c8",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-EmmaMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-us-brianmultilingualneural",
@@ -735,7 +1050,14 @@
       "sha256": "c22c05cde992bf71626133a0a7e32d7a15dc07153c5d9803172013ae1cc55f76",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-brianmultilingualneural-preview.wav",
       "previewBytes": 103818,
-      "previewSha256": "2a89059ca555cc2c0814a449ee653b45b6252c4af4b3973d9e989d0016419d13"
+      "previewSha256": "2a89059ca555cc2c0814a449ee653b45b6252c4af4b3973d9e989d0016419d13",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-BrianMultilingualNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-us-ananeural",
@@ -751,7 +1073,14 @@
       "sha256": "a460f45affc735d041f6cbfa4fee53df142970e918defebe2ad3f6ab951bc769",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-ananeural-preview.wav",
       "previewBytes": 149898,
-      "previewSha256": "28f32e664fcffd6fdcdd252b57f24332092c06aadb840129a009e8401085fa04"
+      "previewSha256": "28f32e664fcffd6fdcdd252b57f24332092c06aadb840129a009e8401085fa04",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-AnaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-gb-libbyneural",
@@ -767,7 +1096,14 @@
       "sha256": "238761b8645caf6e59070468f5d6fbbcab61cda257d56b47f6dad15785204ca6",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-gb-libbyneural-preview.wav",
       "previewBytes": 140682,
-      "previewSha256": "408ea364af910204b296b9e54bd3049a7668049316ab1c5dd89538ff84414baa"
+      "previewSha256": "408ea364af910204b296b9e54bd3049a7668049316ab1c5dd89538ff84414baa",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-GB-LibbyNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-au-natashaneural",
@@ -783,7 +1119,14 @@
       "sha256": "3993bdec198de5febc964e18853d2e7b6b19a8d833f7db8e51a3e8efa8355359",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-au-natashaneural-preview.wav",
       "previewBytes": 134922,
-      "previewSha256": "f289b8a104480aa9c11781690168f743355c291d7dbf8be46077dc2a5f18b1b1"
+      "previewSha256": "f289b8a104480aa9c11781690168f743355c291d7dbf8be46077dc2a5f18b1b1",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-AU-NatashaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-en-au-williamneural",
@@ -799,7 +1142,14 @@
       "sha256": "5bdc35f78332182746a29d76c4e133a692e3c48e75f4d7fc8abfb9a055f19995",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-au-williamneural-preview.wav",
       "previewBytes": 115338,
-      "previewSha256": "7f7de45fa02a5ca2aac0b9d19d0f79f5ee8b750c5544bd2e781cedf9e8f561be"
+      "previewSha256": "7f7de45fa02a5ca2aac0b9d19d0f79f5ee8b750c5544bd2e781cedf9e8f561be",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-AU-WilliamNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-it-it-elsaneural",
@@ -815,7 +1165,14 @@
       "sha256": "1731f025e8e988790b2f199ecf9f7e2ffa47c845ca774995827248f9914c9389",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-it-it-elsaneural-preview.wav",
       "previewBytes": 129162,
-      "previewSha256": "9b7d2dd965ca1f5ae5a21318a8e5fd88bbae6441e6f94b813ca198a646bda0a9"
+      "previewSha256": "9b7d2dd965ca1f5ae5a21318a8e5fd88bbae6441e6f94b813ca198a646bda0a9",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "it-IT-ElsaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-it-it-diegoneural",
@@ -831,7 +1188,14 @@
       "sha256": "394e643379f62008746e5d3f6b1f640b79f75f12af386718d636e3c5d1cf5333",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-it-it-diegoneural-preview.wav",
       "previewBytes": 153354,
-      "previewSha256": "74aef1653b34f4f7facf3e791c18b9398e6437991d2e30e9f4a02501bcbd3045"
+      "previewSha256": "74aef1653b34f4f7facf3e791c18b9398e6437991d2e30e9f4a02501bcbd3045",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "it-IT-DiegoNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-th-th-premwadeeneural",
@@ -847,7 +1211,14 @@
       "sha256": "13c9abd1a2465d7cdeedcfd6bc1f48cd69d76ab4505949e8062bd425b7454359",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-th-th-premwadeeneural-preview.wav",
       "previewBytes": 118794,
-      "previewSha256": "c342e7773cebf8b06f586d302feac5b9d3d708f1491e7c921bf9bb5339ff0ded"
+      "previewSha256": "c342e7773cebf8b06f586d302feac5b9d3d708f1491e7c921bf9bb5339ff0ded",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "th-TH-PremwadeeNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-th-th-niwatneural",
@@ -863,7 +1234,14 @@
       "sha256": "0d1386aaa60517cb57c3ccde219ad23bc75f8e7682cd173e314d13db5f9f98a4",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-th-th-niwatneural-preview.wav",
       "previewBytes": 108426,
-      "previewSha256": "0937865a84360ec43109cf9c5866725f622998def8d1e1a773e30559d89ee97b"
+      "previewSha256": "0937865a84360ec43109cf9c5866725f622998def8d1e1a773e30559d89ee97b",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "th-TH-NiwatNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-vi-vn-hoaimyneural",
@@ -879,7 +1257,14 @@
       "sha256": "446aee14eca31a0d731d58feb8cb6b0d1c5fd879f2de569475f9be64ab5220df",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-vi-vn-hoaimyneural-preview.wav",
       "previewBytes": 148746,
-      "previewSha256": "4e555a3a692ec26aac4832fd77a48fcbb3a411eb6f636dd6d0a22c01ddbffbb0"
+      "previewSha256": "4e555a3a692ec26aac4832fd77a48fcbb3a411eb6f636dd6d0a22c01ddbffbb0",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "vi-VN-HoaiMyNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-vi-vn-namminhneural",
@@ -895,7 +1280,14 @@
       "sha256": "6e561995241b0f78cdd4412116c572ddfbc2541c23fbd70fd0908f5ffb500aaf",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-vi-vn-namminhneural-preview.wav",
       "previewBytes": 142986,
-      "previewSha256": "3033e76d4236d1c917c16919ae12ba1190c2328c3a864ac90ee2030fd1e3b968"
+      "previewSha256": "3033e76d4236d1c917c16919ae12ba1190c2328c3a864ac90ee2030fd1e3b968",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "vi-VN-NamMinhNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-id-id-gadisneural",
@@ -911,7 +1303,14 @@
       "sha256": "7c92220086f57a811f4edd438e92efdd971fbc9138767ac044f59aeafe61adb9",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-id-id-gadisneural-preview.wav",
       "previewBytes": 189066,
-      "previewSha256": "129732b75abfc4d5672f19d5312fae5aa3f2ae812c6a226c80ffc7e8385e61e9"
+      "previewSha256": "129732b75abfc4d5672f19d5312fae5aa3f2ae812c6a226c80ffc7e8385e61e9",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "id-ID-GadisNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-id-id-ardineural",
@@ -927,7 +1326,14 @@
       "sha256": "70de45e189051861eca29d1858622b9cc4ebd2f2080dd1570bdbef0bd5072beb",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-id-id-ardineural-preview.wav",
       "previewBytes": 149898,
-      "previewSha256": "5ad17a5b6d26aeb39eaeda6d14e2972627a19f89433c4efd68fc8cb79cfcf2bd"
+      "previewSha256": "5ad17a5b6d26aeb39eaeda6d14e2972627a19f89433c4efd68fc8cb79cfcf2bd",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "id-ID-ArdiNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-ar-eg-salmaneural",
@@ -943,7 +1349,14 @@
       "sha256": "965d0ece75b515d08b06d1c0cf3297f2ecec488168200a8502d3330195d2d2f1",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-ar-eg-salmaneural-preview.wav",
       "previewBytes": 187914,
-      "previewSha256": "fcb469a5eccdaea35348fccc8492f469b122f33d4fe63f6c010f291c16f1dad5"
+      "previewSha256": "fcb469a5eccdaea35348fccc8492f469b122f33d4fe63f6c010f291c16f1dad5",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "ar-EG-SalmaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-ar-eg-shakirneural",
@@ -959,7 +1372,14 @@
       "sha256": "be1c4e6498e95943527a4be321001b71319d5c083be3d628a3094ea5969e9cbf",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-ar-eg-shakirneural-preview.wav",
       "previewBytes": 194826,
-      "previewSha256": "c3cc5bdd3447407236f960b3c0c3ffc33d2eb2fc2ed43eeb996345612276e1ed"
+      "previewSha256": "c3cc5bdd3447407236f960b3c0c3ffc33d2eb2fc2ed43eeb996345612276e1ed",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "ar-EG-ShakirNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-hi-in-swaraneural",
@@ -975,7 +1395,14 @@
       "sha256": "2de29a73a554c6741180a02706cab159375a0dc798e64615dd84e855d3214cea",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-hi-in-swaraneural-preview.wav",
       "previewBytes": 186762,
-      "previewSha256": "461752ca66670ba61eb3a3cb98e400d800ae8322bb52e745980fdf2eb5188f34"
+      "previewSha256": "461752ca66670ba61eb3a3cb98e400d800ae8322bb52e745980fdf2eb5188f34",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "hi-IN-SwaraNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-hi-in-madhurneural",
@@ -991,7 +1418,14 @@
       "sha256": "c7df05b069fdd886c1c403a711daa7091c0e95a2860d406890bb7a9020b72e25",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-hi-in-madhurneural-preview.wav",
       "previewBytes": 189066,
-      "previewSha256": "7b3b59fb67f63923bb880354a63cd7bbd55bd30a078f8896dba4d813cc76e908"
+      "previewSha256": "7b3b59fb67f63923bb880354a63cd7bbd55bd30a078f8896dba4d813cc76e908",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "hi-IN-MadhurNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-ru-ru-svetlananeural",
@@ -1007,7 +1441,14 @@
       "sha256": "0a052eb47b8769b5f801686ade38d94475a55b94beaa4f6849365b85f196807f",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-ru-ru-svetlananeural-preview.wav",
       "previewBytes": 172938,
-      "previewSha256": "5212f9bb8340e6e6e76da3f847fee7ce121932bafae6f5afabc39c10906a08e3"
+      "previewSha256": "5212f9bb8340e6e6e76da3f847fee7ce121932bafae6f5afabc39c10906a08e3",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "ru-RU-SvetlanaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-ru-ru-dmitryneural",
@@ -1023,7 +1464,14 @@
       "sha256": "83eddbb9a18f9f3b98c227a226bd307b8a05a89025473608c093588c5ce0c820",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-ru-ru-dmitryneural-preview.wav",
       "previewBytes": 172938,
-      "previewSha256": "bd0ed0ea6654d533076e5911e59ba307ecad1e7d7ab780c576dbbe9cf16d4fc1"
+      "previewSha256": "bd0ed0ea6654d533076e5911e59ba307ecad1e7d7ab780c576dbbe9cf16d4fc1",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "ru-RU-DmitryNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-uk-ua-polinaneural",
@@ -1039,7 +1487,14 @@
       "sha256": "4533fbc462b61fdd873ec059f7e6e628ab8c59484ca3b973180a619894143b0c",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-uk-ua-polinaneural-preview.wav",
       "previewBytes": 145290,
-      "previewSha256": "481fe303ae281c556b8d88886814375417697b4f6a2d2e4e355b51b4b277a7b3"
+      "previewSha256": "481fe303ae281c556b8d88886814375417697b4f6a2d2e4e355b51b4b277a7b3",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "uk-UA-PolinaNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "mstrans-uk-ua-ostapneural",
@@ -1055,7 +1510,14 @@
       "sha256": "c3675d3865331c1868a549a37b40532e0c650fbc5af5ceb0f57af71134c2646c",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-uk-ua-ostapneural-preview.wav",
       "previewBytes": 152202,
-      "previewSha256": "32149f9271052578094437e380f6eb3de3b526929779e9a034bf11cdb801f50d"
+      "previewSha256": "32149f9271052578094437e380f6eb3de3b526929779e9a034bf11cdb801f50d",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "uk-UA-OstapNeural",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_vivohelper",
@@ -1071,7 +1533,14 @@
       "sha256": "82c47fe3fec8541bc7b0e778466c6dd36ffb3e84c31d9d25ec516bf1a70abb7e",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_vivohelper-preview.wav",
       "previewBytes": 293804,
-      "previewSha256": "4c4712a5c1cd1aefbdc8610c31f3c233cfbdb081fb4d6193ae8e2e5a2458cf9a"
+      "previewSha256": "4c4712a5c1cd1aefbdc8610c31f3c233cfbdb081fb4d6193ae8e2e5a2458cf9a",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_vivoHelper",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_yige",
@@ -1087,7 +1556,14 @@
       "sha256": "604fe064b0d8a8301eeda0e5c80c0efc4b3b2e9e53ae4d0c27df7602cef517e4",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yige-preview.wav",
       "previewBytes": 286124,
-      "previewSha256": "637000411ac5e61da57ab65ea63a4cf38cf6d4d27f93eff38f96ab8c46859117"
+      "previewSha256": "637000411ac5e61da57ab65ea63a4cf38cf6d4d27f93eff38f96ab8c46859117",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yige",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_yige_news",
@@ -1103,7 +1579,14 @@
       "sha256": "a0b3ad5712483095657a294515180b41f26f228fe4469361313b64228d9bb10d",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yige_news-preview.wav",
       "previewBytes": 289964,
-      "previewSha256": "cdfb436d67556e0a5c2b320e681042db4377c15e097c120c970db9f31f9b294b"
+      "previewSha256": "cdfb436d67556e0a5c2b320e681042db4377c15e097c120c970db9f31f9b294b",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yige_news",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_yunye",
@@ -1119,7 +1602,14 @@
       "sha256": "52831d09a19220e40d9138f476b02395db8303309cfc76676bd087e0fcc178dd",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yunye-preview.wav",
       "previewBytes": 257324,
-      "previewSha256": "c5a3e41db2732b2882b589b7fbcb2b936076169d92511575858fdac7311ddb24"
+      "previewSha256": "c5a3e41db2732b2882b589b7fbcb2b936076169d92511575858fdac7311ddb24",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yunye",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_yunye_news",
@@ -1135,7 +1625,14 @@
       "sha256": "2ba64dd4322b5bc832d929bb896f6751638dd697d9470639cf6e5b11faa79a4d",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yunye_news-preview.wav",
       "previewBytes": 266924,
-      "previewSha256": "8354b73d09b94db252da80a4d6192845d9c82c3349390708a5b2038a64bc72a2"
+      "previewSha256": "8354b73d09b94db252da80a4d6192845d9c82c3349390708a5b2038a64bc72a2",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yunye_news",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_m02",
@@ -1151,7 +1648,14 @@
       "sha256": "39fa17a4834cdaee9aa5232b5f2888b92e1c656aac14403f09f345c44397cb7a",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_m02-preview.wav",
       "previewBytes": 293804,
-      "previewSha256": "9e33b1076b5448be5e9776f2bd3e3850dace4112f99d2d8cf1ba81b1c59791f4"
+      "previewSha256": "9e33b1076b5448be5e9776f2bd3e3850dace4112f99d2d8cf1ba81b1c59791f4",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_M02",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_m05",
@@ -1167,7 +1671,14 @@
       "sha256": "2c0133124b4d5536470e731df8a857804d6e7c52f9b7b4b68a51adcf4f2d0d17",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_m05-preview.wav",
       "previewBytes": 270764,
-      "previewSha256": "c5a7ca7683d7de12aabf2ebad78f993bf99122aeacfe4c4b0005be18376f8270"
+      "previewSha256": "c5a7ca7683d7de12aabf2ebad78f993bf99122aeacfe4c4b0005be18376f8270",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_M05",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_m10",
@@ -1183,7 +1694,14 @@
       "sha256": "441a699f7cc55c6ed1302eccf9797724e94b8ae44a0d5790a4fe4346fa702779",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_m10-preview.wav",
       "previewBytes": 278444,
-      "previewSha256": "63b83be73299f5cb0f970640971ee9820e70d5c9c3501afd37e3303c8c8c0a8d"
+      "previewSha256": "63b83be73299f5cb0f970640971ee9820e70d5c9c3501afd37e3303c8c8c0a8d",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_M10",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_f22",
@@ -1199,7 +1717,14 @@
       "sha256": "a1ca73c488293439b968e7a228a50f4258d7cd07ca1dce5b8723f02085e9021a",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f22-preview.wav",
       "previewBytes": 274604,
-      "previewSha256": "b641c7aec5f5cc9a129b78ce5f5d943a7b112b98262db01a8290ad22b9b3a67e"
+      "previewSha256": "b641c7aec5f5cc9a129b78ce5f5d943a7b112b98262db01a8290ad22b9b3a67e",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_F22",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_f25",
@@ -1215,7 +1740,14 @@
       "sha256": "ad843c9cc39e02e44cd3ed119754d4a30516cd0543dc466df8508c4fefd5e225",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f25-preview.wav",
       "previewBytes": 278444,
-      "previewSha256": "e7c4d2fe1116352b69d8579b991bc8bb1516e2b6c08cdc5e96f5a4dc836413a7"
+      "previewSha256": "e7c4d2fe1116352b69d8579b991bc8bb1516e2b6c08cdc5e96f5a4dc836413a7",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_F25",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_f163",
@@ -1231,7 +1763,14 @@
       "sha256": "e6a6288706cfe902641321f13e640e735d19eae195a3c2bbdcc6ce6a13d47853",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f163-preview.wav",
       "previewBytes": 274604,
-      "previewSha256": "e2389b062476ad13120f8d9dad935c914614595d532c4f6b6819cc91171adafd"
+      "previewSha256": "e2389b062476ad13120f8d9dad935c914614595d532c4f6b6819cc91171adafd",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_F163",
+          "type": 1
+        }
+      ]
     },
     {
       "id": "vivo-x2_f82",
@@ -1247,7 +1786,14 @@
       "sha256": "9c57cafac7c66ee499e265cfc254b5c7e10e57ec72e885006b22602e9ad6fa82",
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f82-preview.wav",
       "previewBytes": 380204,
-      "previewSha256": "83bf06cef0f41c02d18e482fcc0b5062606f87888ff96a4c4fa13a6811d64c72"
+      "previewSha256": "83bf06cef0f41c02d18e482fcc0b5062606f87888ff96a4c4fa13a6811d64c72",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_F82",
+          "type": 1
+        }
+      ]
     }
   ]
 }
