@@ -1,0 +1,119 @@
+{
+  "sourceSha256": "3ef02cfc2281fca596a91a52a5e327cbe54d12122e76bbc2496586812213ba03",
+  "items": [
+    {
+      "id": "microsoft-sonia",
+      "bytes": 20525072,
+      "sha256": "cc419a706124079eb3a6481ebe50ffec3085d2b3cf98f0494b89ae5dd5b7a3d1",
+      "filename": "microsoft-sonia-v1.zip"
+    },
+    {
+      "id": "microsoft-ryan",
+      "bytes": 20499851,
+      "sha256": "a248ceeb27635a8616887ca22e82543c6858e88c2e222043a15ec4c4586b188c",
+      "filename": "microsoft-ryan-v1.zip"
+    },
+    {
+      "id": "microsoft-jenny",
+      "bytes": 15447225,
+      "sha256": "eff0863836547575c0a1a8ea404d58eb2fee873f7867f63a26ed26d1f5df01dd",
+      "filename": "microsoft-jenny-v1.zip"
+    },
+    {
+      "id": "microsoft-neerja",
+      "bytes": 33194999,
+      "sha256": "028a854a85dfeaf3b21f3ef1450999e53019133b4d5083401814ab116c37a800",
+      "filename": "microsoft-neerja-v1.zip"
+    },
+    {
+      "id": "microsoft-prabhat",
+      "bytes": 33160551,
+      "sha256": "8ec99175d0bc9a751860aaceaf98e94ae6ff8eff168398d207d2f1cfef61e843",
+      "filename": "microsoft-prabhat-v1.zip"
+    },
+    {
+      "id": "microsoft-katja",
+      "bytes": 13406738,
+      "sha256": "554f62f690858131de9b0c35925cf67a63f752f9a976db1b271fae495fad94ba",
+      "filename": "microsoft-katja-v1.zip"
+    },
+    {
+      "id": "microsoft-conrad",
+      "bytes": 13355499,
+      "sha256": "11e212dd09ac464fe08f7bd6af912866633c5c1abf918ff4739399e48f14cb52",
+      "filename": "microsoft-conrad-v1.zip"
+    },
+    {
+      "id": "microsoft-elvira",
+      "bytes": 11432134,
+      "sha256": "7206cc91b59b7d9150afb2bd08dd382ef1032d168b64d6d3dfccc356e3994884",
+      "filename": "microsoft-elvira-v1.zip"
+    },
+    {
+      "id": "microsoft-alvaro",
+      "bytes": 11432694,
+      "sha256": "7aa865338ff49db28b88566452c143d5bee7f54dde3aaa259320b3bd77a83310",
+      "filename": "microsoft-alvaro-v1.zip"
+    },
+    {
+      "id": "microsoft-dalia",
+      "bytes": 11052331,
+      "sha256": "fbece777860ca7ad86f5a0ddb84fee4bfc6169f4c7722bbf38d6830733cd2a3e",
+      "filename": "microsoft-dalia-v1.zip"
+    },
+    {
+      "id": "microsoft-jorge",
+      "bytes": 11085848,
+      "sha256": "a5694f54b336d19acba38e494feaf7fe49a74d59798db08e3ae83cf406710945",
+      "filename": "microsoft-jorge-v1.zip"
+    },
+    {
+      "id": "microsoft-denise",
+      "bytes": 11364677,
+      "sha256": "5f33b65cb4224665ab58fba7eb52f9ad418ac4cfe54c7eeea2ba6c0c41572692",
+      "filename": "microsoft-denise-v1.zip"
+    },
+    {
+      "id": "microsoft-henri",
+      "bytes": 11319827,
+      "sha256": "14fd922b74a1dfa116b42cc8038fc93eae9d0c0b08f4b0f95d165947f6294112",
+      "filename": "microsoft-henri-v1.zip"
+    },
+    {
+      "id": "microsoft-nanami",
+      "bytes": 22748134,
+      "sha256": "46b1b2cbcc884f93c9a62c8c7793de767c4b416485808df7404816899f92f64c",
+      "filename": "microsoft-nanami-v1.zip"
+    },
+    {
+      "id": "microsoft-keita",
+      "bytes": 22613075,
+      "sha256": "a5386bbd57e2325e001748b9e31014438cfd6f2a085738520ec7214d09cd9a9c",
+      "filename": "microsoft-keita-v1.zip"
+    },
+    {
+      "id": "microsoft-sunhi",
+      "bytes": 12627809,
+      "sha256": "40f0c8451414ad37cae1071d830ccb4122d56c27af819224d8bb157e0344d361",
+      "filename": "microsoft-sunhi-v1.zip"
+    },
+    {
+      "id": "microsoft-injoon",
+      "bytes": 12642358,
+      "sha256": "4199f2c049a0ac7b15035210249db8bbac8072dbef27935acd0771db5dcbbdde",
+      "filename": "microsoft-injoon-v1.zip"
+    },
+    {
+      "id": "microsoft-francisca",
+      "bytes": 12304760,
+      "sha256": "3e7e5bf16632fb895f4dbf34cbdbafad3409975b0b1d27781f3654bb846652a9",
+      "filename": "microsoft-francisca-v1.zip"
+    },
+    {
+      "id": "microsoft-antonio",
+      "bytes": 12152788,
+      "sha256": "67ea8db48da4112ca3a30987d67f9654cf2b2a0176675c321f12c0e9f6c4150c",
+      "filename": "microsoft-antonio-v1.zip"
+    }
+  ]
+}
