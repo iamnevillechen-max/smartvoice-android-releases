@@ -1,15 +1,15 @@
 {
-  "packageName": "hk.neville.smartvoice",
-  "versionCode": 91,
-  "versionName": "2.0.1",
+  "versionCode": 92,
+  "versionName": "2.0.2",
   "minSdk": 26,
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.0.1/SceneVox-TTS-2.0.1-arm64.apk",
-  "bytes": 221469872,
-  "sha256": "8cdc797c05e93a5b3a2f1169c03928011109d2390334e64aa192c66f81d82c12",
-  "notes": "优化焦点切换和连续浏览时的响应。\n单独的数字、日期和时间默认用中文朗读，保留对应语言的声音选择。\n调整标点停顿和音效字尾淡出，替换默认试听文字。\n语音与音效支持多选、全选和批量下载导入，相同配置不再反复询问覆盖。\n音效增至38套、84段录音，扩展触发词并改善短句起音。\n修复反馈提交，失败保留草稿；关于页改为功能介绍。",
+  "bytes": 232231417,
+  "sha256": "c0c98ef124aa710d5701bdb500ba9cac1d5bc6d393a20ae9e695591e9a48e926",
+  "packageName": "hk.neville.smartvoice",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.0.2/SceneVox-TTS-2.0.2-arm64.apk",
+  "notes": "支持迁移现有声音、参数、人物和音效。\n安装后再次检查更新，安装新版并打开应用完成迁移。",
   "notesLocalized": {
-    "zh-CN": "优化焦点切换和连续浏览时的响应。\n单独的数字、日期和时间默认用中文朗读，保留对应语言的声音选择。\n调整标点停顿和音效字尾淡出，替换默认试听文字。\n语音与音效支持多选、全选和批量下载导入，相同配置不再反复询问覆盖。\n音效增至38套、84段录音，扩展触发词并改善短句起音。\n修复反馈提交，失败保留草稿；关于页改为功能介绍。",
-    "zh-TW": "優化焦點切換和連續瀏覽時的回應。\n單獨的數字、日期和時間預設用中文朗讀，保留對應語言的聲音選擇。\n調整標點停頓和音效字尾淡出，更換預設試聽文字。\n語音與音效支援多選、全選和批量下載匯入，相同配置不再反覆詢問覆蓋。\n音效增至38套、84段錄音，擴展觸發詞並改善短句起音。\n修復回饋提交，失敗保留草稿；關於頁改為功能介紹。",
-    "en-US": "Improve response when switching focus and browsing continuously.\nUse Chinese for standalone numbers, dates and times while preserving language and voice choices.\nRestore natural punctuation pauses, soften sound effect endings and refresh preview text.\nSelect and download multiple voices or sound packs together; avoid repeated overwrite prompts for identical configurations.\nThe sound library now offers 38 packs and 84 clips with more triggers and faster starts in short passages.\nFix feedback submission and retain failed drafts. About now lists app features."
+    "zh-CN": "支持迁移现有声音、参数、人物和音效。\n安装后再次检查更新，安装新版并打开应用完成迁移。",
+    "zh-TW": "支援遷移現有聲音、參數、人物和音效。\n安裝後再次檢查更新，安裝新版並開啟應用完成遷移。",
+    "en-US": "Transfer existing voices, settings, characters and sounds.\nAfter installing, check for updates again and open the new app to complete the transfer."
   }
 }
