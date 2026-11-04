@@ -646,6 +646,57 @@
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v5/travellers-cloth-preview.wav",
       "previewBytes": 154676,
       "previewSha256": "e44c76070e7ed534d5fd2366c84495823090e6cb9b68bb1edb17e78870fa4f75"
+    },
+    {
+      "id": "sudden-danger",
+      "name": "Sudden Danger",
+      "nameZh": "危机瞬间",
+      "nameHant": "危機瞬間",
+      "description": "A short pistol report and a sharp face slap.",
+      "descriptionZh": "短促的手枪声与清晰的耳光声。",
+      "descriptionHant": "短促的手槍聲與清晰的耳光聲。",
+      "engine": "Action",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/sudden-danger-v1.zip",
+      "bytes": 31327,
+      "sha256": "b771ce83b3744137c9207f0f3d236e335d4f6b2fa6617ea279de434180cdebb7",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/sudden-danger-preview.wav",
+      "previewBytes": 136644,
+      "previewSha256": "a93f1a0c84e7136100c026094c34f1dbd5dcdb7b7c0eef764a03f4e9e4da2f76"
+    },
+    {
+      "id": "summer-pages",
+      "name": "Summer Pages",
+      "nameZh": "夏日书页",
+      "nameHant": "夏日書頁",
+      "description": "Summer cicadas outside and a book landing on a desk.",
+      "descriptionZh": "窗外的夏蝉与书本落在桌面的轻响。",
+      "descriptionHant": "窗外的夏蟬與書本落在桌面的輕響。",
+      "engine": "Daily life",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/summer-pages-v1.zip",
+      "bytes": 193229,
+      "sha256": "b0002f1da1392b5758ad83710fa39b13c6fb56b87f659730065c81e72c0ef160",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/summer-pages-preview.wav",
+      "previewBytes": 487360,
+      "previewSha256": "ad7479e09a89eb144061e9d658b8649356a751da4a575a42f9cefcf39f89a154"
+    },
+    {
+      "id": "incoming-call",
+      "name": "Incoming Call",
+      "nameZh": "来电提醒",
+      "nameHant": "來電提醒",
+      "description": "A short digital telephone ring and a separate phone vibration.",
+      "descriptionZh": "清晰的电话铃声与独立的手机振动声。",
+      "descriptionHant": "清晰的電話鈴聲與獨立的手機振動聲。",
+      "engine": "Daily life",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/incoming-call-v1.zip",
+      "bytes": 145948,
+      "sha256": "9c40a9b2e566775f69db9ae01f91f8cdf20cad1b77303c9407de9950a3ec9832",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v6/incoming-call-preview.wav",
+      "previewBytes": 430088,
+      "previewSha256": "f9c68f8e2928f2dc26a0c128737395432b980e2eeaf7574d8be8f54e679ff393"
     }
   ]
 }
