@@ -22,6 +22,22 @@ on:
         default: 0
         type: number
 
+      base_tag:
+        description: Published signed APK used as reconstruction base
+        required: false
+        default: multitts-v1.8.3.1
+        type: string
+      base_sha256:
+        description: Verified public base APK SHA-256
+        required: false
+        default: 27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176
+        type: string
+      base_bytes:
+        description: Verified public base APK byte count
+        required: false
+        default: 221215614
+        type: number
+
 permissions:
   contents: write
 
@@ -40,7 +56,9 @@ jobs:
       KIT_NAME: ${{ inputs.kit_name }}
       KIT_SHA256: ${{ inputs.kit_sha256 }}
       KIT_PARTS: ${{ inputs.kit_parts || 0 }}
-      BASE_SHA256: 27e1316e08b16f5d34627385e83b27242b2e7b12d39a9e3353ba1d2b12ab5176
+      BASE_TAG: ${{ inputs.base_tag }}
+      BASE_SHA256: ${{ inputs.base_sha256 }}
+      BASE_BYTES: ${{ inputs.base_bytes }}
     steps:
       - name: Verify inputs, reconstruct public signed bytes and upload only to draft
         shell: bash
@@ -52,6 +70,9 @@ jobs:
           assert re.fullmatch(r'(?:multitts|scenevox)-v[0-9]+(?:\.[0-9]+){1,4}', os.environ['RELEASE_TAG'])
           assert re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,127}\.zip', os.environ['KIT_NAME'])
           assert re.fullmatch(r'[0-9a-f]{64}', os.environ['KIT_SHA256'])
+          assert re.fullmatch(r'(?:multitts|scenevox)-v[0-9]+(?:\.[0-9]+){1,4}', os.environ['BASE_TAG'])
+          assert re.fullmatch(r'[0-9a-f]{64}', os.environ['BASE_SHA256'])
+          assert re.fullmatch(r'[0-9]{1,10}', os.environ['BASE_BYTES']) and 0 < int(os.environ['BASE_BYTES']) <= 1000000000
           assert re.fullmatch(r'[0-9a-f]{40}', os.environ['GITHUB_SHA'])
           assert re.fullmatch(r'[0-9]{1,2}', os.environ['KIT_PARTS']) and 0 <= int(os.environ['KIT_PARTS']) <= 32
           PY
@@ -92,12 +113,17 @@ jobs:
           import json, os
           r = json.load(open('metadata.json'))
           assert r['base']['sha256'] == os.environ['BASE_SHA256']
-          assert r['base']['bytes'] == 221215614
+          assert r['base']['bytes'] == int(os.environ['BASE_BYTES'])
+          base_prefix = 'SceneVox-TTS-' if os.environ['BASE_TAG'].startswith('scenevox-v') else 'MultiTTS-'
+          base_name = base_prefix + os.environ['BASE_TAG'].split('-v', 1)[1] + '-arm64.apk'
+          assert r['base']['name'] == base_name
+          with open('base-url.txt', 'w') as out:
+              out.write('https://github.com/' + os.environ['GITHUB_REPOSITORY'] + '/releases/download/' + os.environ['BASE_TAG'] + '/' + base_name)
           prefix = 'SceneVox-TTS-' if os.environ['RELEASE_TAG'].startswith('scenevox-v') else 'MultiTTS-'
           version = os.environ['RELEASE_TAG'].split('-v', 1)[1]
           assert r['target']['name'] == prefix + version + '-arm64.apk'
           PY
-          curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 30 --max-time 600 --output base85.apk 'https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/MultiTTS-1.8.3.1-arm64.apk'
+          curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 30 --max-time 600 --output base85.apk "$(cat base-url.txt)"
           printf '%s  %s\n' "$BASE_SHA256" base85.apk | sha256sum --check --status
           target=$(python3 -c "import json; print(json.load(open('metadata.json'))['target']['name'])")
           python3 rebuild_apk.py rebuild --base base85.apk --kit "$KIT_NAME" --kit-sha256 "$KIT_SHA256" --output "$target"
