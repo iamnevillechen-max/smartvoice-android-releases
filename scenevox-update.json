@@ -1,16 +1,15 @@
 {
-  "versionCode": 95,
-  "versionName": "2.1.2",
+  "versionCode": 96,
+  "versionName": "2.1.3",
   "minSdk": 26,
-  "bytes": 232346538,
-  "sha256": "befee702203927fe82a6db1e796a9418a529f456f617d6b855b6e0dfbfa8967c",
+  "bytes": 232399786,
+  "sha256": "d947fb2d9ff61a3b6b9100768c3e369b37d3e29cae3ba1c11c0b7fe95e6b7531",
   "packageName": "com.scenevox.tts",
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.2/SceneVox-TTS-2.1.2-arm64.apk",
-  "notes": "调整语音处理与播放，改善保真和收尾。\n修正独立数字及英文缩写的语音选择。\n声音页合并已安装和可下载音色，加入语速、语调滑条。\n问题反馈支持离线保存和后台补送。\n增加场景音效及上下文触发。",
   "notesLocalized": {
-    "zh-CN": "调整语音处理与播放，改善保真和收尾。\n修正独立数字及英文缩写的语音选择。\n声音页合并已安装和可下载音色，加入语速、语调滑条。\n问题反馈支持离线保存和后台补送。\n增加场景音效及上下文触发。",
-    "zh-TW": "調整語音處理與播放，改善保真與收尾。\n修正獨立數字及英文縮寫的語音選擇。\n聲音頁合併已安裝和可下載音色，加入語速、語調滑條。\n問題回饋支援離線保存和背景補送。\n增加場景音效與上下文觸發。",
-    "en-US": "Improve speech processing, playback fidelity and endings.\nCorrect voice selection for standalone numbers and English initials.\nBrowse installed and downloadable voices together, with speed and pitch sliders.\nSave feedback offline and retry delivery in the background.\nAdd scene sounds and context triggers."
-  }
+    "zh-CN": "恢复 MultiTTS 名称、原主界面和顶部语速、语调、音量调节。\n每个声音保留一个读屏焦点，点开可试听、选择和调节。\n场景音效、声音克隆集中放在右上角“更多”。\n修正中文数字朗读和取消选择后仍被对话使用的问题。\n优化首次数字朗读的响应。\n场景音效自然播完，切换焦点时渐弱。\n增加51个可试听音色和10套场景音效。\n暂时移除问题反馈入口。",
+    "zh-TW": "恢復 MultiTTS 名稱、原主介面和頂部語速、語調、音量調節。\n每個聲音保留一個讀屏焦點，點開可試聽、選擇和調節。\n場景音效、聲音克隆集中放在右上角「更多」。\n修正中文數字朗讀和取消選擇後仍被對話使用的問題。\n場景音效自然播完，切換焦點時漸弱。\n增加51個可試聽音色和10套場景音效。\n暫時移除問題回饋入口。",
+    "en-US": "Restore the MultiTTS name, original main layout, and speed, pitch and volume controls.\nKeep each voice as one screen-reader focus, with preview and selection on opening.\nFind scene sounds and voice cloning in the top-right More menu.\nCorrect Chinese number routing and dialogue voices used after deselection.\nLet scene sounds finish naturally and fade when focus changes.\nAdd 51 previewable voices and 10 scene sound packs.\nTemporarily remove the feedback entry."
+  },
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.3/MultiTTS-2.1.3-arm64.apk",
+  "notes": "恢复 MultiTTS 名称、原主界面和顶部语速、语调、音量调节。\n每个声音保留一个读屏焦点，点开可试听、选择和调节。\n场景音效、声音克隆集中放在右上角“更多”。\n修正中文数字朗读和取消选择后仍被对话使用的问题。\n优化首次数字朗读的响应。\n场景音效自然播完，切换焦点时渐弱。\n增加51个可试听音色和10套场景音效。\n暂时移除问题反馈入口。"
 }
-
