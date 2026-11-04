@@ -2,29 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "id": "microsoft-xiaoxiao",
-      "name": "晓晓",
-      "engine": "Microsoft TTS",
-      "language": "中文",
-      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-xiaoxiao-v1.zip",
-      "bytes": 53299434,
-      "sha256": "366366f34ebdb1f973bfa1da98f08cff66ae40e8c4deba1fbedf88d8d711bfe9",
-      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/multitts-v1.8.3.1/microsoft-xiaoxiao.wav",
-      "previewBytes": 193644,
-      "previewSha256": "26775a786c0d395dd22c69fafcddc93ccad9ccfe62786539adc2b3e8fadf40b5",
-      "locale": "zh-CN",
-      "description": "Mandarin Chinese, Mainland China. Female voice.",
-      "descriptionZh": "中文普通话，中国大陆，女声。",
-      "descriptionHant": "中文普通話，中國大陸，女聲。",
-      "voices": [
-        {
-          "group": "microsoft",
-          "code": "zh-CN-XiaoxiaoNeural",
-          "type": 0
-        }
-      ]
-    },
-    {
       "id": "microsoft-yunxi",
       "name": "云希",
       "engine": "Microsoft TTS",
@@ -163,29 +140,6 @@
       ]
     },
     {
-      "id": "microsoft-neerja",
-      "name": "Neerja",
-      "engine": "Microsoft TTS",
-      "language": "English",
-      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-neerja-v1.zip",
-      "bytes": 33194999,
-      "sha256": "028a854a85dfeaf3b21f3ef1450999e53019133b4d5083401814ab116c37a800",
-      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-neerja.wav",
-      "previewBytes": 209838,
-      "previewSha256": "4188c721aa6abea990c3857dd057e698c510326d4665b728a26fbb64ef0154de",
-      "locale": "en-IN",
-      "description": "English, India. Female voice.",
-      "descriptionZh": "英语，印度，女声。",
-      "descriptionHant": "英語，印度，女聲。",
-      "voices": [
-        {
-          "group": "microsoft",
-          "code": "en-IN-NeerjaNeural",
-          "type": 0
-        }
-      ]
-    },
-    {
       "id": "microsoft-prabhat",
       "name": "Prabhat",
       "engine": "Microsoft TTS",
@@ -255,29 +209,6 @@
       ]
     },
     {
-      "id": "microsoft-elvira",
-      "name": "Elvira",
-      "engine": "Microsoft TTS",
-      "language": "Español",
-      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-elvira-v1.zip",
-      "bytes": 11432134,
-      "sha256": "7206cc91b59b7d9150afb2bd08dd382ef1032d168b64d6d3dfccc356e3994884",
-      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-elvira.wav",
-      "previewBytes": 191296,
-      "previewSha256": "ce5aee915a97f01c23b13b5ca8218b4c931904b31791b8ed10588f2b2a26680e",
-      "locale": "es-ES",
-      "description": "Spanish, Spain. Female voice.",
-      "descriptionZh": "西班牙语，西班牙，女声。",
-      "descriptionHant": "西班牙語，西班牙，女聲。",
-      "voices": [
-        {
-          "group": "microsoft",
-          "code": "es-ES-ElviraNeural",
-          "type": 0
-        }
-      ]
-    },
-    {
       "id": "microsoft-alvaro",
       "name": "Álvaro",
       "engine": "Microsoft TTS",
@@ -296,29 +227,6 @@
         {
           "group": "microsoft",
           "code": "es-ES-AlvaroNeural",
-          "type": 0
-        }
-      ]
-    },
-    {
-      "id": "microsoft-dalia",
-      "name": "Dalia",
-      "engine": "Microsoft TTS",
-      "language": "Español",
-      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-dalia-v1.zip",
-      "bytes": 11052331,
-      "sha256": "fbece777860ca7ad86f5a0ddb84fee4bfc6169f4c7722bbf38d6830733cd2a3e",
-      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v1/microsoft-dalia.wav",
-      "previewBytes": 174022,
-      "previewSha256": "01b7f680968f6672bedf52b6cf3d758c98992d88e9484813da1971be978fab18",
-      "locale": "es-MX",
-      "description": "Spanish, Mexico. Female voice.",
-      "descriptionZh": "西班牙语，墨西哥，女声。",
-      "descriptionHant": "西班牙語，墨西哥，女聲。",
-      "voices": [
-        {
-          "group": "microsoft",
-          "code": "es-MX-DaliaNeural",
           "type": 0
         }
       ]
