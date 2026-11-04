@@ -1,13 +1,9 @@
-# SmartVoice Android releases
+# MultiTTS
 
-Current release: **0.2.0-beta.1 / versionCode 10**.
+当前版本：**2.1.3** · [下载 APK](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.3/MultiTTS-2.1.3-arm64.apk)
 
-[Download the APK](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/v0.2.0-beta.1/SmartVoice-0.2.0-beta.1-release.apk)
+Android 系统文字转语音引擎，支持多引擎音色、按语言配音、多角色朗读、场景音效和声音克隆。音色与音效包可以先试听，再按需下载。
 
-SmartVoice is an Android system text-to-speech engine. This APK contains 36 original Vocalizer voices. English uses Samantha; an unstable Thai voice has been removed. The original engine runs through an ARM32 compatibility layer on the ARM64 host.
+保留原主界面及顶部语速、语调、音量调节；每个声音只有一个读屏焦点。场景音效与声音克隆位于右上角“更多”。
 
-The Voices page groups engines horizontally. Optional Kokoro Chinese and English voices use a native ARM64 backend and can be downloaded inside the app. The interface supports 简体中文, 繁體中文 and English. The global multiplier applies to system TTS and voice previews.
-
-`update.json` is the app update manifest. `voices-v2.json` is the current multi-engine catalogue; `voices.json` is retained for older app versions. All APK and voice package downloads have pinned sizes and SHA-256 digests.
-
-This release was tested automatically on an isolated Android 17 ARM64 / 4 KiB emulator. It has not been accepted on the user's physical phone in this round, and automated PCM/playback checks do not replace human listening or TalkBack testing. Kokoro prioritizes voice quality; its native cancellation still waits for a synthesis callback.
+An Android text-to-speech engine with offline and online voices, language-aware voice selection, character reading, scene sounds and voice cloning. Preview voice and sound packs before downloading.
