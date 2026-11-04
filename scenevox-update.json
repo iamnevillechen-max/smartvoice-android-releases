@@ -1,15 +1,15 @@
 {
-  "versionCode": 93,
-  "versionName": "2.1.0",
+  "versionCode": 94,
+  "versionName": "2.1.1",
   "minSdk": 26,
-  "bytes": 232231417,
-  "sha256": "e61016fec8747cdd8752da919136762fcd60610310a0b82f260d1f01b90e4fa5",
+  "bytes": 232247801,
+  "sha256": "eed5c9f2af9afe71bbd0c44114441df25bde30c7699c84c07a48a833d9f17f14",
   "packageName": "com.scenevox.tts",
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.0/SceneVox-TTS-2.1.0-arm64.apk",
-  "notes": "改用 com.scenevox.tts，迁移旧版声音与设置。\n修复调速后的尾字异常和切换时的音频残留。\n英文缩写使用英文声音，独立数字默认中文朗读。\n婷婷与 Samantha 作为默认旁白，按上下文分配人物声音。\n录音或导入样本，在本地克隆并保存声音。\n音效增至41套、90段录音，扩展繁简触发词。\n调整反馈提交与功能名称。",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.1/SceneVox-TTS-2.1.1-arm64.apk",
+  "notes": "改用 com.scenevox.tts，迁移旧版声音与设置。\n音效按正常速度播放，朗读结束后自然收尾。\n切换焦点时旧音效渐弱，新语音同时开始。\n调整语音输出及原音色合成中的重复处理。",
   "notesLocalized": {
-    "zh-CN": "改用 com.scenevox.tts，迁移旧版声音与设置。\n修复调速后的尾字异常和切换时的音频残留。\n英文缩写使用英文声音，独立数字默认中文朗读。\n婷婷与 Samantha 作为默认旁白，按上下文分配人物声音。\n录音或导入样本，在本地克隆并保存声音。\n音效增至41套、90段录音，扩展繁简触发词。\n调整反馈提交与功能名称。",
-    "zh-TW": "改用 com.scenevox.tts，遷移舊版聲音與設定。\n修復調速後的尾字異響和切換時的音訊殘留。\n英文縮寫使用英文聲音，獨立數字預設中文朗讀。\n婷婷與 Samantha 作為預設旁白，按上下文分配人物聲音。\n錄音或匯入樣本，在本地克隆並保存聲音。\n音效增至41套、90段錄音，擴展繁簡觸發詞。\n調整回饋提交與功能名稱。",
-    "en-US": "Move to com.scenevox.tts and transfer existing voices and settings.\nFix processed speech endings and audio left from previous requests.\nUse English voices for abbreviations and Chinese for standalone numbers.\nDefault to Ting-Ting and Samantha for narration, with contextual character voices.\nClone and save a local voice from a recording or audio sample.\nThe sound library now offers 41 packs and 90 recordings with more Chinese triggers.\nUpdate feedback submission and feature labels."
+    "zh-CN": "改用 com.scenevox.tts，迁移旧版声音与设置。\n音效按正常速度播放，朗读结束后自然收尾。\n切换焦点时旧音效渐弱，新语音同时开始。\n调整语音输出及原音色合成中的重复处理。",
+    "zh-TW": "改用 com.scenevox.tts，遷移舊版聲音與設定。\n音效按正常速度播放，朗讀結束後自然收尾。\n切換焦點時舊音效漸弱，新語音同時開始。\n調整語音輸出及原音色合成中的重複處理。",
+    "en-US": "Move to com.scenevox.tts and transfer existing voices and settings.\nPlay effects at their natural speed and let them finish after speech.\nFade previous effects while the next focused item starts speaking.\nAdjust speech output and remove repeated work in original voice synthesis."
   }
 }
