@@ -2944,6 +2944,1332 @@
           "type": 1
         }
       ]
+    },
+    {
+      "id": "huoshan-tts.other.bv050_streaming",
+      "name": "新新",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv050_streaming-v1.zip",
+      "bytes": 556,
+      "sha256": "3cc8476ce3bda3b438d1c8ded73deaf691b13d18cca556dd02a4f2356af19ecd",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv050_streaming-preview-v1.wav",
+      "previewBytes": 335084,
+      "previewSha256": "157ce96bcaf95cdb2b719a6befb19950cc19d8f945eb9d55df0821d22b6b66e0",
+      "description": "Online voice · Chinese · Child voice; Animation voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV050_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "新新",
+      "nameHant": "新新",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 童声，动漫配音",
+      "descriptionHant": "在線聲音 · 中文 · 童聲，動漫配音"
+    },
+    {
+      "id": "huoshan-tts.other.bv415_streaming",
+      "name": "林林",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv415_streaming-v1.zip",
+      "bytes": 549,
+      "sha256": "25f02a940d1a4a420341582288e85cde962095159ee52ef0be101d4796a105f6",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv415_streaming-preview-v1.wav",
+      "previewBytes": 303884,
+      "previewSha256": "d7159c7351d35a63589e538aa1c6de02ecd2e871dbbc55da9f82a7f0b02f479c",
+      "description": "Online voice · Chinese · Lively child voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV415_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "林林",
+      "nameHant": "林林",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 活泼童声",
+      "descriptionHant": "在線聲音 · 中文 · 活潑童聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv008_streaming",
+      "name": "王松",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv008_streaming-v1.zip",
+      "bytes": 554,
+      "sha256": "c70b9eaca2061fa3d5a020da6f4359c3544e5f68a63b7daf6f0d291dd3e9246f",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv008_streaming-preview-v1.wav",
+      "previewBytes": 253004,
+      "previewSha256": "137d4c8320065840abbefd247438886acb8d5ab0965e9b6695156e0abeec51b5",
+      "description": "Online voice · Chinese · Friendly, fluent voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV008_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "王松",
+      "nameHant": "王松",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 自然亲切",
+      "descriptionHant": "在線聲音 · 中文 · 自然親切"
+    },
+    {
+      "id": "huoshan-tts.other.bv056_streaming",
+      "name": "阳天",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv056_streaming-v1.zip",
+      "bytes": 539,
+      "sha256": "89ad5cd8b451706891535eb2568baca7a4b601bf95f756a413ff7f6d70768e81",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv056_streaming-preview-v1.wav",
+      "previewBytes": 275084,
+      "previewSha256": "d7e2f76555008761729b1cabb0a9344bde376f5e32800963ae80c0058b7c5340",
+      "description": "Online voice · Chinese · Bright male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV056_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "阳天",
+      "nameHant": "陽天",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 阳光男声",
+      "descriptionHant": "在線聲音 · 中文 · 陽光男聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv410_streaming",
+      "name": "林舟",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv410_streaming-v1.zip",
+      "bytes": 550,
+      "sha256": "8d8bc831450bb7383f008e0f9790eb3961296de6c5a4058733ff640e1670e854",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv410_streaming-preview-v1.wav",
+      "previewBytes": 281324,
+      "previewSha256": "446e618ff6d36cf93ac2c88b827abff5d9a68c9ace551b428f7f3adc25a7f44b",
+      "description": "Online voice · Chinese · Explanations and narration",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV410_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "林舟",
+      "nameHant": "林舟",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 科普与旁白",
+      "descriptionHant": "在線聲音 · 中文 · 科普與旁白"
+    },
+    {
+      "id": "huoshan-tts.other.bv411_streaming",
+      "name": "温言",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv411_streaming-v1.zip",
+      "bytes": 561,
+      "sha256": "2ececba45321e8e78ce5fe33b699ca070c3c28a9cda4aba341e9c8f5dfeb5b8e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv411_streaming-preview-v1.wav",
+      "previewBytes": 280844,
+      "previewSha256": "188ecd4b6b9cae4692eb1ed76d04e4b0c61d7c2d59a59348aa1eeae27ee6d6ae",
+      "description": "Online voice · Chinese · Male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV411_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "温言",
+      "nameHant": "溫言",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 男声",
+      "descriptionHant": "在線聲音 · 中文 · 男聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv002_streaming",
+      "name": "莫远",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv002_streaming-v1.zip",
+      "bytes": 547,
+      "sha256": "a9f5fc9f362a8a3c33be1d33051e7d102b519bed06bab6d51ea663fbf00fa520",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv002_streaming-preview-v1.wav",
+      "previewBytes": 265004,
+      "previewSha256": "1e6aa8f96feceeb1a8bea34c02b7d33cf2a5613346f1df1c9fa67f2d07779cef",
+      "description": "Online voice · Chinese · News presenter",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV002_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "莫远",
+      "nameHant": "莫遠",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 新闻播报",
+      "descriptionHant": "在線聲音 · 中文 · 新聞播報"
+    },
+    {
+      "id": "huoshan-tts.other.bv419_streaming",
+      "name": "白枫",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv419_streaming-v1.zip",
+      "bytes": 554,
+      "sha256": "b548d642aa2e08562ee18867c467549da43c74796b088437cc4c370e28ca2f83",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv419_streaming-preview-v1.wav",
+      "previewBytes": 247244,
+      "previewSha256": "77e58c05d25fd95dd39bca122a0a8d1b3f5f98a2b92ceab2e8f5b53ac16f1e4e",
+      "description": "Online voice · Chinese · Calm male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV419_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "白枫",
+      "nameHant": "白楓",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 沉稳男声",
+      "descriptionHant": "在線聲音 · 中文 · 沉穩男聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv213_streaming",
+      "name": "广西表哥",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv213_streaming-v1.zip",
+      "bytes": 539,
+      "sha256": "48b76fe60f018fea41ac0df30f68a508b029f588f4493ea3cf04d1898d518b70",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv213_streaming-preview-v1.wav",
+      "previewBytes": 295244,
+      "previewSha256": "27f9199ff10e10956c4a94d6975dcff4bc40af360450e6ffff0e813c508681bf",
+      "description": "Online voice · Chinese · Guangxi Mandarin",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV213_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "广西表哥",
+      "nameHant": "廣西表哥",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 广西普通话",
+      "descriptionHant": "在線聲音 · 中文 · 廣西普通話"
+    },
+    {
+      "id": "huoshan-tts.other.bv207_streaming",
+      "name": "德博拉",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv207_streaming-v1.zip",
+      "bytes": 524,
+      "sha256": "ef8230bb143ee6ceefb1e6968cac7d49e7555ab57e93f4d0e6ec668ffe98a8ad",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv207_streaming-preview-v1.wav",
+      "previewBytes": 379244,
+      "previewSha256": "f85bc9a69c73b2f2071ae971d6a1e1dfb1c904deb24a3686125e9600f5b16891",
+      "description": "Online voice · Chinese · Child voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV207_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "德博拉",
+      "nameHant": "德博拉",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 童声",
+      "descriptionHant": "在線聲音 · 中文 · 童聲"
+    },
+    {
+      "id": "huoshan-zh_female_story",
+      "name": "安小豆",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_story-v1.zip",
+      "bytes": 531,
+      "sha256": "d3a93ffc1f12ac9ad30729542f97ef49b9cacd8ac41a5378df31b661dce41beb",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_story-preview-v1.wav",
+      "previewBytes": 341130,
+      "previewSha256": "5a67d329ccd960d589cfff66d74607f5cdda5fd36a9806607e9e7f8cdb6e0308",
+      "description": "Online voice · Chinese · Children’s stories",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "zh_female_story",
+          "type": 1
+        }
+      ],
+      "nameZh": "安小豆",
+      "nameHant": "安小豆",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 少儿故事",
+      "descriptionHant": "在線聲音 · 中文 · 少兒故事"
+    },
+    {
+      "id": "huoshan-zh_female_zhubo",
+      "name": "安小恩",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_zhubo-v1.zip",
+      "bytes": 528,
+      "sha256": "1014f797ac338848f2774e6905471ce644b68888ecfcd516557e4e5cb9c6a310",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_zhubo-preview-v1.wav",
+      "previewBytes": 307722,
+      "previewSha256": "6d3a27d616bfa96b8693eec9210fd56e31cd3f8bb6569fca38dc748b273bfd94",
+      "description": "Online voice · Chinese · Female presenter",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "zh_female_zhubo",
+          "type": 1
+        }
+      ],
+      "nameZh": "安小恩",
+      "nameHant": "安小恩",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 女主播",
+      "descriptionHant": "在線聲音 · 中文 · 女主播"
+    },
+    {
+      "id": "huoshan-tts.other.bv405_streaming",
+      "name": "微晴",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv405_streaming-v1.zip",
+      "bytes": 534,
+      "sha256": "731f6bb17bafe3c1a4a2361e61e272c9ec7186747f4bb32d15e95ad0cfa160df",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv405_streaming-preview-v1.wav",
+      "previewBytes": 257324,
+      "previewSha256": "f99a5ea0b2d2e31ce2fac7ce08d69d209e6dea432b192d0e2ebc1e9a5771ad1b",
+      "description": "Online voice · Chinese · Assistant voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV405_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "微晴",
+      "nameHant": "微晴",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 助手声线",
+      "descriptionHant": "在線聲音 · 中文 · 助手聲線"
+    },
+    {
+      "id": "huoshan-tts.other.bv406_streaming",
+      "name": "梦欣",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv406_streaming-v1.zip",
+      "bytes": 570,
+      "sha256": "29def9257f998aba70b58bc2a45ddf05debf327d44183718fb2b97455b4bd77b",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv406_streaming-preview-v1.wav",
+      "previewBytes": 254444,
+      "previewSha256": "5a76a33110419f320eb931c3d012ddad568c8a5b19fb30a4744b939ecbb78d3a",
+      "description": "Online voice · Chinese · Sweet narration",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV406_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "梦欣",
+      "nameHant": "夢欣",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 甜美解说",
+      "descriptionHant": "在線聲音 · 中文 · 甜美解說"
+    },
+    {
+      "id": "huoshan-tts.other.bv700_v2_streaming",
+      "name": "灿灿",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv700_v2_streaming-v1.zip",
+      "bytes": 515,
+      "sha256": "0c86a2868e49573c361eae2465bfdf7d0731efc714a36988354c41428e6b0d11",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv700_v2_streaming-preview-v1.wav",
+      "previewBytes": 274124,
+      "previewSha256": "53314d046e99fb27202da9e48261b48a8a4ea6eedb16f6638e999c5b18b88b4d",
+      "description": "Online voice · Chinese · Female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV700_V2_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "灿灿",
+      "nameHant": "燦燦",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 女声",
+      "descriptionHant": "在線聲音 · 中文 · 女聲"
+    },
+    {
+      "id": "huoshan-zh_female_sichuan",
+      "name": "安小晴",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_sichuan-v1.zip",
+      "bytes": 529,
+      "sha256": "7adccdf18a2155fa6d8182c5b7d040bcadef422b6a6e218bbf1b6171076cb218",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-zh_female_sichuan-preview-v1.wav",
+      "previewBytes": 359562,
+      "previewSha256": "946f71ccafb364f50228cebe7933eab6356eed5624b3606ca1f069843b204082",
+      "description": "Online voice · Chinese · Sichuan female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "zh_female_sichuan",
+          "type": 1
+        }
+      ],
+      "nameZh": "安小晴",
+      "nameHant": "安小晴",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 四川女声",
+      "descriptionHant": "在線聲音 · 中文 · 四川女聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv025_streaming",
+      "name": "仙玉",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv025_streaming-v1.zip",
+      "bytes": 538,
+      "sha256": "a401609fc2c6c343869338099ff4c8f0359b7c9f3f77b6c3a772c7efe3b667d5",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv025_streaming-preview-v1.wav",
+      "previewBytes": 287084,
+      "previewSha256": "0411fe782f1bf628f8fe27c06b1dc6c9daa5c674be77be8c081b6f2fa453468d",
+      "description": "Online voice · Chinese · Taiwan Mandarin",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV025_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "仙玉",
+      "nameHant": "仙玉",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 台湾普通话",
+      "descriptionHant": "在線聲音 · 中文 · 臺灣普通話"
+    },
+    {
+      "id": "huoshan-tts.other.bv040_streaming",
+      "name": "Sweetea",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-GB",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv040_streaming-v1.zip",
+      "bytes": 550,
+      "sha256": "9755d7afaf149d756b8532dbed253d33723f4a77fafa99f68bfd4467ed2d8331",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv040_streaming-preview-v1.wav",
+      "previewBytes": 252044,
+      "previewSha256": "d6610c0ef772acbd8440f07ad25d716a3116070f0eb4c919dfd58d62b8057fe7",
+      "description": "Online voice · English (UK) · Fluent British female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV040_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "Sweetea",
+      "nameHant": "Sweetea",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（英国） · 英式女声",
+      "descriptionHant": "在線聲音 · 英語（英國） · 英式女聲"
+    },
+    {
+      "id": "huoshan-en_male_adam",
+      "name": "Adam",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_adam-v1.zip",
+      "bytes": 498,
+      "sha256": "cba6b2f8062044f6c5a88aaafbbf76e71b89bbe32867813185b8d8286c079208",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_adam-preview-v1.wav",
+      "previewBytes": 235146,
+      "previewSha256": "416f2645c3a8c500f34da6517635addc409e7d4b8762a2c50a5d7536557a8a47",
+      "description": "Online voice · English (US) · American male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "en_male_adam",
+          "type": 1
+        }
+      ],
+      "nameZh": "Adam",
+      "nameHant": "Adam",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 美式男声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 美式男聲"
+    },
+    {
+      "id": "huoshan-en_male_bob",
+      "name": "Bob",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_bob-v1.zip",
+      "bytes": 498,
+      "sha256": "b5e00d9d07b53c19e67b0abefbd8837da27caa810ed313e0274fcc7a1860d4f1",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_bob-preview-v1.wav",
+      "previewBytes": 253578,
+      "previewSha256": "62d6601a53c4365bdfb7962880ddc12e25d62b9e92be6e140a5e9a71a2c9f298",
+      "description": "Online voice · English (US) · British male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "en_male_bob",
+          "type": 1
+        }
+      ],
+      "nameZh": "Bob",
+      "nameHant": "Bob",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 英式男声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 英式男聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv502_streaming",
+      "name": "Gloria",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv502_streaming-v1.zip",
+      "bytes": 550,
+      "sha256": "b13e147903066e84c1538c8f7a012fea4d7c5081ef16ea014aef21fb00713540",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv502_streaming-preview-v1.wav",
+      "previewBytes": 229004,
+      "previewSha256": "fdb01a7d6c93ca23ae3bceb13b8198b2573e3be4485d71fc20c1b6b89644803b",
+      "description": "Online voice · English (US) · Steady female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV502_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "Gloria",
+      "nameHant": "Gloria",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 平稳女声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 平穩女聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv505_streaming",
+      "name": "Cara",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv505_streaming-v1.zip",
+      "bytes": 549,
+      "sha256": "e9b99e214fac195e1f6da7c938eacda5251da39c912ad091a643c101cdea656e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv505_streaming-preview-v1.wav",
+      "previewBytes": 194924,
+      "previewSha256": "d55eb7f9c7445d26d609773a86999335bbe30b865b7120e7fb58ba35af1d18a5",
+      "description": "Online voice · English (US) · Calm female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV505_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "Cara",
+      "nameHant": "Cara",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 沉静女声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 沉靜女聲"
+    },
+    {
+      "id": "huoshan-en_female_sarah",
+      "name": "Sarah",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-AU",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_female_sarah-v1.zip",
+      "bytes": 502,
+      "sha256": "cf3cadddf38b94a46c334b6c1109b0ff0deb91585c563f1f0e22a207197e84ce",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_female_sarah-preview-v1.wav",
+      "previewBytes": 202890,
+      "previewSha256": "25d2a3e142d2c5d23d249bb2468e63a73692cdbd6c9088f44341a6687dd8276d",
+      "description": "Online voice · English (Australia) · Australian female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "en_female_sarah",
+          "type": 1
+        }
+      ],
+      "nameZh": "Sarah",
+      "nameHant": "Sarah",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（澳大利亚） · 澳式女声",
+      "descriptionHant": "在線聲音 · 英語（澳大利亞） · 澳式女聲"
+    },
+    {
+      "id": "aispeech-linbafp_qingxin",
+      "name": "零八",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-linbafp_qingxin-v1.zip",
+      "bytes": 692,
+      "sha256": "50419b53c49b46627eea28dd99b5184ee3ada63428d5316b2b54613951fc073d",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-linbafp_qingxin-preview-v1.wav",
+      "previewBytes": 330762,
+      "previewSha256": "4a155c2f886e90a1d31282641c4590cbd6dc585bdf243ca523515919ba6f0336",
+      "description": "Online voice · Chinese · Fresh female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "linbafp_qingxin",
+          "type": 1
+        }
+      ],
+      "nameZh": "零八",
+      "nameHant": "零八",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 清新女声",
+      "descriptionHant": "在線聲音 · 中文 · 清新女聲"
+    },
+    {
+      "id": "aispeech-gdfanfp",
+      "name": "芳芳",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-gdfanfp-v1.zip",
+      "bytes": 683,
+      "sha256": "58dabf4a84f199755cef25ba46161d8c5ee35cbd0345fd6aab2d330d581dfc38",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-gdfanfp-preview-v1.wav",
+      "previewBytes": 345738,
+      "previewSha256": "63c1d9e10144922c6a58bfad476a44fe9d6c56433c0368f61e1a1304f40de505",
+      "description": "Online voice · Chinese · Sweet female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "gdfanfp",
+          "type": 1
+        }
+      ],
+      "nameZh": "芳芳",
+      "nameHant": "芳芳",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 甜美女声",
+      "descriptionHant": "在線聲音 · 中文 · 甜美女聲"
+    },
+    {
+      "id": "aispeech-aningfp",
+      "name": "安宁",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-aningfp-v1.zip",
+      "bytes": 683,
+      "sha256": "2c23c13f5843a075ae4d02bf8292bbcb7597500177006ed0bebf93ecb4410b53",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-aningfp-preview-v1.wav",
+      "previewBytes": 374538,
+      "previewSha256": "b44ba4bd6fc5958f623298d50f367cbf63f9aad0ac2fd104f14e4e4bf20be93d",
+      "description": "Online voice · Chinese · Gentle female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "aningfp",
+          "type": 1
+        }
+      ],
+      "nameZh": "安宁",
+      "nameHant": "安寧",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 温婉女声",
+      "descriptionHant": "在線聲音 · 中文 · 溫婉女聲"
+    },
+    {
+      "id": "aispeech-lili1f_yubo",
+      "name": "璃璃",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-lili1f_yubo-v1.zip",
+      "bytes": 685,
+      "sha256": "fc811e1b3dc9289c1dd2ea2445b4b502076c3d729cc982e6ef1a3772c88618c6",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-lili1f_yubo-preview-v1.wav",
+      "previewBytes": 364170,
+      "previewSha256": "49bd5d7ec6c1f5e33972c058a94f911d5bd6c98707d9ca2035f13638a1601b0e",
+      "description": "Online voice · Chinese · Full female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "lili1f_yubo",
+          "type": 1
+        }
+      ],
+      "nameZh": "璃璃",
+      "nameHant": "璃璃",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 大气女声",
+      "descriptionHant": "在線聲音 · 中文 · 大氣女聲"
+    },
+    {
+      "id": "aispeech-xmamif",
+      "name": "小咪",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xmamif-v1.zip",
+      "bytes": 685,
+      "sha256": "47321f6f3f66e7717f00b5dbdf571ed0e4e766daa53eb392f65a55c43305454b",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xmamif-preview-v1.wav",
+      "previewBytes": 323850,
+      "previewSha256": "5c50d6d1c7ee04835524dccc1dde5ca47b9ba74ce1ebc33b0f500e6235fcae80",
+      "description": "Online voice · Chinese · Sweet female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xmamif",
+          "type": 1
+        }
+      ],
+      "nameZh": "小咪",
+      "nameHant": "小咪",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 甜美女声",
+      "descriptionHant": "在線聲音 · 中文 · 甜美女聲"
+    },
+    {
+      "id": "aispeech-xjingfp",
+      "name": "小静",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xjingfp-v1.zip",
+      "bytes": 687,
+      "sha256": "077d44e29c7b58f7325ce7d109886e7ff75747cc22abe34a9af877468d8ed8d4",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xjingfp-preview-v1.wav",
+      "previewBytes": 373386,
+      "previewSha256": "039d91e447362b862f0a712b9a128b1d43d01413c680c84004f847f07908f072",
+      "description": "Online voice · Chinese · Female storyteller",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xjingfp",
+          "type": 1
+        }
+      ],
+      "nameZh": "小静",
+      "nameHant": "小靜",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 故事女声",
+      "descriptionHant": "在線聲音 · 中文 · 故事女聲"
+    },
+    {
+      "id": "aispeech-xijiufp",
+      "name": "小九",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xijiufp-v1.zip",
+      "bytes": 685,
+      "sha256": "ee488c31919a79cd177ce042074833e81b8411c2d8a252c159554512619206c7",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xijiufp-preview-v1.wav",
+      "previewBytes": 328458,
+      "previewSha256": "f1fc577fe5ffe04033e481e1a4852af14e1ba0662b0ef56b5e4d3f87f2cca513",
+      "description": "Online voice · Chinese · Customer service voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xijiufp",
+          "type": 1
+        }
+      ],
+      "nameZh": "小九",
+      "nameHant": "小九",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 客服女声",
+      "descriptionHant": "在線聲音 · 中文 · 客服女聲"
+    },
+    {
+      "id": "aispeech-juan1f",
+      "name": "小美",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-juan1f-v1.zip",
+      "bytes": 684,
+      "sha256": "c748b254a45570be19b96ca7cab2364a22584e176b7d5a8d809b23ef8b3330af",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-juan1f-preview-v1.wav",
+      "previewBytes": 366474,
+      "previewSha256": "692a4047d570bb57f542639dad49f1eeda58cd49c0fac4c19912d57c2039df5c",
+      "description": "Online voice · Chinese · Warm female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "juan1f",
+          "type": 1
+        }
+      ],
+      "nameZh": "小美",
+      "nameHant": "小美",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 热情女声",
+      "descriptionHant": "在線聲音 · 中文 · 熱情女聲"
+    },
+    {
+      "id": "aispeech-gqlanfp",
+      "name": "小兰",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-gqlanfp-v1.zip",
+      "bytes": 684,
+      "sha256": "4ac1ec1d544391007c42ec70dc9337272e29dc962ba6ba59153857d1e129e7fc",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-gqlanfp-preview-v1.wav",
+      "previewBytes": 394122,
+      "previewSha256": "f806a922e5f28b6df36c6c55eec3980f122e415a4d3a2582e8422c7b5df6c218",
+      "description": "Online voice · Chinese · Soft female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "gqlanfp",
+          "type": 1
+        }
+      ],
+      "nameZh": "小兰",
+      "nameHant": "小蘭",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 温柔女声",
+      "descriptionHant": "在線聲音 · 中文 · 溫柔女聲"
+    },
+    {
+      "id": "aispeech-smjief",
+      "name": "小洁",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-smjief-v1.zip",
+      "bytes": 684,
+      "sha256": "c064fcaed3d01b7e837ed9ddb5c2c6f01aba4090faab111ced75ba420794d765",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-smjief-preview-v1.wav",
+      "previewBytes": 377994,
+      "previewSha256": "7aa4863027824eaf4f68b504fc0417e7332b4854a9ba45c56547c3263c0d9a54",
+      "description": "Online voice · Chinese · Clear female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "smjief",
+          "type": 1
+        }
+      ],
+      "nameZh": "小洁",
+      "nameHant": "小潔",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 清亮女声",
+      "descriptionHant": "在線聲音 · 中文 · 清亮女聲"
+    },
+    {
+      "id": "aispeech-lanyuf",
+      "name": "蓝雨",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-lanyuf-v1.zip",
+      "bytes": 686,
+      "sha256": "5ba507a196b1746841e4c7e28530ec24bb0ec9fb75b728d0002e182eb243e75e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-lanyuf-preview-v1.wav",
+      "previewBytes": 404490,
+      "previewSha256": "2935b16c4e13d39f3309e652899fc3017ae60a4daa3cc9acaaea9efed65cd9fc",
+      "description": "Online voice · Chinese · Soft female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "lanyuf",
+          "type": 1
+        }
+      ],
+      "nameZh": "蓝雨",
+      "nameHant": "藍雨",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 温柔女声",
+      "descriptionHant": "在線聲音 · 中文 · 溫柔女聲"
+    },
+    {
+      "id": "aispeech-xiyaof_qingxin",
+      "name": "小妖",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xiyaof_qingxin-v1.zip",
+      "bytes": 688,
+      "sha256": "9bea314336cee5a8fbdec022c97d7c64fc5187686537e7d2249aad964b1b6de8",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xiyaof_qingxin-preview-v1.wav",
+      "previewBytes": 336522,
+      "previewSha256": "525d3d955baa2db80617933874fb9350bf35c2a61860aa7c51b6f19c78dbc5ed",
+      "description": "Online voice · Chinese · Fresh female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xiyaof_qingxin",
+          "type": 1
+        }
+      ],
+      "nameZh": "小妖",
+      "nameHant": "小妖",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 清新女声",
+      "descriptionHant": "在線聲音 · 中文 · 清新女聲"
+    },
+    {
+      "id": "aispeech-xizhefp",
+      "name": "行者",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xizhefp-v1.zip",
+      "bytes": 687,
+      "sha256": "8914aafef8b91febd09346d60d7d0b6b7352a9b242ee9e8bc6a057ff38456817",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xizhefp-preview-v1.wav",
+      "previewBytes": 419466,
+      "previewSha256": "5df14ceda3cb8206d102d4b5acd3ffc36ab2a1ecd373a07e4290877a0b112053",
+      "description": "Online voice · Chinese · Composed female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xizhefp",
+          "type": 1
+        }
+      ],
+      "nameZh": "行者",
+      "nameHant": "行者",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 端庄女声",
+      "descriptionHant": "在線聲音 · 中文 · 端莊女聲"
+    },
+    {
+      "id": "aispeech-feyinfp",
+      "name": "风吟",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-feyinfp-v1.zip",
+      "bytes": 686,
+      "sha256": "007f728d70f78898a97828debbe8f644f8920662093d35f454ec6ec280743eb4",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-feyinfp-preview-v1.wav",
+      "previewBytes": 418314,
+      "previewSha256": "73c4ce73aa6a83a8616b6c0f20a10e4f614913838c5f02afadfb6db208396751",
+      "description": "Online voice · Chinese · Firm female voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "feyinfp",
+          "type": 1
+        }
+      ],
+      "nameZh": "风吟",
+      "nameHant": "風吟",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 威严女声",
+      "descriptionHant": "在線聲音 · 中文 · 威嚴女聲"
+    },
+    {
+      "id": "aispeech-yukaimp",
+      "name": "俞老师",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-yukaimp-v1.zip",
+      "bytes": 688,
+      "sha256": "2807a21b72e53fd292c4cf2886414797221dcd3fde0aba1d8fec4703b7307d0e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-yukaimp-preview-v1.wav",
+      "previewBytes": 352650,
+      "previewSha256": "71e7c7681488389659fcc5e0a3be76b563827f9cb36970e00c45669e96139310",
+      "description": "Online voice · Chinese · Resonant male voice",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "yukaimp",
+          "type": 1
+        }
+      ],
+      "nameZh": "俞老师",
+      "nameHant": "俞老師",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 磁性男声",
+      "descriptionHant": "在線聲音 · 中文 · 磁性男聲"
+    },
+    {
+      "id": "aispeech-xijunma",
+      "name": "小军",
+      "engine": "AISpeech",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xijunma-v1.zip",
+      "bytes": 684,
+      "sha256": "5b68ca3e770e04d63a3edc99d8d6a86b7c932ed6ce076cca8fdebf6fcca1a965",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/aispeech-xijunma-preview-v1.wav",
+      "previewBytes": 329610,
+      "previewSha256": "43ee02b486acd438954c98fb6d225d584ac3416df9c85633086f0a42ef95bc29",
+      "description": "Online voice · Chinese · Male newsreader",
+      "voices": [
+        {
+          "group": "http_aispeech",
+          "code": "xijunma",
+          "type": 1
+        }
+      ],
+      "nameZh": "小军",
+      "nameHant": "小軍",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 新闻男声",
+      "descriptionHant": "在線聲音 · 中文 · 新聞男聲"
+    },
+    {
+      "id": "bdotts-along_",
+      "name": "阿龙",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-along_-v1.zip",
+      "bytes": 502,
+      "sha256": "c40a7dbd2430b8bf9dd9adc87ec57b9fdde3d4184542a2a77b9ebcb2882430cb",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-along_-preview-v1.wav",
+      "previewBytes": 328364,
+      "previewSha256": "9816562652410adde25eb464f06860ab84e36018e28a76966c8cc2ced270b9c6",
+      "description": "Online voice · Chinese · Nostalgic voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "along_",
+          "type": 1
+        }
+      ],
+      "nameZh": "阿龙",
+      "nameHant": "阿龍",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 怀旧声线",
+      "descriptionHant": "在線聲音 · 中文 · 懷舊聲線"
+    },
+    {
+      "id": "bdotts-junhao_",
+      "name": "军浩",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-junhao_-v1.zip",
+      "bytes": 510,
+      "sha256": "76affcc9d5e2d89a79d25fe94f22235fb683108f0d268b360e4a9676fb4625ca",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-junhao_-preview-v1.wav",
+      "previewBytes": 388844,
+      "previewSha256": "60f9177e03d84cb8979afb9f74203b45a2a22d29cdc0fc901f636add70818f19",
+      "description": "Online voice · Chinese · Low, steady voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "junhao_",
+          "type": 1
+        }
+      ],
+      "nameZh": "军浩",
+      "nameHant": "軍浩",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 低沉平稳",
+      "descriptionHant": "在線聲音 · 中文 · 低沉平穩"
+    },
+    {
+      "id": "bdotts-chenhuaijie",
+      "name": "陈怀杰",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-chenhuaijie-v1.zip",
+      "bytes": 517,
+      "sha256": "f074f176b97c7af1ec40b686eee567f5f7973f3c503bedf4e87046cdcd8a2b36",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-chenhuaijie-preview-v1.wav",
+      "previewBytes": 268204,
+      "previewSha256": "52d93845cec2b11554c743c179f77c9761461bf819a398d443de7db86a50c7a7",
+      "description": "Online voice · Chinese · Sports commentary",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "chenhuaijie",
+          "type": 1
+        }
+      ],
+      "nameZh": "陈怀杰",
+      "nameHant": "陳懷傑",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 体育男声",
+      "descriptionHant": "在線聲音 · 中文 · 體育男聲"
+    },
+    {
+      "id": "bdotts-duxiaoyao",
+      "name": "度小妖",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-duxiaoyao-v1.zip",
+      "bytes": 509,
+      "sha256": "4015fd97d13d0cd9cd68d10b23ddb2e04af7b75e673a71c1447ecedf19d4a2b5",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-duxiaoyao-preview-v1.wav",
+      "previewBytes": 321324,
+      "previewSha256": "6365fc1e04e90e7949fbcef0586e0409ad679d9464262e8b767d1a6dfb265d1c",
+      "description": "Online voice · Chinese · Gentle storytelling",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "duxiaoyao",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小妖",
+      "nameHant": "度小妖",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 温柔叙事",
+      "descriptionHant": "在線聲音 · 中文 · 溫柔敘事"
+    },
+    {
+      "id": "bdotts-tac_sub_m8",
+      "name": "度小贤",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_m8-v1.zip",
+      "bytes": 515,
+      "sha256": "0f8ecfe658331b3ef52623c87ed56047d3a357b36b09bfcfd0c6ccc404dfdcb6",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_m8-preview-v1.wav",
+      "previewBytes": 291244,
+      "previewSha256": "3a0be577b1f6c991b1df0b1d12b6383af6546c638be6efb1728893d0f09f66ce",
+      "description": "Online voice · Chinese · Radio presenter",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "tac_sub_m8",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小贤",
+      "nameHant": "度小賢",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 电台主持",
+      "descriptionHant": "在線聲音 · 中文 · 電臺主持"
+    },
+    {
+      "id": "bdotts-miduo",
+      "name": "度米朵",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-miduo-v1.zip",
+      "bytes": 510,
+      "sha256": "68e8aa6a0be61500cdc61498510832f96e807a53eff653d68a331a51168c473f",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-miduo-preview-v1.wav",
+      "previewBytes": 344364,
+      "previewSha256": "790071e4027b9771256d7c15cf182f5cc67b250317bd0a735fad46c8b79b1647",
+      "description": "Online voice · Chinese · Bright child voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "miduo",
+          "type": 1
+        }
+      ],
+      "nameZh": "度米朵",
+      "nameHant": "度米朵",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 可爱童声",
+      "descriptionHant": "在線聲音 · 中文 · 可愛童聲"
+    },
+    {
+      "id": "bdotts-tac_sub_f17",
+      "name": "度小鹿",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_f17-v1.zip",
+      "bytes": 516,
+      "sha256": "50e7f68197eeaffac94f9ab7c84e03345525ed8337e69ccc0d6dde2c1e16fa4e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_f17-preview-v1.wav",
+      "previewBytes": 304684,
+      "previewSha256": "29b49da842a248c888920940c0db5a737632426282c30910dc6c88cc6d568acf",
+      "description": "Online voice · Chinese · Standard female voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "tac_sub_f17",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小鹿",
+      "nameHant": "度小鹿",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 标准女声",
+      "descriptionHant": "在線聲音 · 中文 · 標準女聲"
+    },
+    {
+      "id": "bdotts-tac_sub_f12",
+      "name": "度小乔",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_f12-v1.zip",
+      "bytes": 514,
+      "sha256": "975881a56333a6e156e39e3cdf6193399d06312068b2faa5d9a56480e41bf121",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-tac_sub_f12-preview-v1.wav",
+      "previewBytes": 291244,
+      "previewSha256": "53368d4836d86bf07fbe15314485016cf23d6602ee77765b200c10c80e23977b",
+      "description": "Online voice · Chinese · Expressive female voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "tac_sub_f12",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小乔",
+      "nameHant": "度小喬",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 情感女声",
+      "descriptionHant": "在線聲音 · 中文 · 情感女聲"
+    },
+    {
+      "id": "bdotts-gezi",
+      "name": "鸽子",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-gezi-v1.zip",
+      "bytes": 505,
+      "sha256": "066cfb344ae546002d1ae46d9dcb7553d115bddd22f395f43171e4acfdff20cb",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-gezi-preview-v1.wav",
+      "previewBytes": 281644,
+      "previewSha256": "fa55caa43ca54fbcbb979841f8928b101e9ca3be45cc9bb899d36256f3b9ea3b",
+      "description": "Online voice · Chinese · Sweet female voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "gezi",
+          "type": 1
+        }
+      ],
+      "nameZh": "鸽子",
+      "nameHant": "鴿子",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 甜美女声",
+      "descriptionHant": "在線聲音 · 中文 · 甜美女聲"
+    },
+    {
+      "id": "bdotts-xibei",
+      "name": "禧贝",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-xibei-v1.zip",
+      "bytes": 504,
+      "sha256": "a5567b9ee9e35030ae0cca917ee6de75287aafe9f3ee1d750e50b774f3e8cc3e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-xibei-preview-v1.wav",
+      "previewBytes": 241964,
+      "previewSha256": "ce4c670b18e0604f326044c494b1c7685b532d29d553624ba6166a0f18989a8d",
+      "description": "Online voice · Chinese · Energetic female voice",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "xibei",
+          "type": 1
+        }
+      ],
+      "nameZh": "禧贝",
+      "nameHant": "禧貝",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 活力女声",
+      "descriptionHant": "在線聲音 · 中文 · 活力女聲"
+    },
+    {
+      "id": "bdotts-f32pangbai",
+      "name": "度小聪",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-f32pangbai-v1.zip",
+      "bytes": 511,
+      "sha256": "80304382e53d76d7c6658a93fa3ab221aaca2acceee8f0cbb0d3fd11b2902146",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-f32pangbai-preview-v1.wav",
+      "previewBytes": 259884,
+      "previewSha256": "500f18f3ffa134636a758e660e3e3c983790a8c518c40c648b7d208b4c4cf21f",
+      "description": "Online voice · Chinese · Romantic storytelling",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "f32pangbai",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小聪",
+      "nameHant": "度小聰",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 言情女声",
+      "descriptionHant": "在線聲音 · 中文 · 言情女聲"
+    },
+    {
+      "id": "bdotts-fduxiaoxin",
+      "name": "度小欣",
+      "engine": "Baidu TTS",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-fduxiaoxin-v1.zip",
+      "bytes": 515,
+      "sha256": "4bd2edd45c23307b53780ef3b4119678d8180190ec7d54735efa03c8a8ad3a0e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/bdotts-fduxiaoxin-preview-v1.wav",
+      "previewBytes": 268844,
+      "previewSha256": "801ba35413edd121850adae4badc2bc1dce9ad8529fba9456a4d39507a2f7d21",
+      "description": "Online voice · Chinese · Female newsreader",
+      "voices": [
+        {
+          "group": "bdotts",
+          "code": "fduxiaoxin",
+          "type": 1
+        }
+      ],
+      "nameZh": "度小欣",
+      "nameHant": "度小欣",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 新闻女声",
+      "descriptionHant": "在線聲音 · 中文 · 新聞女聲"
     }
   ]
 }
