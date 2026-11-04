@@ -1,15 +1,16 @@
 {
-  "versionCode": 94,
-  "versionName": "2.1.1",
+  "versionCode": 95,
+  "versionName": "2.1.2",
   "minSdk": 26,
-  "bytes": 232247801,
-  "sha256": "eed5c9f2af9afe71bbd0c44114441df25bde30c7699c84c07a48a833d9f17f14",
+  "bytes": 232346538,
+  "sha256": "befee702203927fe82a6db1e796a9418a529f456f617d6b855b6e0dfbfa8967c",
   "packageName": "com.scenevox.tts",
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.1/SceneVox-TTS-2.1.1-arm64.apk",
-  "notes": "改用 com.scenevox.tts，迁移旧版声音与设置。\n音效按正常速度播放，朗读结束后自然收尾。\n切换焦点时旧音效渐弱，新语音同时开始。\n调整语音输出及原音色合成中的重复处理。",
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.2/SceneVox-TTS-2.1.2-arm64.apk",
+  "notes": "调整语音处理与播放，改善保真和收尾。\n修正独立数字及英文缩写的语音选择。\n声音页合并已安装和可下载音色，加入语速、语调滑条。\n问题反馈支持离线保存和后台补送。\n增加场景音效及上下文触发。",
   "notesLocalized": {
-    "zh-CN": "改用 com.scenevox.tts，迁移旧版声音与设置。\n音效按正常速度播放，朗读结束后自然收尾。\n切换焦点时旧音效渐弱，新语音同时开始。\n调整语音输出及原音色合成中的重复处理。",
-    "zh-TW": "改用 com.scenevox.tts，遷移舊版聲音與設定。\n音效按正常速度播放，朗讀結束後自然收尾。\n切換焦點時舊音效漸弱，新語音同時開始。\n調整語音輸出及原音色合成中的重複處理。",
-    "en-US": "Move to com.scenevox.tts and transfer existing voices and settings.\nPlay effects at their natural speed and let them finish after speech.\nFade previous effects while the next focused item starts speaking.\nAdjust speech output and remove repeated work in original voice synthesis."
+    "zh-CN": "调整语音处理与播放，改善保真和收尾。\n修正独立数字及英文缩写的语音选择。\n声音页合并已安装和可下载音色，加入语速、语调滑条。\n问题反馈支持离线保存和后台补送。\n增加场景音效及上下文触发。",
+    "zh-TW": "調整語音處理與播放，改善保真與收尾。\n修正獨立數字及英文縮寫的語音選擇。\n聲音頁合併已安裝和可下載音色，加入語速、語調滑條。\n問題回饋支援離線保存和背景補送。\n增加場景音效與上下文觸發。",
+    "en-US": "Improve speech processing, playback fidelity and endings.\nCorrect voice selection for standalone numbers and English initials.\nBrowse installed and downloadable voices together, with speed and pitch sliders.\nSave feedback offline and retry delivery in the background.\nAdd scene sounds and context triggers."
   }
 }
+
