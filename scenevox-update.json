@@ -1,15 +1,15 @@
 {
-  "versionCode": 96,
-  "versionName": "2.1.3",
+  "versionCode": 98,
+  "versionName": "2.2.0",
   "minSdk": 26,
-  "bytes": 232399786,
-  "sha256": "d947fb2d9ff61a3b6b9100768c3e369b37d3e29cae3ba1c11c0b7fe95e6b7531",
+  "bytes": 234366722,
+  "sha256": "af4d8de8c8355207396dd7a162e814f5c1f2f684eb5205edf37975139ed2d812",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "恢复 MultiTTS 名称、原主界面和顶部语速、语调、音量调节。\n每个声音保留一个读屏焦点，点开可试听、选择和调节。\n场景音效、声音克隆集中放在右上角“更多”。\n修正中文数字朗读和取消选择后仍被对话使用的问题。\n优化首次数字朗读的响应。\n场景音效自然播完，切换焦点时渐弱。\n增加51个可试听音色和10套场景音效。\n暂时移除问题反馈入口。",
-    "zh-TW": "恢復 MultiTTS 名稱、原主介面和頂部語速、語調、音量調節。\n每個聲音保留一個讀屏焦點，點開可試聽、選擇和調節。\n場景音效、聲音克隆集中放在右上角「更多」。\n修正中文數字朗讀和取消選擇後仍被對話使用的問題。\n場景音效自然播完，切換焦點時漸弱。\n增加51個可試聽音色和10套場景音效。\n暫時移除問題回饋入口。",
-    "en-US": "Restore the MultiTTS name, original main layout, and speed, pitch and volume controls.\nKeep each voice as one screen-reader focus, with preview and selection on opening.\nFind scene sounds and voice cloning in the top-right More menu.\nCorrect Chinese number routing and dialogue voices used after deselection.\nLet scene sounds finish naturally and fade when focus changes.\nAdd 51 previewable voices and 10 scene sound packs.\nTemporarily remove the feedback entry."
+    "zh-CN": "声音、对话、场景、用户四个页面，声音选择与下载集中管理。\n点开即试听；语速、语调、音量用滑块调节，点击参数可输入数值。\n旁白按语言匹配，中文数字使用中文音色；对话方案独立保存角色音色。\n更新朗读与音频转换，改善特殊符号、长文本和连续切换的处理。\n场景音效独立播放，切换焦点时渐弱；保留声音克隆和本地导入。\n精简设置，移除问题反馈和背景音乐入口。",
+    "zh-TW": "聲音、對話、場景、使用者四個頁面，聲音選擇與下載集中管理。\n點開即試聽；語速、語調、音量用滑桿調節，點擊參數可輸入數值。\n旁白按語言匹配，中文數字使用中文音色；對話方案獨立保存角色音色。\n更新朗讀與音訊轉換，改善特殊符號、長文字和連續切換的處理。\n場景音效獨立播放，切換焦點時漸弱；保留聲音克隆和本地匯入。\n精簡設定，移除問題回饋和背景音樂入口。",
+    "en-US": "Four pages: Voices, Dialogue, Scenes and User. Select and download voices in one list.\nPreview on opening; adjust speed, pitch and volume with sliders or tap a parameter to enter a value.\nMatch narration to language and use Chinese for standalone numbers. Save character voices per dialogue scheme.\nUpdate text and audio processing for special symbols, long text and rapid switching.\nPlay scene sounds independently with fades on focus changes. Keep voice cloning and local imports.\nSimplify settings and remove feedback and background music entries."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.1.3/MultiTTS-2.1.3-arm64.apk",
-  "notes": "恢复 MultiTTS 名称、原主界面和顶部语速、语调、音量调节。\n每个声音保留一个读屏焦点，点开可试听、选择和调节。\n场景音效、声音克隆集中放在右上角“更多”。\n修正中文数字朗读和取消选择后仍被对话使用的问题。\n优化首次数字朗读的响应。\n场景音效自然播完，切换焦点时渐弱。\n增加51个可试听音色和10套场景音效。\n暂时移除问题反馈入口。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.0/SceneVox-TTS-2.2.0-arm64.apk",
+  "notes": "声音、对话、场景、用户四个页面，声音选择与下载集中管理。\n点开即试听；语速、语调、音量用滑块调节，点击参数可输入数值。\n旁白按语言匹配，中文数字使用中文音色；对话方案独立保存角色音色。\n更新朗读与音频转换，改善特殊符号、长文本和连续切换的处理。\n场景音效独立播放，切换焦点时渐弱；保留声音克隆和本地导入。\n精简设置，移除问题反馈和背景音乐入口。"
 }
