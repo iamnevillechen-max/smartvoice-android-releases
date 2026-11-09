@@ -74,7 +74,7 @@ jobs:
           assert re.fullmatch(r'[0-9a-f]{64}', os.environ['BASE_SHA256'])
           assert re.fullmatch(r'[0-9]{1,10}', os.environ['BASE_BYTES']) and 0 < int(os.environ['BASE_BYTES']) <= 1000000000
           assert re.fullmatch(r'[0-9a-f]{40}', os.environ['GITHUB_SHA'])
-          assert re.fullmatch(r'[0-9]{1,2}', os.environ['KIT_PARTS']) and 0 <= int(os.environ['KIT_PARTS']) <= 32
+          assert re.fullmatch(r'[0-9]{1,2}', os.environ['KIT_PARTS']) and 0 <= int(os.environ['KIT_PARTS']) <= 64
           PY
           work=$(mktemp -d "$RUNNER_TEMP/multitts-rebuild.XXXXXX")
           cd "$work"
