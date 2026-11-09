@@ -1553,6 +1553,276 @@
       "networkRequired": true,
       "descriptionZh": "在线声音 · 英语（澳大利亚） · 澳式女声",
       "descriptionHant": "在線聲音 · 英語（澳大利亞） · 澳式女聲"
+    },
+    {
+      "id": "sherpa-piper-mandarin-22050",
+      "name": "Piper Mandarin 22.05 kHz Voice Collection",
+      "nameZh": "Piper 普通话 22.05 kHz 语音库",
+      "nameHant": "Piper 普通話 22.05 kHz 語音庫",
+      "engine": "Sherpa ONNX",
+      "language": "中文 / English",
+      "locale": "zh-CN",
+      "description": "32 Mandarin voices from an independent AISHELL-3 Piper model and four additional LibriTTS English readers. All 36 voices synthesize offline at a native 22.05 kHz.",
+      "descriptionZh": "独立训练的 AISHELL-3 Piper 模型提供 32 款普通话音色，另有四款 LibriTTS 英语音色。36 款音色均以原生 22.05 kHz 离线合成。",
+      "descriptionHant": "獨立訓練的 AISHELL-3 Piper 模型提供 32 款普通話音色，另有四款 LibriTTS 英語音色。36 款音色均以原生 22.05 kHz 離線合成。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v21/sherpa-piper-mandarin-22050-v1.zip",
+      "bytes": 202572693,
+      "sha256": "3c98f24b78f3464c8c65bbdcb56a1f5b909d7ad2115360c5bdd3cc599a2ccf5a",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0011",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0073",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0080",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0200",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0273",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0315",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0354",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0394",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0435",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0539",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0590",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0607",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0609",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0629",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0700",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0758",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0784",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0863",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0871",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0966",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0987",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1064",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1125",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1218",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1383",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1385",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1555",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1593",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1624",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1711",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1831",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1837",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-501",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-529",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-601",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-639",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v21/sherpa-piper-mandarin-22050-v1-preview.wav",
+      "previewBytes": 1239628,
+      "previewSha256": "1ce28b3a8b146970f3b775124e8e4a9c74029b7c142ff67b23e5010c28d5da8b"
+    },
+    {
+      "id": "microsoft-multitts-24k-multilingual",
+      "name": "Microsoft TTS 24 kHz — Mandarin, English, Japanese, German and French",
+      "nameZh": "微软 TTS 24 kHz 多语种离线音库",
+      "nameHant": "微軟 TTS 24 kHz 多語種離線音庫",
+      "engine": "Microsoft TTS",
+      "language": "Chinese, English, Japanese, German and French",
+      "locale": "zh-TW",
+      "description": "Ten 24 kHz offline voices from the original MultiTTS resource post, including Taiwan Mandarin HsiaoChen and YunJhe, and American English Eric and Michelle.",
+      "descriptionZh": "沿用 MultiTTS 资源频道原模型，含台湾国语晓臻、云哲和美式英语 Eric、Michelle，另有日语、德语、法语各两款。10 款均为原生 24 kHz。",
+      "descriptionHant": "沿用 MultiTTS 資源頻道原模型，含臺灣華語曉臻、雲哲和美式英語 Eric、Michelle，另有日語、德語、法語各兩款。10 款均為原生 24 kHz。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v21/microsoft-multitts-24k-multilingual-v1.zip",
+      "bytes": 280736458,
+      "sha256": "c73dfdf4371f72f34e62cbb06906bad0c6121b480c269860abb2794130329e1e",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "zh-TW-HsiaoChenNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "zh-TW-YunJheNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-US-EricNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-US-MichelleNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "de-DE-ConradNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "de-DE-KatjaNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "fr-FR-DeniseNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "fr-FR-HenriNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "ja-JP-KeitaNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "ja-JP-NanamiNeural",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v21/microsoft-multitts-24k-multilingual-v1-preview.wav",
+      "previewBytes": 546040,
+      "previewSha256": "a015299f22bf8e55e9dc0b73e62a91dd7edc5a57dd058353e256fb50e6164458"
     }
   ]
 }
