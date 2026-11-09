@@ -1,15 +1,15 @@
 {
-  "versionCode": 101,
-  "versionName": "2.2.3",
+  "versionCode": 102,
+  "versionName": "2.2.4",
   "minSdk": 26,
-  "bytes": 183266255,
-  "sha256": "8e2cd1b3e0f34495dd8c65e7eaca839b5dd194fd9760a43cf149e3929401fb58",
+  "bytes": 183282639,
+  "sha256": "ea4370d2902ff1cafdaf148a889def6b639a4964c23a2d566013ed1798eaa924",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修复内置语音文件损坏后无法载入的问题，启动时自动恢复。\n默认旁白仅保留中文婷婷和英文 Samantha，安装包缩小约 15 MB。\n对话不再内置方案，支持新建方案、直接编辑角色和长按删除。\n导入分享方案时可补齐缺少的声音，并恢复角色与朗读参数。\n从更多添加语言后，在声音列表试听和下载；统一声音、对话、场景的多选操作。",
-    "zh-TW": "修復內置語音檔案損壞後無法載入的問題，啟動時自動恢復。\n預設旁白僅保留中文婷婷和英文 Samantha，安裝包縮小約 15 MB。\n對話不再內置方案，支援新建方案、直接編輯角色和長按刪除。\n匯入分享方案時可補齊缺少的聲音，並恢復角色與朗讀參數。\n從更多新增語言後，在聲音列表試聽和下載；統一聲音、對話、場景的多選操作。",
-    "en-US": "Restore missing or damaged bundled voice files automatically at startup.\nKeep Ting-Ting for Chinese narration and Samantha for English; reduce the installer by about 15 MB.\nStart with an empty dialogue list. Create schemes, edit characters directly, and long-press to delete.\nDownload missing voices when importing a shared scheme and restore its characters and speech settings.\nAdd a language from More to preview and download voices. Use consistent multi-selection across voices, dialogues and scenes."
+    "zh-CN": "修正中文环境下字母误用其他语言、日文抢读汉字的问题。\n合并男声、女声为性别筛选，移除克隆筛选。\n改进语音启动加载与重试，减少短暂失败提示。\n改善场景音效的情绪、否定和前后句匹配。\n优化后台耗电，新增首次安装运行设置。",
+    "zh-TW": "修正中文環境下字母誤用其他語言、日文搶讀漢字的問題。\n合併男聲、女聲為性別篩選，移除克隆篩選。\n改進語音啟動載入與重試，減少短暫失敗提示。\n改善場景音效的情緒、否定和前後句匹配。\n改善背景耗電，新增首次安裝執行設定。",
+    "en-US": "Fix letters using the wrong language in Chinese contexts and Japanese taking over Chinese characters.\nCombine male and female filters into Gender and remove the clone filter.\nImprove voice startup and retry handling.\nImprove scene sound matching across emotions, negation and adjacent sentences.\nReduce idle power use and add first-install speech setup."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.3/SceneVox-TTS-2.2.3-arm64.apk",
-  "notes": "修复内置语音文件损坏后无法载入的问题，启动时自动恢复。\n默认旁白仅保留中文婷婷和英文 Samantha，安装包缩小约 15 MB。\n对话不再内置方案，支持新建方案、直接编辑角色和长按删除。\n导入分享方案时可补齐缺少的声音，并恢复角色与朗读参数。\n从更多添加语言后，在声音列表试听和下载；统一声音、对话、场景的多选操作。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.4/SceneVox-TTS-2.2.4-arm64.apk",
+  "notes": "修正中文环境下字母误用其他语言、日文抢读汉字的问题。\n合并男声、女声为性别筛选，移除克隆筛选。\n改进语音启动加载与重试，减少短暂失败提示。\n改善场景音效的情绪、否定和前后句匹配。\n优化后台耗电，新增首次安装运行设置。"
 }
