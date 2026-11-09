@@ -3013,6 +3013,206 @@
       "networkRequired": true,
       "descriptionZh": "在线声音 · 中文 · 台湾普通话",
       "descriptionHant": "在線聲音 · 中文 · 臺灣普通話"
+    },
+    {
+      "id": "sherpa-piper-mandarin-readers",
+      "name": "Piper Mandarin Readers — 22.05 kHz",
+      "nameZh": "Piper 普通话朗读音库 22.05 kHz",
+      "nameHant": "Piper 普通話朗讀音庫 22.05 kHz",
+      "engine": "Sherpa ONNX",
+      "language": "中文 / English",
+      "locale": "zh-CN",
+      "description": "32 additional Mandarin readers and four LibriTTS English readers. All synthesize offline at 22.05 kHz.",
+      "descriptionZh": "新增 32 款普通话朗读音色和 4 款 LibriTTS 英语音色，均以原生 22.05 kHz 离线合成。",
+      "descriptionHant": "新增 32 款普通話朗讀音色和 4 款 LibriTTS 英語音色，均以原生 22.05 kHz 離線合成。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v24/sherpa-piper-mandarin-readers-v1.zip",
+      "bytes": 202572713,
+      "sha256": "471394cc569764b0a496d6045ce844c37234177cd12276ff60927a51f8607aee",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0016",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0544",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0133",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0631",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0887",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1448",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1935",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0267",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0288",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0341",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0614",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0666",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0737",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1203",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1366",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1431",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1437",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1699",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1828",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0323",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0385",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0482",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0578",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0751",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0786",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0935",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1072",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1115",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1341",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1575",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1650",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1878",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-021",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-027",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-029",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-739",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v24/sherpa-piper-mandarin-readers-v1-preview.wav",
+      "previewBytes": 692642,
+      "previewSha256": "f04ac2bd6bf1c7bc46b5e1a35a0993bc97ff2b9153eb14cad8a269ce6340d869"
     }
   ]
 }
