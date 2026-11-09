@@ -205,6 +205,171 @@
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/sherpa-vits-aishell3-vctk-fp32-preview.wav",
       "previewBytes": 651832,
       "previewSha256": "ab0f0e93d81f787b3a5f56b7db971f3a6ef9b43522a75d3952844ea64e8b517c"
+    },
+    {
+      "id": "sherpa-vits-aishell3-vctk-fp32-expanded",
+      "name": "AISHELL-3 and VCTK Expanded Edition",
+      "nameZh": "AISHELL-3／VCTK 中英语音库扩充版",
+      "nameHant": "AISHELL-3／VCTK 中英語音庫擴充版",
+      "engine": "Sherpa ONNX",
+      "language": "中文 / English",
+      "locale": "zh-CN",
+      "description": "Eighteen offline voices from the existing full-precision models. Adds eight Mandarin and six English voices. Mandarin is 8 kHz and English is 22.05 kHz.",
+      "descriptionZh": "沿用原全精度模型，含 18 个离线音色。本次新增 8 个普通话和 6 个英文音色。普通话原生 8 kHz，英文原生 22.05 kHz。",
+      "descriptionHant": "沿用原全精度模型，含 18 個離線音色。本次新增 8 個普通話和 6 個英文音色。普通話原生 8 kHz，英文原生 22.05 kHz。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v18/sherpa-vits-aishell3-vctk-fp32-v2.zip",
+      "bytes": 242976696,
+      "sha256": "61fbb05a2a591a6c4efc09e97e78059015a0da2e12fe15fd675dc5560d551b88",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-05",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-12",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-19",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-35",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-51",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-84",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-110",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-153",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-14",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-43",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-45",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-57",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-72",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-100",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v18/sherpa-vits-aishell3-vctk-fp32-preview.wav",
+      "previewBytes": 754398,
+      "previewSha256": "70b4ed2ceadb3a05650063d6d190d00b937fc050789fb592725e19997b0dea76"
+    },
+    {
+      "id": "sherpa-english-narrators",
+      "name": "English Narrators — LibriTTS, Coqui VCTK and Kristin",
+      "nameZh": "英语朗读音库 LibriTTS、Coqui VCTK 与 Kristin",
+      "nameHant": "英語朗讀音庫 LibriTTS、Coqui VCTK 與 Kristin",
+      "engine": "Sherpa ONNX",
+      "language": "English",
+      "locale": "en-US",
+      "description": "Eleven offline voice choices using the original LibriTTS, Coqui VCTK and Kristin models.",
+      "descriptionZh": "沿用 LibriTTS、Coqui VCTK 和 Kristin 的原始完整模型，含 11 个离线英文音色。",
+      "descriptionHant": "沿用 LibriTTS、Coqui VCTK 和 Kristin 的原始完整模型，含 11 個離線英文音色。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v18/sherpa-english-narrators-v1.zip",
+      "bytes": 320210872,
+      "sha256": "33bedfc46aa35bdd0aebc47aad120464494b283a446d36809240843626df392c",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "libritts-high-000",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-001",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-004",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-009",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-023",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-052",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "coqui-vctk-003",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "coqui-vctk-019",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "coqui-vctk-025",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "coqui-vctk-046",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-kristin-full",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v18/sherpa-english-narrators-preview.wav",
+      "previewBytes": 540150,
+      "previewSha256": "04997e225721229805c39678020d4c315d34c7394ad57161fe11e82fea50d487"
     }
   ]
 }
