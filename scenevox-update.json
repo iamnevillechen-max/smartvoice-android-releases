@@ -1,15 +1,15 @@
 {
-  "versionCode": 99,
-  "versionName": "2.2.1",
+  "versionCode": 100,
+  "versionName": "2.2.2",
   "minSdk": 26,
-  "bytes": 232278100,
-  "sha256": "65fc671c6f0070e55becd535e698b45af551eadf0ead062a193c9289039d20d5",
+  "bytes": 198695970,
+  "sha256": "f1f0de90ab1dce532790b703c5751d3953e43cc7e6a821315d4f16610494dbf8",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修复部分手机启动闪退，以及婷婷读错“结尾”“文化”的问题。\n筛选项合并为一个焦点，新增在线、离线筛选。\n数字可选逐位或数值朗读，并指定声音；每种语言只保留一个旁白。\n修复场景全选下载，补充24套对话方案，支持资源独立更新。",
-    "zh-TW": "修復部分手機啟動閃退，以及婷婷讀錯「結尾」「文化」的問題。\n篩選項合併為一個焦點，新增線上、離線篩選。\n數字可選逐位或數值朗讀，並指定聲音；每種語言只保留一個旁白。\n修復場景全選下載，補充24套對話方案，支援資源獨立更新。",
-    "en-US": "Fix startup crashes on affected Android versions and Ting-Ting pronunciation errors.\nCombine each filter into one accessibility focus and add online/offline filtering.\nChoose a voice for digit-by-digit or numeric-value reading. Keep one narrator per language.\nFix batch scene downloads and add 24 dialogue schemes with independently updated resource catalogues."
+    "zh-CN": "修复对话方案闪退和长文朗读中途截断。\n修复代码混排、5G 等内容的语言匹配，减少数字前后的多余停顿。\n改善声音下载、试听和旁白选择，分类只显示已安装声音。\n默认保留中文、英文，日语、德语、法语可在更多中添加；安装包缩小约 34 MB。\n场景音效缓慢淡出，新增 7 套音效包。\n用户页增加检查更新，支持查看更新日志、后台下载和取消下载。",
+    "zh-TW": "修復對話方案閃退和長文朗讀中途截斷。\n修復程式碼混排、5G 等內容的語言匹配，減少數字前後的多餘停頓。\n改善聲音下載、試聽和旁白選擇，分類只顯示已安裝聲音。\n預設保留中文、英文，日語、德語、法語可在更多中新增；安裝包縮小約 34 MB。\n場景音效緩慢淡出，新增 7 套音效包。\n使用者頁增加檢查更新，支援查看更新記錄、背景下載和取消下載。",
+    "en-US": "Fix dialogue selection crashes and interrupted long-text reading.\nCorrect language routing in mixed code and labels such as 5G, and avoid unnecessary pauses around numbers.\nImprove voice downloads, previews and narrator selection. Filters show installed voices.\nBundle Chinese and English; add Japanese, German or French from More. Reduce the installer by about 34 MB.\nFade scene effects more gradually and add seven sound packs.\nAdd Check for updates to User, with release notes, background downloads and cancellation."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.1/SceneVox-TTS-2.2.1-arm64.apk",
-  "notes": "修复部分手机启动闪退，以及婷婷读错“结尾”“文化”的问题。\n筛选项合并为一个焦点，新增在线、离线筛选。\n数字可选逐位或数值朗读，并指定声音；每种语言只保留一个旁白。\n修复场景全选下载，补充24套对话方案，支持资源独立更新。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.2/SceneVox-TTS-2.2.2-arm64.apk",
+  "notes": "修复对话方案闪退和长文朗读中途截断。\n修复代码混排、5G 等内容的语言匹配，减少数字前后的多余停顿。\n改善声音下载、试听和旁白选择，分类只显示已安装声音。\n默认保留中文、英文，日语、德语、法语可在更多中添加；安装包缩小约 34 MB。\n场景音效缓慢淡出，新增 7 套音效包。\n用户页增加检查更新，支持查看更新日志、后台下载和取消下载。"
 }
