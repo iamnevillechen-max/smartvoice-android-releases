@@ -80,6 +80,131 @@
           "type": 0
         }
       ]
+    },
+    {
+      "id": "piper-german-full",
+      "name": "Piper German Full Models",
+      "nameZh": "Piper 德语离线语音库",
+      "nameHant": "Piper 德語離線語音庫",
+      "engine": "Sherpa ONNX",
+      "language": "Deutsch",
+      "locale": "de-DE",
+      "description": "Full model files for Thorsten, Kerstin and three Thorsten speaking styles.",
+      "descriptionZh": "完整模型，含 Thorsten、Kerstin 及三种 Thorsten 朗读风格。",
+      "descriptionHant": "完整模型，含 Thorsten、Kerstin 及三種 Thorsten 朗讀風格。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/piper-german-full-v1.zip",
+      "bytes": 263732315,
+      "sha256": "88cc628c4baaf3119b71cd6235ad57d8e2891d47883c98a079adebdd85a91194",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "piper-thorsten-high",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-thorsten-amused",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-thorsten-angry",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-thorsten-whisper",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-kerstin",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/piper-german-full-preview.wav",
+      "previewBytes": 458566,
+      "previewSha256": "298ca69f0e54298ebddbba5fdef4b32a7369bc4ffafbed892ec184422f7bdaec"
+    },
+    {
+      "id": "piper-french-full",
+      "name": "Piper French Full Models",
+      "nameZh": "Piper 法语离线语音库",
+      "nameHant": "Piper 法語離線語音庫",
+      "engine": "Sherpa ONNX",
+      "language": "Français",
+      "locale": "fr-FR",
+      "description": "Full offline models for SIWIS, Gilles and the two UPMC voices Jessica and Pierre.",
+      "descriptionZh": "完整离线模型，含 SIWIS、Gilles 及 UPMC 的 Jessica 和 Pierre。",
+      "descriptionHant": "完整離線模型，含 SIWIS、Gilles 及 UPMC 的 Jessica 和 Pierre。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/piper-french-full-v1.zip",
+      "bytes": 216650341,
+      "sha256": "a11a7014a1cdd31942dc7fb8e217314873102f5d77eef5d747f369efe1589037",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "piper-siwis-fr",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-upmc-jessica",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-upmc-pierre",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-gilles-fr",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/piper-french-full-preview.wav",
+      "previewBytes": 464836,
+      "previewSha256": "77651c0ca4d58eb07272bdcd116676e5b5453192012755ed4bbf94445d762c6a"
+    },
+    {
+      "id": "sherpa-vits-aishell3-vctk-fp32",
+      "name": "AISHELL-3 and VCTK Full-Precision Voices",
+      "nameZh": "AISHELL-3／VCTK 中英全精度语音库",
+      "nameHant": "AISHELL-3／VCTK 中英全精度語音庫",
+      "engine": "Sherpa ONNX",
+      "language": "中文 / English",
+      "locale": "zh-CN",
+      "description": "Two Mandarin voices from AISHELL-3 (8 kHz) and two English voices from VCTK (22.05 kHz). Both models use their original full-precision offline weights.",
+      "descriptionZh": "两款 AISHELL-3 普通话音色（8 kHz）和两款 VCTK 英语音色（22.05 kHz），采用原始全精度离线模型。",
+      "descriptionHant": "兩款 AISHELL-3 普通話音色（8 kHz）和兩款 VCTK 英語音色（22.05 kHz），採用原始全精度離線模型。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/sherpa-vits-aishell3-vctk-fp32-v1.zip",
+      "bytes": 242976514,
+      "sha256": "b625c555101864f7677e80281a314424bdd6d276d782727286fdccc58c22492b",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-00",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-66",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-00",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-10",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v16/sherpa-vits-aishell3-vctk-fp32-preview.wav",
+      "previewBytes": 651832,
+      "previewSha256": "ab0f0e93d81f787b3a5f56b7db971f3a6ef9b43522a75d3952844ea64e8b517c"
     }
   ]
 }
