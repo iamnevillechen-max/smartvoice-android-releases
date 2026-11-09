@@ -1,15 +1,15 @@
 {
-  "versionCode": 98,
-  "versionName": "2.2.0",
+  "versionCode": 99,
+  "versionName": "2.2.1",
   "minSdk": 26,
-  "bytes": 234366722,
-  "sha256": "af4d8de8c8355207396dd7a162e814f5c1f2f684eb5205edf37975139ed2d812",
+  "bytes": 232278100,
+  "sha256": "65fc671c6f0070e55becd535e698b45af551eadf0ead062a193c9289039d20d5",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "声音、对话、场景、用户四个页面，声音选择与下载集中管理。\n点开即试听；语速、语调、音量用滑块调节，点击参数可输入数值。\n旁白按语言匹配，中文数字使用中文音色；对话方案独立保存角色音色。\n更新朗读与音频转换，改善特殊符号、长文本和连续切换的处理。\n场景音效独立播放，切换焦点时渐弱；保留声音克隆和本地导入。\n精简设置，移除问题反馈和背景音乐入口。",
-    "zh-TW": "聲音、對話、場景、使用者四個頁面，聲音選擇與下載集中管理。\n點開即試聽；語速、語調、音量用滑桿調節，點擊參數可輸入數值。\n旁白按語言匹配，中文數字使用中文音色；對話方案獨立保存角色音色。\n更新朗讀與音訊轉換，改善特殊符號、長文字和連續切換的處理。\n場景音效獨立播放，切換焦點時漸弱；保留聲音克隆和本地匯入。\n精簡設定，移除問題回饋和背景音樂入口。",
-    "en-US": "Four pages: Voices, Dialogue, Scenes and User. Select and download voices in one list.\nPreview on opening; adjust speed, pitch and volume with sliders or tap a parameter to enter a value.\nMatch narration to language and use Chinese for standalone numbers. Save character voices per dialogue scheme.\nUpdate text and audio processing for special symbols, long text and rapid switching.\nPlay scene sounds independently with fades on focus changes. Keep voice cloning and local imports.\nSimplify settings and remove feedback and background music entries."
+    "zh-CN": "修复部分手机启动闪退，以及婷婷读错“结尾”“文化”的问题。\n筛选项合并为一个焦点，新增在线、离线筛选。\n数字可选逐位或数值朗读，并指定声音；每种语言只保留一个旁白。\n修复场景全选下载，补充24套对话方案，支持资源独立更新。",
+    "zh-TW": "修復部分手機啟動閃退，以及婷婷讀錯「結尾」「文化」的問題。\n篩選項合併為一個焦點，新增線上、離線篩選。\n數字可選逐位或數值朗讀，並指定聲音；每種語言只保留一個旁白。\n修復場景全選下載，補充24套對話方案，支援資源獨立更新。",
+    "en-US": "Fix startup crashes on affected Android versions and Ting-Ting pronunciation errors.\nCombine each filter into one accessibility focus and add online/offline filtering.\nChoose a voice for digit-by-digit or numeric-value reading. Keep one narrator per language.\nFix batch scene downloads and add 24 dialogue schemes with independently updated resource catalogues."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.0/SceneVox-TTS-2.2.0-arm64.apk",
-  "notes": "声音、对话、场景、用户四个页面，声音选择与下载集中管理。\n点开即试听；语速、语调、音量用滑块调节，点击参数可输入数值。\n旁白按语言匹配，中文数字使用中文音色；对话方案独立保存角色音色。\n更新朗读与音频转换，改善特殊符号、长文本和连续切换的处理。\n场景音效独立播放，切换焦点时渐弱；保留声音克隆和本地导入。\n精简设置，移除问题反馈和背景音乐入口。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.1/SceneVox-TTS-2.2.1-arm64.apk",
+  "notes": "修复部分手机启动闪退，以及婷婷读错“结尾”“文化”的问题。\n筛选项合并为一个焦点，新增在线、离线筛选。\n数字可选逐位或数值朗读，并指定声音；每种语言只保留一个旁白。\n修复场景全选下载，补充24套对话方案，支持资源独立更新。"
 }
