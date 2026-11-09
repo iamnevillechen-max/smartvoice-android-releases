@@ -405,6 +405,314 @@
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v19/sherpa-piper-american-narrators-v1-preview.wav",
       "previewBytes": 867216,
       "previewSha256": "ceba2ab5715d85a9b7c770f2b0d8617187d57b74f97c1b87bc6415112fcef0f0"
+    },
+    {
+      "id": "mstrans-zh-cn-xiaoxiaomultilingualneural",
+      "name": "晓晓 多语言",
+      "engine": "Microsoft Translator",
+      "language": "Mandarin Chinese (China)",
+      "locale": "zh-CN",
+      "description": "Online voice · Mandarin Chinese (China) · Female. Multilingual.",
+      "descriptionZh": "在线声音 · 普通话（中国） · 女声。 多语言。",
+      "descriptionHant": "線上聲音 · 普通話（中國） · 女聲。 多語言。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaoxiaomultilingualneural.zip",
+      "bytes": 2694,
+      "sha256": "08b75acbc17a37aaaa4f3741f25353da75fab11b191b0f4ecd0b4d30a0624cb0",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-cn-xiaoxiaomultilingualneural-preview.wav",
+      "previewBytes": 115338,
+      "previewSha256": "e4a49642dc9aae64f3f57c7a59c6b0b92311d687f730e7c3a9f676c8fdb0d406",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-XiaoxiaoMultilingualNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-zh-cn-yunxianeural",
+      "name": "云夏",
+      "engine": "Microsoft Translator",
+      "language": "Mandarin Chinese (China)",
+      "locale": "zh-CN",
+      "description": "Online voice · Mandarin Chinese (China) · Boy. Styles: Fearful / Cheerful / Angry / Sad.",
+      "descriptionZh": "在线声音 · 普通话（中国） · 男童声。 语气：恐惧、快乐、愤怒、悲伤。",
+      "descriptionHant": "線上聲音 · 普通話（中國） · 男童聲。 語氣：恐懼、快樂、憤怒、悲傷。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v8/mstrans-zh-cn-yunxianeural.zip",
+      "bytes": 824,
+      "sha256": "e2daa3449e33847e1d3840a0bc100df9d61f6abef4370737759b2b926bc02455",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v8/mstrans-zh-cn-yunxianeural-preview.wav",
+      "previewBytes": 299658,
+      "previewSha256": "5514d6362b90c66477f35ce5a8c8dc9a132fac6d9e096f26e8632d43aa373b3f",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-CN-YunxiaNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-en-us-avamultilingualneural",
+      "name": "Ava Multilingual",
+      "engine": "Microsoft Translator",
+      "language": "English (United States)",
+      "locale": "en-US",
+      "description": "Online voice · English (United States) · Female. Multilingual.",
+      "descriptionZh": "在线声音 · 英语（美国） · 女声。 多语言。",
+      "descriptionHant": "線上聲音 · 英語（美國） · 女聲。 多語言。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-avamultilingualneural.zip",
+      "bytes": 2684,
+      "sha256": "31820e5f32535d4bcd44ca8a455f9a85f9ebf8490f90e109f4c24e1c32df9398",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-avamultilingualneural-preview.wav",
+      "previewBytes": 117642,
+      "previewSha256": "4b9458d61f3309153fba8221d00c47c20f3b319312c1dcb8c5c62b5212e4004f",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-AvaMultilingualNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-en-us-andrewmultilingualneural",
+      "name": "Andrew Multilingual",
+      "engine": "Microsoft Translator",
+      "language": "English (United States)",
+      "locale": "en-US",
+      "description": "Online voice · English (United States) · Male. Multilingual.",
+      "descriptionZh": "在线声音 · 英语（美国） · 男声。 多语言。",
+      "descriptionHant": "線上聲音 · 英語（美國） · 男聲。 多語言。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-andrewmultilingualneural.zip",
+      "bytes": 2686,
+      "sha256": "c28f43c7f37c9588c8c76ffa6e94c3404508c50a496cc01b2db1261f201f0fbb",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-en-us-andrewmultilingualneural-preview.wav",
+      "previewBytes": 109578,
+      "previewSha256": "1d85c2ddfb0c7f5c36b6093ff8a0cb9644fc9e3f129692642f39f4ea1758a932",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-AndrewMultilingualNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-en-us-janeneural",
+      "name": "Jane",
+      "engine": "Microsoft Translator",
+      "language": "English (United States)",
+      "locale": "en-US",
+      "description": "Online voice · English (United States) · Female. Styles: Angry / Cheerful / Sad.",
+      "descriptionZh": "在线声音 · 英语（美国） · 女声。 语气：愤怒、快乐、悲伤。",
+      "descriptionHant": "線上聲音 · 英語（美國） · 女聲。 語氣：憤怒、快樂、悲傷。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v8/mstrans-en-us-janeneural.zip",
+      "bytes": 902,
+      "sha256": "c19ad23db80ecffd283c7269e2899c7cff0e3d2ef77187a30fe5ce3d9a7ebb30",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v8/mstrans-en-us-janeneural-preview.wav",
+      "previewBytes": 316938,
+      "previewSha256": "2fcc96fc3810abb03714fbddedff1865cd0e75bb0babbd3e79c64b888ac7a4b9",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "en-US-JaneNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-zh-hk-hiumaanneural",
+      "name": "曉曼",
+      "engine": "Microsoft Translator",
+      "language": "Cantonese (Hong Kong)",
+      "locale": "zh-HK",
+      "description": "Online voice · Cantonese (Hong Kong) · Female.",
+      "descriptionZh": "在线声音 · 粤语（香港） · 女声。",
+      "descriptionHant": "線上聲音 · 粵語（香港） · 女聲。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-hiumaanneural.zip",
+      "bytes": 581,
+      "sha256": "4c23806fab6d6a091223c4587d1c37d6ec6ccb17edaa842e00b54ae10498cbd3",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-hiumaanneural-preview.wav",
+      "previewBytes": 134922,
+      "previewSha256": "1ab400b5bd9937c5a1f1b01c7a82ba33fe444201a4e9b06fa60b0ea8d80b8214",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-HK-HiuMaanNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "mstrans-zh-hk-wanlungneural",
+      "name": "雲龍",
+      "engine": "Microsoft Translator",
+      "language": "Cantonese (Hong Kong)",
+      "locale": "zh-HK",
+      "description": "Online voice · Cantonese (Hong Kong) · Male.",
+      "descriptionZh": "在线声音 · 粤语（香港） · 男声。",
+      "descriptionHant": "線上聲音 · 粵語（香港） · 男聲。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-wanlungneural.zip",
+      "bytes": 587,
+      "sha256": "6b0fa67815cccf66efdad6f17fc6aa006513d1dcd8dfccdc634971a582d5bd4c",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/mstrans-zh-hk-wanlungneural-preview.wav",
+      "previewBytes": 144138,
+      "previewSha256": "6d20c12a94aa12d7730ff8d91d6ce2af2dddc8e939422d927c206d3141cb6915",
+      "voices": [
+        {
+          "group": "mstrans",
+          "code": "zh-HK-WanLungNeural",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "vivo-x2_yige",
+      "name": "依格-甜美",
+      "engine": "Vivo TTS",
+      "language": "Mandarin Chinese (China)",
+      "locale": "zh-CN",
+      "description": "Online voice · Mandarin Chinese (China) · Female. Styles: Sweet.",
+      "descriptionZh": "在线声音 · 普通话（中国） · 女声。 语气：甜美。",
+      "descriptionHant": "線上聲音 · 普通話（中國） · 女聲。 語氣：甜美。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yige.zip",
+      "bytes": 23990,
+      "sha256": "604fe064b0d8a8301eeda0e5c80c0efc4b3b2e9e53ae4d0c27df7602cef517e4",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yige-preview.wav",
+      "previewBytes": 286124,
+      "previewSha256": "637000411ac5e61da57ab65ea63a4cf38cf6d4d27f93eff38f96ab8c46859117",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yige",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "vivo-x2_yunye",
+      "name": "云野-温柔",
+      "engine": "Vivo TTS",
+      "language": "Mandarin Chinese (China)",
+      "locale": "zh-CN",
+      "description": "Online voice · Mandarin Chinese (China) · Male. Styles: Gentle.",
+      "descriptionZh": "在线声音 · 普通话（中国） · 男声。 语气：温柔。",
+      "descriptionHant": "線上聲音 · 普通話（中國） · 男聲。 語氣：溫柔。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yunye.zip",
+      "bytes": 18516,
+      "sha256": "52831d09a19220e40d9138f476b02395db8303309cfc76676bd087e0fcc178dd",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_yunye-preview.wav",
+      "previewBytes": 257324,
+      "previewSha256": "c5a3e41db2732b2882b589b7fbcb2b936076169d92511575858fdac7311ddb24",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_yunye",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "vivo-x2_f82",
+      "name": "英文女声",
+      "engine": "Vivo TTS",
+      "language": "English (United States)",
+      "locale": "en-US",
+      "description": "Online voice · English (United States) · Female.",
+      "descriptionZh": "在线声音 · 英语（美国） · 女声。",
+      "descriptionHant": "線上聲音 · 英語（美國） · 女聲。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f82.zip",
+      "bytes": 501,
+      "sha256": "9c57cafac7c66ee499e265cfc254b5c7e10e57ec72e885006b22602e9ad6fa82",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v3/vivo-x2_f82-preview.wav",
+      "previewBytes": 380204,
+      "previewSha256": "83bf06cef0f41c02d18e482fcc0b5062606f87888ff96a4c4fa13a6811d64c72",
+      "voices": [
+        {
+          "group": "vivo",
+          "code": "x2_F82",
+          "type": 1
+        }
+      ]
+    },
+    {
+      "id": "huoshan-tts.other.bv415_streaming",
+      "name": "林林",
+      "engine": "Volcengine Translate",
+      "language": "中文",
+      "locale": "zh-CN",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv415_streaming-v1.zip",
+      "bytes": 549,
+      "sha256": "25f02a940d1a4a420341582288e85cde962095159ee52ef0be101d4796a105f6",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv415_streaming-preview-v1.wav",
+      "previewBytes": 303884,
+      "previewSha256": "d7159c7351d35a63589e538aa1c6de02ecd2e871dbbc55da9f82a7f0b02f479c",
+      "description": "Online voice · Chinese · Lively child voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV415_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "林林",
+      "nameHant": "林林",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 中文 · 活泼童声",
+      "descriptionHant": "在線聲音 · 中文 · 活潑童聲"
+    },
+    {
+      "id": "huoshan-en_male_adam",
+      "name": "Adam",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_adam-v1.zip",
+      "bytes": 498,
+      "sha256": "cba6b2f8062044f6c5a88aaafbbf76e71b89bbe32867813185b8d8286c079208",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-en_male_adam-preview-v1.wav",
+      "previewBytes": 235146,
+      "previewSha256": "416f2645c3a8c500f34da6517635addc409e7d4b8762a2c50a5d7536557a8a47",
+      "description": "Online voice · English (US) · American male voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "en_male_adam",
+          "type": 1
+        }
+      ],
+      "nameZh": "Adam",
+      "nameHant": "Adam",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 美式男声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 美式男聲"
+    },
+    {
+      "id": "huoshan-tts.other.bv502_streaming",
+      "name": "Gloria",
+      "engine": "Volcengine Translate",
+      "language": "English",
+      "locale": "en-US",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv502_streaming-v1.zip",
+      "bytes": 550,
+      "sha256": "b13e147903066e84c1538c8f7a012fea4d7c5081ef16ea014aef21fb00713540",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v10/huoshan-tts.other.bv502_streaming-preview-v1.wav",
+      "previewBytes": 229004,
+      "previewSha256": "fdb01a7d6c93ca23ae3bceb13b8198b2573e3be4485d71fc20c1b6b89644803b",
+      "description": "Online voice · English (US) · Steady female voice",
+      "voices": [
+        {
+          "group": "huoshan",
+          "code": "tts.other.BV502_streaming",
+          "type": 1
+        }
+      ],
+      "nameZh": "Gloria",
+      "nameHant": "Gloria",
+      "networkRequired": true,
+      "descriptionZh": "在线声音 · 英语（美国） · 平稳女声",
+      "descriptionHant": "在線聲音 · 英語（美國） · 平穩女聲"
     }
   ]
 }
