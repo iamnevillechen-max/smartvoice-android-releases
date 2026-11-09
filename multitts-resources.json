@@ -2295,6 +2295,191 @@
       "networkRequired": true,
       "descriptionZh": "在线声音 · 中文 · 四川女声",
       "descriptionHant": "在線聲音 · 中文 · 四川女聲"
+    },
+    {
+      "id": "scenevox-mandarin-voices",
+      "name": "Mandarin Offline Voices — Suxin and Piper",
+      "nameZh": "普通话离线语音库：苏心与 Piper",
+      "nameHant": "普通話離線語音庫：蘇心與 Piper",
+      "engine": "Sherpa ONNX",
+      "language": "中文",
+      "locale": "zh-CN",
+      "description": "Suxin Mandarin and 32 additional Piper Mandarin voices at 22.05 kHz. Includes the existing 44.1 kHz Melo Mandarin voice.",
+      "descriptionZh": "新增苏心和 32 款 Piper 普通话音色，原生 22.05 kHz。另收录现有的 44.1 kHz Melo 中文音色。",
+      "descriptionHant": "新增蘇心和 32 款 Piper 普通話音色，原生 22.05 kHz。另收錄現有的 44.1 kHz Melo 中文音色。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v22/scenevox-mandarin-voices-v1.zip",
+      "bytes": 318886937,
+      "sha256": "d10388cdb17ef995a44251f8f766c76d9808f5cf3b2cd948f9ab33a2f6c587ce",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "suxin-mandarin-native",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0012",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0122",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0246",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0261",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0309",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0342",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0375",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0395",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0407",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0534",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0599",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0603",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0623",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0671",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0710",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0746",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0780",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0817",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb0919",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1055",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1096",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1100",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1136",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1161",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1320",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1393",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1567",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1625",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1684",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1759",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1846",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-mandarin-ssb1863",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v22/scenevox-mandarin-voices-v1-preview.wav",
+      "previewBytes": 1028828,
+      "previewSha256": "18b5af15464d9e2d195e0b38a4fb386891211c26510236cfe38462f93dd0ab5d"
     }
   ]
 }
