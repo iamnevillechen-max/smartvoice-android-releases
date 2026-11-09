@@ -713,6 +713,351 @@
       "networkRequired": true,
       "descriptionZh": "在线声音 · 英语（美国） · 平稳女声",
       "descriptionHant": "在線聲音 · 英語（美國） · 平穩女聲"
+    },
+    {
+      "id": "sherpa-mandarin-icefall-aishell3",
+      "name": "Icefall Mandarin Voice Collection",
+      "nameZh": "Icefall 普通话语音库",
+      "nameHant": "Icefall 普通話語音庫",
+      "engine": "Sherpa ONNX",
+      "language": "中文 / English",
+      "locale": "zh-CN",
+      "description": "20 new Icefall Mandarin voices (8 kHz), plus eight additional AISHELL-3 Mandarin voices (8 kHz) and four VCTK English voices (22.05 kHz) from existing model families. All voices work offline.",
+      "descriptionZh": "20 款新 Icefall 普通话音色（8 kHz），另有既有模型的八款 AISHELL-3 普通话音色（8 kHz）和四款 VCTK 英语音色（22.05 kHz）。均可离线使用。",
+      "descriptionHant": "20 款新 Icefall 普通話音色（8 kHz），另有既有模型的八款 AISHELL-3 普通話音色（8 kHz）和四款 VCTK 英語音色（22.05 kHz）。均可離線使用。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/sherpa-mandarin-icefall-aishell3-v1.zip",
+      "bytes": 278490481,
+      "sha256": "e16873e7bcdc344468f131fcde24a61652cd638176b93345ac006c3b1e55ddec",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-01",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-07",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-16",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-21",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-28",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-32",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-41",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-45",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-49",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-58",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-64",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-70",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-79",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-88",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-97",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-112",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-125",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-140",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-155",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "icefall-aishell3-169",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-08",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-15",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-26",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-39",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-52",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-68",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-93",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "aishell3-fp32-130",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-02",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-27",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-60",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "vctk-fp32-92",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/sherpa-mandarin-icefall-aishell3-v1-preview.wav",
+      "previewBytes": 1064540,
+      "previewSha256": "8deab2958c9d4d8d74b7ed19b5b745ef4418351842a14db6d35638f2ddfd0121"
+    },
+    {
+      "id": "sherpa-piper-libritts-readers",
+      "name": "LibriTTS Readers — Original and Restored",
+      "nameZh": "LibriTTS／LibriTTS-R 英语朗读音库",
+      "nameHant": "LibriTTS／LibriTTS-R 英語朗讀音庫",
+      "engine": "Sherpa ONNX",
+      "language": "English",
+      "locale": "en-US",
+      "description": "Sixteen offline English voices from different readers across LibriTTS and LibriTTS-R Clean 100.",
+      "descriptionZh": "包含 LibriTTS 和 LibriTTS-R Clean 100 的十六款不同朗读者音色，可离线使用。",
+      "descriptionHant": "包含 LibriTTS 和 LibriTTS-R Clean 100 的十六款不同朗讀者音色，可離線使用。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/sherpa-piper-libritts-readers-v1.zip",
+      "bytes": 211475123,
+      "sha256": "1750cda73b5c3c284b5349de621c759e9343c8ce34f0c3369a3ff0fa57a11849",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "libritts-high-010",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-208",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-013",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-005",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-030",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-024",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-060",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-high-042",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-129",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-003",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-010",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-028",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-019",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-042",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-030",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "libritts-r-clean100-208",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/sherpa-piper-libritts-readers-v1-preview.wav",
+      "previewBytes": 690022,
+      "previewSha256": "3209f3dd592a9113c801c508c4b21f86c7f9e3029cf4e909457d60b83c6915e7"
+    },
+    {
+      "id": "microsoft-multitts-zh-en",
+      "name": "Microsoft TTS Offline Voices — Chinese and English",
+      "nameZh": "微软 TTS 中英离线音库",
+      "nameHant": "微軟 TTS 中英離線音庫",
+      "engine": "Microsoft TTS",
+      "language": "Chinese and English",
+      "locale": "zh-CN",
+      "description": "Nine offline Microsoft voices: Xiaoxiao and Yunxi in Mandarin, and seven English voices for the US, UK and India.",
+      "descriptionZh": "沿用现成 MultiTTS 微软离线模型，含普通话晓晓、云希，以及美国、英国和印度英语共 7 款音色。",
+      "descriptionHant": "沿用現成 MultiTTS 微軟離線模型，含普通話曉曉、雲希，以及美國、英國和印度英語共 7 款音色。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/microsoft-multitts-zh-en-v1.zip",
+      "bytes": 262229619,
+      "sha256": "e4378c62e3c802086cd118bad9abe5483a51a96d6a600dba5dc745320c932225",
+      "voices": [
+        {
+          "group": "microsoft",
+          "code": "zh-CN-XiaoxiaoNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "zh-CN-YunxiNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-GB-SoniaNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-GB-RyanNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-US-AriaNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-US-JennyNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-US-GuyNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-IN-NeerjaNeural",
+          "type": 0
+        },
+        {
+          "group": "microsoft",
+          "code": "en-IN-PrabhatNeural",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v20/microsoft-multitts-zh-en-v1-preview.wav",
+      "previewBytes": 1078902,
+      "previewSha256": "b5f3abda38a955bb2cc17f750c8f2d3f88119a43e5def4e7f283b1a2dcaa2af0"
     }
   ]
 }
