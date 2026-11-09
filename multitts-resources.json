@@ -370,6 +370,41 @@
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v18/sherpa-english-narrators-preview.wav",
       "previewBytes": 540150,
       "previewSha256": "04997e225721229805c39678020d4c315d34c7394ad57161fe11e82fea50d487"
+    },
+    {
+      "id": "sherpa-piper-american-narrators",
+      "name": "American English Voices — Bryce, John and Norman",
+      "nameZh": "美式英语音库 Bryce、John 与 Norman",
+      "nameHant": "美式英語音庫 Bryce、John 與 Norman",
+      "engine": "Sherpa ONNX",
+      "language": "English",
+      "locale": "en-US",
+      "description": "Three American English voices using the original full-precision offline Piper models by Bryce Beattie.",
+      "descriptionZh": "三款美式英语音色，沿用 Bryce Beattie 发布的原始全精度 Piper 模型，可离线朗读。",
+      "descriptionHant": "三款美式英語音色，沿用 Bryce Beattie 發布的原始全精度 Piper 模型，可離線朗讀。",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v19/sherpa-piper-american-narrators-v1.zip",
+      "bytes": 204004078,
+      "sha256": "3fb1cd1a0cdc2d6133762e3aa73074398cd7521ba724753c57f7f617c9e1c610",
+      "voices": [
+        {
+          "group": "sherpa",
+          "code": "piper-bryce-full",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-john-full",
+          "type": 0
+        },
+        {
+          "group": "sherpa",
+          "code": "piper-norman-full",
+          "type": 0
+        }
+      ],
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v19/sherpa-piper-american-narrators-v1-preview.wav",
+      "previewBytes": 867216,
+      "previewSha256": "ceba2ab5715d85a9b7c770f2b0d8617187d57b74f97c1b87bc6415112fcef0f0"
     }
   ]
 }
