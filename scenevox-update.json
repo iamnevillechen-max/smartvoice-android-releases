@@ -1,15 +1,15 @@
 {
-  "versionCode": 100,
-  "versionName": "2.2.2",
+  "versionCode": 101,
+  "versionName": "2.2.3",
   "minSdk": 26,
-  "bytes": 198695970,
-  "sha256": "f1f0de90ab1dce532790b703c5751d3953e43cc7e6a821315d4f16610494dbf8",
+  "bytes": 183266255,
+  "sha256": "8e2cd1b3e0f34495dd8c65e7eaca839b5dd194fd9760a43cf149e3929401fb58",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修复对话方案闪退和长文朗读中途截断。\n修复代码混排、5G 等内容的语言匹配，减少数字前后的多余停顿。\n改善声音下载、试听和旁白选择，分类只显示已安装声音。\n默认保留中文、英文，日语、德语、法语可在更多中添加；安装包缩小约 34 MB。\n场景音效缓慢淡出，新增 7 套音效包。\n用户页增加检查更新，支持查看更新日志、后台下载和取消下载。",
-    "zh-TW": "修復對話方案閃退和長文朗讀中途截斷。\n修復程式碼混排、5G 等內容的語言匹配，減少數字前後的多餘停頓。\n改善聲音下載、試聽和旁白選擇，分類只顯示已安裝聲音。\n預設保留中文、英文，日語、德語、法語可在更多中新增；安裝包縮小約 34 MB。\n場景音效緩慢淡出，新增 7 套音效包。\n使用者頁增加檢查更新，支援查看更新記錄、背景下載和取消下載。",
-    "en-US": "Fix dialogue selection crashes and interrupted long-text reading.\nCorrect language routing in mixed code and labels such as 5G, and avoid unnecessary pauses around numbers.\nImprove voice downloads, previews and narrator selection. Filters show installed voices.\nBundle Chinese and English; add Japanese, German or French from More. Reduce the installer by about 34 MB.\nFade scene effects more gradually and add seven sound packs.\nAdd Check for updates to User, with release notes, background downloads and cancellation."
+    "zh-CN": "修复内置语音文件损坏后无法载入的问题，启动时自动恢复。\n默认旁白仅保留中文婷婷和英文 Samantha，安装包缩小约 15 MB。\n对话不再内置方案，支持新建方案、直接编辑角色和长按删除。\n导入分享方案时可补齐缺少的声音，并恢复角色与朗读参数。\n从更多添加语言后，在声音列表试听和下载；统一声音、对话、场景的多选操作。",
+    "zh-TW": "修復內置語音檔案損壞後無法載入的問題，啟動時自動恢復。\n預設旁白僅保留中文婷婷和英文 Samantha，安裝包縮小約 15 MB。\n對話不再內置方案，支援新建方案、直接編輯角色和長按刪除。\n匯入分享方案時可補齊缺少的聲音，並恢復角色與朗讀參數。\n從更多新增語言後，在聲音列表試聽和下載；統一聲音、對話、場景的多選操作。",
+    "en-US": "Restore missing or damaged bundled voice files automatically at startup.\nKeep Ting-Ting for Chinese narration and Samantha for English; reduce the installer by about 15 MB.\nStart with an empty dialogue list. Create schemes, edit characters directly, and long-press to delete.\nDownload missing voices when importing a shared scheme and restore its characters and speech settings.\nAdd a language from More to preview and download voices. Use consistent multi-selection across voices, dialogues and scenes."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.2/SceneVox-TTS-2.2.2-arm64.apk",
-  "notes": "修复对话方案闪退和长文朗读中途截断。\n修复代码混排、5G 等内容的语言匹配，减少数字前后的多余停顿。\n改善声音下载、试听和旁白选择，分类只显示已安装声音。\n默认保留中文、英文，日语、德语、法语可在更多中添加；安装包缩小约 34 MB。\n场景音效缓慢淡出，新增 7 套音效包。\n用户页增加检查更新，支持查看更新日志、后台下载和取消下载。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.3/SceneVox-TTS-2.2.3-arm64.apk",
+  "notes": "修复内置语音文件损坏后无法载入的问题，启动时自动恢复。\n默认旁白仅保留中文婷婷和英文 Samantha，安装包缩小约 15 MB。\n对话不再内置方案，支持新建方案、直接编辑角色和长按删除。\n导入分享方案时可补齐缺少的声音，并恢复角色与朗读参数。\n从更多添加语言后，在声音列表试听和下载；统一声音、对话、场景的多选操作。"
 }
