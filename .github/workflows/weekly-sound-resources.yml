@@ -1,0 +1,96 @@
+name: Discover and verify scene sound resources
+on:
+  schedule:
+    - cron: '23 3 * * 2'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: scenevox-sound-resources
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.repository == 'iamnevillechen-max/smartvoice-android-releases' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    outputs:
+      added: ${{ steps.prepare.outputs.added }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Install bounded resource preparation tools
+        run: |
+          python -m pip install --only-binary=:all: numpy==1.26.4 scipy==1.13.1 soundfile==0.13.1 imageio-ffmpeg==0.6.0 PyYAML==6.0.2
+      - name: Restore dedicated public-source cache
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .resource-source-cache
+          key: scenevox-public-sounds-v1-${{ github.run_id }}
+          restore-keys: scenevox-public-sounds-v1-
+      - name: Run orchestration regressions
+        run: python -m unittest discover -s tools/resources -p test_scheduled_sound_resources.py -v
+      - name: Discover, prepare and measure
+        id: prepare
+        env:
+          RESOURCE_WORK: ${{ runner.temp }}/scenevox-sound-candidate
+        run: |
+          set -euo pipefail
+          python tools/resources/scheduled_sound_resources.py --catalogue scenevox-sounds-v3.json --index scenevox-sound-fingerprints.json --cache .resource-source-cache --work "$RESOURCE_WORK" --max-sources 4 --max-packs 12 --max-download-mib 256 --max-requests 160
+          python - <<'PY'
+          import json,os,pathlib
+          report=json.loads((pathlib.Path(os.environ['RESOURCE_WORK'])/'candidate/schedule-report.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output: output.write('added='+str(report['addedPacks'])+'\n')
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as output: output.write('Prepared '+str(report['addedPacks'])+' new sound packs. Publication requires exact production APK import verification.\n')
+          PY
+      - name: Discover voice sources without downloading or publishing models
+        continue-on-error: true
+        timeout-minutes: 3
+        env:
+          RESOURCE_WORK: ${{ runner.temp }}/scenevox-sound-candidate
+        run: python tools/resources/sync_sherpa_voice_sources.py discover --refresh --output "$RESOURCE_WORK/voice-source-inventory"
+      - name: Keep bounded candidates and review evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: scenevox-sound-candidate-${{ github.run_id }}
+          path: ${{ runner.temp }}/scenevox-sound-candidate
+          if-no-files-found: warn
+          retention-days: 14
+  verify-and-publish:
+    needs: prepare
+    if: needs.prepare.outputs.added != '0' && vars.SCENEVOX_CONTROLLED_RESOURCE_VERIFIER == 'enabled'
+    runs-on: [self-hosted, macOS, ARM64, scenevox-resource-verifier]
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_PAGER: cat
+      SCENEVOX_RESOURCE_WORKSPACE: ${{ vars.SCENEVOX_RESOURCE_WORKSPACE }}
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: scenevox-sound-candidate-${{ github.run_id }}
+          path: ${{ runner.temp }}/scenevox-sound-verified
+      - name: Verify with the local protected signing setup and owned Android AVD
+        env:
+          RESOURCE_WORK: ${{ runner.temp }}/scenevox-sound-verified
+        run: |
+          set -euo pipefail
+          test -n "$SCENEVOX_RESOURCE_WORKSPACE"
+          python3 "$SCENEVOX_RESOURCE_WORKSPACE/tools/resources/complete_sound_resource_run.py" --candidate "$RESOURCE_WORK/candidate" --serial emulator-5566 --publish
+      - name: Keep import and publication evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: scenevox-sound-acceptance-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/scenevox-sound-verified/candidate/android-import.txt
+            ${{ runner.temp }}/scenevox-sound-verified/candidate/android-attestation.json
+            ${{ runner.temp }}/scenevox-sound-verified/candidate/publication-result.json
+          if-no-files-found: ignore
+          retention-days: 30
