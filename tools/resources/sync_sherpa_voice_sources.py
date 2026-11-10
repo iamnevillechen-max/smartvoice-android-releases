@@ -246,7 +246,7 @@ def prepare(folder, archive_path, release, catalogue, requested_speaker=None):
                      unlistedModelSpeakers=len(available), source=provenance)
     atomic(folder / 'candidate.json', document(candidate))
     atomic(folder / 'cases.json', document([dict(voice=name, text='A quiet breeze moves through the trees. There is time to enjoy the journey and see what lies ahead.')]))
-    atomic(folder / 'native-input.json', document(dict(code=code, group='sherpa', voice=name, id='sherpa_' + code + '_0',
+    atomic(folder / 'native-input.json', document(dict(code=code, group='sherpa', voice=name, id='sherpa_' + code,
                                                      archive=package.name, sha256=candidate['sha256'], sampleRate=candidate['sampleRate'])))
     print(json.dumps({k: candidate[k] for k in ['id', 'speakerId', 'modelSpeakerCount', 'unlistedModelSpeakers', 'bytes', 'sha256', 'nativeVerified']}))
 
