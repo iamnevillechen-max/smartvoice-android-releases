@@ -1,6 +1,6 @@
 # SceneVox TTS
 
-当前版本：**2.2.4** · [下载 APK](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.4/SceneVox-TTS-2.2.4-arm64.apk)
+当前版本：**2.2.5** · [下载 APK](https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.5/SceneVox-TTS-2.2.5-arm64.apk)
 
 Android 系统文字转语音引擎，支持多引擎音色、按语言朗读、多角色对话、场景音效和本地声音克隆。
 

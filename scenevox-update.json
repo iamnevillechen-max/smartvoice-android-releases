@@ -1,15 +1,15 @@
 {
-  "versionCode": 102,
-  "versionName": "2.2.4",
+  "versionCode": 103,
+  "versionName": "2.2.5",
   "minSdk": 26,
-  "bytes": 183282639,
-  "sha256": "ea4370d2902ff1cafdaf148a889def6b639a4964c23a2d566013ed1798eaa924",
+  "bytes": 183360552,
+  "sha256": "a9f4877896972cedc493173dcfc10ba3e6da3168fc5c1d0ef9d8b95b3be3a5b5",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修正中文环境下字母误用其他语言、日文抢读汉字的问题。\n合并男声、女声为性别筛选，移除克隆筛选。\n改进语音启动加载与重试，减少短暂失败提示。\n改善场景音效的情绪、否定和前后句匹配。\n优化后台耗电，新增首次安装运行设置。",
-    "zh-TW": "修正中文環境下字母誤用其他語言、日文搶讀漢字的問題。\n合併男聲、女聲為性別篩選，移除克隆篩選。\n改進語音啟動載入與重試，減少短暫失敗提示。\n改善場景音效的情緒、否定和前後句匹配。\n改善背景耗電，新增首次安裝執行設定。",
-    "en-US": "Fix letters using the wrong language in Chinese contexts and Japanese taking over Chinese characters.\nCombine male and female filters into Gender and remove the clone filter.\nImprove voice startup and retry handling.\nImprove scene sound matching across emotions, negation and adjacent sentences.\nReduce idle power use and add first-install speech setup."
+    "zh-CN": "修正对话角色错配，人工指定的声音保持优先，试听与正式朗读一致。\n改善中文、日文及混合文字的语言判断。\n对话和场景可推荐待试听方案，并记住选用与忽略的选择。\n修复场景加载显示、方案保存及已有音库的启动兼容问题。",
+    "zh-TW": "修正對話角色錯配，人工指定的聲音保持優先，試聽與正式朗讀一致。\n改善中文、日文及混合文字的語言判斷。\n對話和場景可推薦待試聽方案，並記住選用與忽略的選擇。\n修復場景載入顯示、方案儲存及已有音庫的啟動相容問題。",
+    "en-US": "Fix dialogue voice assignments, keeping manual choices first and previews consistent with reading.\nImprove language routing for Chinese, Japanese and mixed text.\nRecommend dialogue and scene choices for preview, and remember selections and dismissals.\nFix scene loading states, scheme saving and startup with existing voice libraries."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.4/SceneVox-TTS-2.2.4-arm64.apk",
-  "notes": "修正中文环境下字母误用其他语言、日文抢读汉字的问题。\n合并男声、女声为性别筛选，移除克隆筛选。\n改进语音启动加载与重试，减少短暂失败提示。\n改善场景音效的情绪、否定和前后句匹配。\n优化后台耗电，新增首次安装运行设置。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.5/SceneVox-TTS-2.2.5-arm64.apk",
+  "notes": "修正对话角色错配，人工指定的声音保持优先，试听与正式朗读一致。\n改善中文、日文及混合文字的语言判断。\n对话和场景可推荐待试听方案，并记住选用与忽略的选择。\n修复场景加载显示、方案保存及已有音库的启动兼容问题。"
 }
