@@ -6834,6 +6834,574 @@
       "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v28/changing-rooftop-rain-preview.wav",
       "previewBytes": 560996,
       "previewSha256": "5ea4b111788f357fa5db9658754415ac3854f33ba7887ee60882e092db93a734"
+    },
+    {
+      "id": "source-door-knocker-16f892b144",
+      "name": "Door Knocker",
+      "nameZh": "门环叩响",
+      "nameHant": "門環叩響",
+      "description": "Door Knocker.",
+      "descriptionZh": "门环叩响。",
+      "descriptionHant": "門環叩響。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-knocker-16f892b144-v1.zip",
+      "bytes": 40366,
+      "sha256": "3760586ffee0710f10214b1798d038205216cde7f02b1da607b678068d32eca8",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-knocker-16f892b144-preview.wav",
+      "previewBytes": 100780,
+      "previewSha256": "cbadadd643e5edb6efe93aae83ac2762b9f0a95944d0d62b05a85a1a5ef2ca6a",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-door-knocker-16f892b144-context",
+            "soundId": "source-door-knocker-16f892b144-clip",
+            "packId": "source-door-knocker-16f892b144",
+            "sha256": "16f892b1442745aeb8f93f78f55e8eefb6e3bd499d9d0ebf7532b1a5b2e6e1b0",
+            "keywordForms": [
+              "叩响门环\n叩響門環\n敲响门环\n敲響門環\n门环叩响\n門環叩響\nstruck the door knocker"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "门环",
+                    "門環",
+                    "door knocker"
+                  ],
+                  [
+                    "叩",
+                    "敲",
+                    "struck",
+                    "knock"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-carpet-step-47f9764c5b",
+      "name": "A Step on Carpet",
+      "nameZh": "踩在地毯上",
+      "nameHant": "踩在地毯上",
+      "description": "A Step on Carpet.",
+      "descriptionZh": "踩在地毯上。",
+      "descriptionHant": "踩在地毯上。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-carpet-step-47f9764c5b-v1.zip",
+      "bytes": 5249,
+      "sha256": "08016d6bbc81d7440fd3d4b9d49dd863c16bfc49fb1c83521970deecfc59fe42",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-carpet-step-47f9764c5b-preview.wav",
+      "previewBytes": 17860,
+      "previewSha256": "655144701d2011f20c19df0d3e6bc7558cd6f535732f12f8b0f28594042020f5",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-carpet-step-47f9764c5b-context",
+            "soundId": "source-carpet-step-47f9764c5b-clip",
+            "packId": "source-carpet-step-47f9764c5b",
+            "sha256": "47f9764c5b81176c350bae48bbb6f32e588e204b15cd2074597adaa253339630",
+            "keywordForms": [
+              "踩在地毯上\n踏上地毯\nstepped on the carpet\nfootstep on carpet"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "地毯",
+                    "carpet"
+                  ],
+                  [
+                    "踩",
+                    "踏",
+                    "step",
+                    "footstep"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-concrete-step-da9176e797",
+      "name": "A Step on Concrete",
+      "nameZh": "踩在水泥地上",
+      "nameHant": "踩在水泥地上",
+      "description": "A Step on Concrete.",
+      "descriptionZh": "踩在水泥地上。",
+      "descriptionHant": "踩在水泥地上。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-concrete-step-da9176e797-v1.zip",
+      "bytes": 4569,
+      "sha256": "49e80456f4a7f642220187d7c7916c5793db6005841b7a15f8dfd98aedd1f71e",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-concrete-step-da9176e797-preview.wav",
+      "previewBytes": 14432,
+      "previewSha256": "5dcc6b1d6234b2c8a07239ead4ad31b58c84bd4c7987634806584692b9ba9df3",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-concrete-step-da9176e797-context",
+            "soundId": "source-concrete-step-da9176e797-clip",
+            "packId": "source-concrete-step-da9176e797",
+            "sha256": "da9176e797ac65390c407a112efacee06a67325230244ab35338df288ce588b6",
+            "keywordForms": [
+              "踩在水泥地上\n踩上水泥地\nstepped on concrete\nfootstep on concrete"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "水泥地",
+                    "concrete"
+                  ],
+                  [
+                    "踩",
+                    "踏",
+                    "step",
+                    "footstep"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-grass-step-5569305286",
+      "name": "A Step on Grass",
+      "nameZh": "踩在草地上",
+      "nameHant": "踩在草地上",
+      "description": "A Step on Grass.",
+      "descriptionZh": "踩在草地上。",
+      "descriptionHant": "踩在草地上。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-grass-step-5569305286-v1.zip",
+      "bytes": 7618,
+      "sha256": "1b4714d21435ef9b349fd402a471b062b586f4f757d0013d2c0a3cb24e84060f",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-grass-step-5569305286-preview.wav",
+      "previewBytes": 22232,
+      "previewSha256": "e3775e1f5c8f24589c966d1a4b9ea995d58f75c497bae806a6440f2ac9d928d8",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-grass-step-5569305286-context",
+            "soundId": "source-grass-step-5569305286-clip",
+            "packId": "source-grass-step-5569305286",
+            "sha256": "5569305286edb4dfbf92c39fd43c24f176802ab141473318138958ecc887a581",
+            "keywordForms": [
+              "踩在草地上\n踏上草地\nstepped on the grass\nfootstep on grass"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "草地",
+                    "grass"
+                  ],
+                  [
+                    "踩",
+                    "踏",
+                    "step",
+                    "footstep"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-snow-step-9f24962c6a",
+      "name": "A Step in Snow",
+      "nameZh": "踩进积雪",
+      "nameHant": "踩進積雪",
+      "description": "A Step in Snow.",
+      "descriptionZh": "踩进积雪。",
+      "descriptionHant": "踩進積雪。",
+      "engine": "Nature",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-snow-step-9f24962c6a-v1.zip",
+      "bytes": 9425,
+      "sha256": "501671fad56aa19d15de12bd9c149f9ccc2994dc84ff8651587ed2d7eea7f67a",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-snow-step-9f24962c6a-preview.wav",
+      "previewBytes": 28412,
+      "previewSha256": "5c6d9f2289d7490bc8f088540655a2442de382bdb24f95cc3a28b85ca0cbbda4",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-snow-step-9f24962c6a-context",
+            "soundId": "source-snow-step-9f24962c6a-clip",
+            "packId": "source-snow-step-9f24962c6a",
+            "sha256": "9f24962c6a3bef085fefcf4b329dbeb17c041b371b74c1f03e3cb7c220d4d557",
+            "keywordForms": [
+              "踩进积雪\n踩進積雪\n踩在雪地上\nstepped into snow\nfootstep in snow"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "积雪",
+                    "積雪",
+                    "雪地",
+                    "snow"
+                  ],
+                  [
+                    "踩",
+                    "踏",
+                    "step",
+                    "footstep"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-wood-step-169b363488",
+      "name": "A Step on Wooden Boards",
+      "nameZh": "踩在木板上",
+      "nameHant": "踩在木板上",
+      "description": "A Step on Wooden Boards.",
+      "descriptionZh": "踩在木板上。",
+      "descriptionHant": "踩在木板上。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-wood-step-169b363488-v1.zip",
+      "bytes": 5178,
+      "sha256": "26d3ec15ea45487a51e365ea77b82623a6f95d8d827561ae558a61ef1e1d6b1f",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-wood-step-169b363488-preview.wav",
+      "previewBytes": 19264,
+      "previewSha256": "bd6a6a0ca9cd9a2e2d0728cc1aa0c8ec1228a6587cbe40dbc34ea1b4b37e5e0f",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-wood-step-169b363488-context",
+            "soundId": "source-wood-step-169b363488-clip",
+            "packId": "source-wood-step-169b363488",
+            "sha256": "169b363488a8177cbbe98a630cedb53fee29948be96312fcf555e30a2efe6da3",
+            "keywordForms": [
+              "踩在木板上\n踩上木地板\nstepped on wooden boards\nfootstep on wood"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "木板",
+                    "木地板",
+                    "wooden",
+                    "wood"
+                  ],
+                  [
+                    "踩",
+                    "踏",
+                    "step",
+                    "footstep"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-glass-impact-f7d87a4b7d",
+      "name": "Glass Contact",
+      "nameZh": "玻璃碰响",
+      "nameHant": "玻璃碰響",
+      "description": "Glass Contact.",
+      "descriptionZh": "玻璃碰响。",
+      "descriptionHant": "玻璃碰響。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-glass-impact-f7d87a4b7d-v1.zip",
+      "bytes": 15043,
+      "sha256": "8269ad3a17dca8fa6024ac83d243a1acc0628638d97e824acf741d86540c6612",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-glass-impact-f7d87a4b7d-preview.wav",
+      "previewBytes": 39056,
+      "previewSha256": "76c6d3d5d3312a1908e89826fb8a6d8f7af4b2731cd234b36ecbdf27042db23d",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-glass-impact-f7d87a4b7d-context",
+            "soundId": "source-glass-impact-f7d87a4b7d-clip",
+            "packId": "source-glass-impact-f7d87a4b7d",
+            "sha256": "f7d87a4b7d89523377153f78327aa29687e30c388c943561a7c85cd4f29bcce3",
+            "keywordForms": [
+              "玻璃碰响\n玻璃碰響\n玻璃杯相碰\nglass clinked\nglasses clinked"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "玻璃",
+                    "glass"
+                  ],
+                  [
+                    "碰",
+                    "clink"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-metal-impact-292d090657",
+      "name": "Metal Striking Metal",
+      "nameZh": "金属碰响",
+      "nameHant": "金屬碰響",
+      "description": "Metal Striking Metal.",
+      "descriptionZh": "金属碰响。",
+      "descriptionHant": "金屬碰響。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-metal-impact-292d090657-v1.zip",
+      "bytes": 10053,
+      "sha256": "55a242d8f2b54a8a11337cb57337bfcaca31453c4644d958a5b4332259a7be46",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-metal-impact-292d090657-preview.wav",
+      "previewBytes": 26612,
+      "previewSha256": "5ef02f3d73889c71d402aa811d1b66e24e190bb847ec73e33f63bffac883f2f4",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-metal-impact-292d090657-context",
+            "soundId": "source-metal-impact-292d090657-clip",
+            "packId": "source-metal-impact-292d090657",
+            "sha256": "292d0906577a4b15c222d38d1d533b5c9240447f4201054f26ca25d50149ee39",
+            "keywordForms": [
+              "金属撞击\n金屬撞擊\n金属碰响\n金屬碰響\nmetal struck metal\nmetal clanged"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "金属",
+                    "金屬",
+                    "metal"
+                  ],
+                  [
+                    "撞",
+                    "碰",
+                    "struck",
+                    "clang"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-wood-impact-1ef6ac7d15",
+      "name": "Wooden Impact",
+      "nameZh": "木头碰撞",
+      "nameHant": "木頭碰撞",
+      "description": "Wooden Impact.",
+      "descriptionZh": "木头碰撞。",
+      "descriptionHant": "木頭碰撞。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-wood-impact-1ef6ac7d15-v1.zip",
+      "bytes": 9469,
+      "sha256": "8c3f226c1138758be5cc0fbc45a7f01bea46dc566d1748701ba4fc30e2f06023",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-wood-impact-1ef6ac7d15-preview.wav",
+      "previewBytes": 27800,
+      "previewSha256": "c2de78c3108b370cbbd42dc1db042e0bc23286fff7e3d159fcdbcb99cc34ce04",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-wood-impact-1ef6ac7d15-context",
+            "soundId": "source-wood-impact-1ef6ac7d15-clip",
+            "packId": "source-wood-impact-1ef6ac7d15",
+            "sha256": "1ef6ac7d150431b91af05e4ba1dac21673b3b21b8ffd0d8a9b7a933c8994dbaf",
+            "keywordForms": [
+              "木头碰撞\n木頭碰撞\n木板撞响\n木板撞響\nwood knocked against wood"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "木头",
+                    "木頭",
+                    "木板",
+                    "wood"
+                  ],
+                  [
+                    "撞",
+                    "碰",
+                    "knock"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-door-closing-2e3cd19b62",
+      "name": "Door Closing",
+      "nameZh": "关上房门",
+      "nameHant": "關上房門",
+      "description": "Door Closing.",
+      "descriptionZh": "关上房门。",
+      "descriptionHant": "關上房門。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-closing-2e3cd19b62-v1.zip",
+      "bytes": 21032,
+      "sha256": "e25b85b94a02f62e483483f55e1c3b7949308b7c734e8ff18c9aaad29193b5db",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-closing-2e3cd19b62-preview.wav",
+      "previewBytes": 51564,
+      "previewSha256": "7b11cf16429781d4f89811c0b1abab543d40c302bdc13b609499e76007ff5b7d",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-door-closing-2e3cd19b62-context",
+            "soundId": "source-door-closing-2e3cd19b62-clip",
+            "packId": "source-door-closing-2e3cd19b62",
+            "sha256": "2e3cd19b62c7a58f903dd8f618d2dfb1f8285999bc95f428ac2eb5002fc61655",
+            "keywordForms": [
+              "关上房门\n關上房門\n房门关上\n房門關上\nclosed the door"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "房门",
+                    "房門",
+                    "door"
+                  ],
+                  [
+                    "关上",
+                    "關上",
+                    "closed"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "source-door-opening-30d0936aac",
+      "name": "Door Opening",
+      "nameZh": "推开房门",
+      "nameHant": "推開房門",
+      "description": "Door Opening.",
+      "descriptionZh": "推开房门。",
+      "descriptionHant": "推開房門。",
+      "engine": "Foley",
+      "language": "und",
+      "packageUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-opening-30d0936aac-v1.zip",
+      "bytes": 50246,
+      "sha256": "67e70c4c6c9ea41c74fc6d1a5853bd06fc6a4a1158f4218a28961bce00051a06",
+      "previewUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-resources-v63965111791503052/source-door-opening-30d0936aac-preview.wav",
+      "previewBytes": 128992,
+      "previewSha256": "5aaa5bffdfb2f7b992394f70814c4affbb339853e2c0fc7c47025b38ffab4d4d",
+      "contexts": {
+        "version": 1,
+        "rules": [
+          {
+            "id": "source-door-opening-30d0936aac-context",
+            "soundId": "source-door-opening-30d0936aac-clip",
+            "packId": "source-door-opening-30d0936aac",
+            "sha256": "30d0936aac31b86b597fed2050c127735ad26d670b6dfdc406ab587de5c089fe",
+            "keywordForms": [
+              "推开房门\n推開房門\n打开房门\n打開房門\nopened the door"
+            ],
+            "gateLiterals": true,
+            "windowChars": 72,
+            "priority": 55,
+            "patterns": [
+              {
+                "allOf": [
+                  [
+                    "房门",
+                    "房門",
+                    "door"
+                  ],
+                  [
+                    "推开",
+                    "推開",
+                    "打开",
+                    "打開",
+                    "opened"
+                  ]
+                ],
+                "cueGroup": 0
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
