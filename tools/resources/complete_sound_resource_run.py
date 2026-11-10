@@ -14,6 +14,7 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools'))
 from android_validation_lock import acquire_or_exit
 from publish_scheduled_sounds import GitHub, REPO, publish
+from resource_runtime import configuration, helper_arguments
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
     parser.add_argument('--serial', choices=['emulator-5564', 'emulator-5566'], default='emulator-5566')
     parser.add_argument('--publish', action='store_true')
     args = parser.parse_args()
+    config = configuration(ROOT)
     validation_lease = acquire_or_exit(ROOT)
     def finish(result):
         (args.candidate / 'publication-result.json').write_text(json.dumps(result, indent=2) + '\n')
@@ -47,7 +49,8 @@ def main():
         if apk.stat().st_size != app['bytes'] or hashlib.sha256(apk.read_bytes()).hexdigest() != app['sha256']:
             raise ValueError('Published APK content changed')
         subprocess.run([sys.executable, str(Path(__file__).with_name('verify_sound_resource_import.py')),
-            '--candidate', str(args.candidate), '--apk', str(apk), '--update-feed', str(metadata), '--serial', args.serial], check=True, timeout=900, **validation_lease.child_options())
+            '--candidate', str(args.candidate), '--apk', str(apk), '--update-feed', str(metadata), '--serial', args.serial,
+            *helper_arguments(config)], check=True, timeout=900, **validation_lease.child_options())
     result = publish(args.candidate, github) if args.publish else {'state': 'android-verified', 'published': False}
     finish(result)
 

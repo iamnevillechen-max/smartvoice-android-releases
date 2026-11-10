@@ -9,10 +9,57 @@ import stat
 import subprocess
 
 PREFIX = 'SCENEVOX_ANDROID_VALIDATION_'
+MAX_RUNTIME_CONFIG_BYTES = 4096
+RUNTIME_CONFIG_KEYS = frozenset((
+    'schemaVersion', 'sharedLockPath', 'avdHome', 'avdName',
+    'helperApk', 'helperMetadata', 'helperMetadataSha256',
+))
 
 
 class Busy(RuntimeError):
     pass
+
+
+def resolve_lock_path(root):
+    """Read only the local installer-owned lock setting; never follow a redirect."""
+    default = Path(root) / '.toolchain/locks/android-validation.lock'
+    config = Path(root) / '.toolchain/resource-runtime.json'
+    try:
+        fd = os.open(config, os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK)
+    except FileNotFoundError:
+        return default
+    except OSError as error:
+        raise ValueError('Cannot open local resource runtime configuration') from error
+    try:
+        info = os.fstat(fd)
+        if (not stat.S_ISREG(info.st_mode) or info.st_uid != os.getuid()
+                or info.st_mode & 0o022 or not 0 < info.st_size <= MAX_RUNTIME_CONFIG_BYTES):
+            raise ValueError('Unsafe local resource runtime configuration')
+        data = os.read(fd, MAX_RUNTIME_CONFIG_BYTES + 1)
+        if len(data) > MAX_RUNTIME_CONFIG_BYTES:
+            raise ValueError('Local resource runtime configuration is too large')
+    finally:
+        os.close(fd)
+
+    def unique_keys(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError('Duplicate local resource runtime configuration key')
+            result[key] = value
+        return result
+
+    try:
+        value = json.loads(data, object_pairs_hook=unique_keys)
+    except (ValueError, UnicodeError) as error:
+        raise ValueError('Invalid local resource runtime configuration JSON') from error
+    if (not isinstance(value, dict) or set(value) - RUNTIME_CONFIG_KEYS
+            or type(value.get('schemaVersion')) is not int or value['schemaVersion'] != 1):
+        raise ValueError('Invalid local resource runtime configuration schema')
+    shared = Path.home() / 'Library/Application Support/SceneVox/locks/android-validation.lock'
+    if value.get('sharedLockPath') != str(shared):
+        raise ValueError('Invalid shared Android validation lock path')
+    return shared
 
 
 def ancestor(pid):
@@ -31,7 +78,8 @@ def ancestor(pid):
 
 class Lease:
     def __init__(self, root, environ=None):
-        self.path = Path(root) / '.toolchain/locks/android-validation.lock'
+        self.path_root = Path(root)
+        self.path = resolve_lock_path(root)
         self.fd = None
         self.inherited = False
         self.environ = os.environ if environ is None else environ
@@ -72,6 +120,8 @@ class Lease:
             if not stat.S_ISREG(info.st_mode) or info.st_uid != os.getuid():
                 raise Busy('Invalid validation lock file')
             fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            if resolve_lock_path(self.path_root) != self.path:
+                raise Busy('Android validation lock location changed; retry')
             self.owner, self.token = os.getpid(), secrets.token_hex(24)
             data = json.dumps({'owner': self.owner, 'token': self.token}).encode()
             os.fchmod(fd, 0o600); os.ftruncate(fd, 0); os.pwrite(fd, data, 0); os.fsync(fd)
