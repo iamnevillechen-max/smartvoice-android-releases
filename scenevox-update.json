@@ -1,15 +1,15 @@
 {
-  "versionCode": 103,
-  "versionName": "2.2.5",
+  "versionCode": 104,
+  "versionName": "2.3.0",
   "minSdk": 26,
-  "bytes": 183360552,
-  "sha256": "a9f4877896972cedc493173dcfc10ba3e6da3168fc5c1d0ef9d8b95b3be3a5b5",
+  "bytes": 183602540,
+  "sha256": "a92f559ed52071a061718538b7c69331e70d3cb38809f59d967a495a7d52d954",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修正对话角色错配，人工指定的声音保持优先，试听与正式朗读一致。\n改善中文、日文及混合文字的语言判断。\n对话和场景可推荐待试听方案，并记住选用与忽略的选择。\n修复场景加载显示、方案保存及已有音库的启动兼容问题。",
-    "zh-TW": "修正對話角色錯配，人工指定的聲音保持優先，試聽與正式朗讀一致。\n改善中文、日文及混合文字的語言判斷。\n對話和場景可推薦待試聽方案，並記住選用與忽略的選擇。\n修復場景載入顯示、方案儲存及已有音庫的啟動相容問題。",
-    "en-US": "Fix dialogue voice assignments, keeping manual choices first and previews consistent with reading.\nImprove language routing for Chinese, Japanese and mixed text.\nRecommend dialogue and scene choices for preview, and remember selections and dismissals.\nFix scene loading states, scheme saving and startup with existing voice libraries."
+    "zh-CN": "在「对话 → 更多」开启自动角色配音。按姓名、性别和六种声音风格匹配，可以指定某个人的语音库和声音。\n在「场景」开启实时在线音效，也可从更多菜单搜索试听。初次配声联网获取，无需申请密钥。\n可独立设置表情朗读声音，并修复部分中文长句和混合文本朗读时的吞字。",
+    "zh-TW": "在「對話 → 更多」開啟自動角色配音。按姓名、性別和六種聲音風格配對，也可指定某個人的語音庫和聲音。\n在「場景」開啟即時線上音效，也可從更多選單搜尋試聽。首次配聲時連網取得，無需申請金鑰。\n可獨立設定表情朗讀聲音，並修正部分中文長句及混合文字朗讀時的吞字。",
+    "en-US": "Enable automatic character voices in Dialogue. Cast speakers by name, gender and six delivery styles, or choose a specific library and voice.\nEnable live online effects in Scenes, or search and preview from More. First playback uses the network and requires no account key.\nSelect a separate emoji voice. Fixed dropped speech in long Chinese passages and mixed text."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.2.5/SceneVox-TTS-2.2.5-arm64.apk",
-  "notes": "修正对话角色错配，人工指定的声音保持优先，试听与正式朗读一致。\n改善中文、日文及混合文字的语言判断。\n对话和场景可推荐待试听方案，并记住选用与忽略的选择。\n修复场景加载显示、方案保存及已有音库的启动兼容问题。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.3.0/SceneVox-TTS-2.3.0-arm64.apk",
+  "notes": "在「对话 → 更多」开启自动角色配音。按姓名、性别和六种声音风格匹配，可以指定某个人的语音库和声音。\n在「场景」开启实时在线音效，也可从更多菜单搜索试听。初次配声联网获取，无需申请密钥。\n可独立设置表情朗读声音，并修复部分中文长句和混合文本朗读时的吞字。"
 }
