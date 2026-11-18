@@ -1,15 +1,15 @@
 {
-  "versionCode": 104,
-  "versionName": "2.3.0",
+  "versionCode": 105,
+  "versionName": "2.3.1",
   "minSdk": 26,
-  "bytes": 183602540,
-  "sha256": "a92f559ed52071a061718538b7c69331e70d3cb38809f59d967a495a7d52d954",
+  "bytes": 183672172,
+  "sha256": "ec0c1950736cf63da040a1dc3128ea997a2cb62ec4a4185cee52510969396a29",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "在「对话 → 更多」开启自动角色配音。按姓名、性别和六种声音风格匹配，可以指定某个人的语音库和声音。\n在「场景」开启实时在线音效，也可从更多菜单搜索试听。初次配声联网获取，无需申请密钥。\n可独立设置表情朗读声音，并修复部分中文长句和混合文本朗读时的吞字。",
-    "zh-TW": "在「對話 → 更多」開啟自動角色配音。按姓名、性別和六種聲音風格配對，也可指定某個人的語音庫和聲音。\n在「場景」開啟即時線上音效，也可從更多選單搜尋試聽。首次配聲時連網取得，無需申請金鑰。\n可獨立設定表情朗讀聲音，並修正部分中文長句及混合文字朗讀時的吞字。",
-    "en-US": "Enable automatic character voices in Dialogue. Cast speakers by name, gender and six delivery styles, or choose a specific library and voice.\nEnable live online effects in Scenes, or search and preview from More. First playback uses the network and requires no account key.\nSelect a separate emoji voice. Fixed dropped speech in long Chinese passages and mixed text."
+    "zh-CN": "修复朗读时漏认人名、把「说」存进名字的问题。支持无引号对白和「曰」「问曰」等写法，按角色配声，支持手动指定。角色声音暂时连不上时，可用的本机同语言声音会接着读。\n场景现在能搜「千军万马」和含声音关键词的整句话，新增马群现场录音和大鼓滚奏。搜索和自动匹配开关都在「场景 → 更多」。",
+    "zh-TW": "修正朗讀時漏認人名、把「說」存進名字的問題。支援無引號對白和「曰」「問曰」等寫法，按角色配聲，可手動指定。角色聲音暫時無法連線時，可用的本機同語言聲音會接著讀。\n場景現在能搜「千軍萬馬」和含聲音關鍵詞的整句話，新增馬群現場錄音和大鼓滾奏。搜尋和自動配對開關都在「場景 → 更多」。",
+    "en-US": "Fixed missed speakers and speech verbs being saved as part of a name. Unquoted speech and classical Chinese dialogue can now be attributed. A local voice can finish an unread line when its assigned voice is unavailable.\nSearch by a scene phrase or sentence, including galloping horses. Added field-recorded horses and a concert bass drum roll. Find search and automatic playback in Scenes → More."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.3.0/SceneVox-TTS-2.3.0-arm64.apk",
-  "notes": "在「对话 → 更多」开启自动角色配音。按姓名、性别和六种声音风格匹配，可以指定某个人的语音库和声音。\n在「场景」开启实时在线音效，也可从更多菜单搜索试听。初次配声联网获取，无需申请密钥。\n可独立设置表情朗读声音，并修复部分中文长句和混合文本朗读时的吞字。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.3.1/SceneVox-TTS-2.3.1-arm64.apk",
+  "notes": "修复朗读时漏认人名、把「说」存进名字的问题。支持无引号对白和「曰」「问曰」等写法，按角色配声，支持手动指定。角色声音暂时连不上时，可用的本机同语言声音会接着读。\n场景现在能搜「千军万马」和含声音关键词的整句话，新增马群现场录音和大鼓滚奏。搜索和自动匹配开关都在「场景 → 更多」。"
 }
