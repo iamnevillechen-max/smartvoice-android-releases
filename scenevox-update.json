@@ -1,15 +1,15 @@
 {
-  "versionCode": 105,
-  "versionName": "2.3.1",
+  "versionCode": 106,
+  "versionName": "2.4.0",
   "minSdk": 26,
-  "bytes": 183672172,
-  "sha256": "ec0c1950736cf63da040a1dc3128ea997a2cb62ec4a4185cee52510969396a29",
+  "bytes": 184631811,
+  "sha256": "a9c786d83e60e38b2071d9d6000bbcb089ec95024c5ceeb7439fabd8a097f97d",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "修复朗读时漏认人名、把「说」存进名字的问题。支持无引号对白和「曰」「问曰」等写法，按角色配声，支持手动指定。角色声音暂时连不上时，可用的本机同语言声音会接着读。\n场景现在能搜「千军万马」和含声音关键词的整句话，新增马群现场录音和大鼓滚奏。搜索和自动匹配开关都在「场景 → 更多」。",
-    "zh-TW": "修正朗讀時漏認人名、把「說」存進名字的問題。支援無引號對白和「曰」「問曰」等寫法，按角色配聲，可手動指定。角色聲音暫時無法連線時，可用的本機同語言聲音會接著讀。\n場景現在能搜「千軍萬馬」和含聲音關鍵詞的整句話，新增馬群現場錄音和大鼓滾奏。搜尋和自動配對開關都在「場景 → 更多」。",
-    "en-US": "Fixed missed speakers and speech verbs being saved as part of a name. Unquoted speech and classical Chinese dialogue can now be attributed. A local voice can finish an unread line when its assigned voice is unavailable.\nSearch by a scene phrase or sentence, including galloping horses. Added field-recorded horses and a concert bass drum roll. Find search and automatic playback in Scenes → More."
+    "zh-CN": "人物页支持按姓名搜索、分配音色和分类。修正普通词被误建成人物的问题。配音页可搜索并试听在线音效，自动匹配在更多菜单中，支持按需获取、离线包和本地导入。用户页可一键上传诊断。修复编号连读、相邻表情和克隆模型修复流程。",
+    "zh-TW": "人物頁支援按姓名搜尋、分配音色和分類。修正普通詞被誤建成人物的問題。配音頁可搜尋並試聽線上音效，自動匹配在更多選單中，支援按需取得、離線包及本機匯入。用戶頁可一鍵上傳診斷。修正編號朗讀、相鄰表情及克隆模型修復流程。",
+    "en-US": "Search characters by name, assign voices, and organize categories. Improved dialogue attribution and reduced false names. Search and preview sounds in Dubbing, with automatic matching, on-demand downloads, offline sets and local imports. Added one-tap diagnostics, adjacent-emoji reading, ordinal lists and clone model recovery."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.3.1/SceneVox-TTS-2.3.1-arm64.apk",
-  "notes": "修复朗读时漏认人名、把「说」存进名字的问题。支持无引号对白和「曰」「问曰」等写法，按角色配声，支持手动指定。角色声音暂时连不上时，可用的本机同语言声音会接着读。\n场景现在能搜「千军万马」和含声音关键词的整句话，新增马群现场录音和大鼓滚奏。搜索和自动匹配开关都在「场景 → 更多」。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.4.0/SceneVox-TTS-2.4.0-arm64.apk",
+  "notes": "人物页支持按姓名搜索、分配音色和分类。修正普通词被误建成人物的问题。配音页可搜索并试听在线音效，自动匹配在更多菜单中，支持按需获取、离线包和本地导入。用户页可一键上传诊断。修复编号连读、相邻表情和克隆模型修复流程。"
 }
