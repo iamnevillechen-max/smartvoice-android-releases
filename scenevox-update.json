@@ -1,15 +1,15 @@
 {
-  "versionCode": 106,
-  "versionName": "2.4.0",
+  "versionCode": 107,
+  "versionName": "2.4.1",
   "minSdk": 26,
-  "bytes": 184631811,
-  "sha256": "a9c786d83e60e38b2071d9d6000bbcb089ec95024c5ceeb7439fabd8a097f97d",
+  "bytes": 185701170,
+  "sha256": "730c9bd76ba8006f6707f0c58571bc7dc23411aa797bb2e8133821ffb51db664",
   "packageName": "com.scenevox.tts",
   "notesLocalized": {
-    "zh-CN": "人物页支持按姓名搜索、分配音色和分类。修正普通词被误建成人物的问题。配音页可搜索并试听在线音效，自动匹配在更多菜单中，支持按需获取、离线包和本地导入。用户页可一键上传诊断。修复编号连读、相邻表情和克隆模型修复流程。",
-    "zh-TW": "人物頁支援按姓名搜尋、分配音色和分類。修正普通詞被誤建成人物的問題。配音頁可搜尋並試聽線上音效，自動匹配在更多選單中，支援按需取得、離線包及本機匯入。用戶頁可一鍵上傳診斷。修正編號朗讀、相鄰表情及克隆模型修復流程。",
-    "en-US": "Search characters by name, assign voices, and organize categories. Improved dialogue attribution and reduced false names. Search and preview sounds in Dubbing, with automatic matching, on-demand downloads, offline sets and local imports. Added one-tap diagnostics, adjacent-emoji reading, ordinal lists and clone model recovery."
+    "zh-CN": "配音新增 10,000 段录音与拟音，可按需在线播放，也可下载后离线使用。改善连续对话的人物归属、普通词误配和跨句音效触发。完整音效库支持断点续传，下载前可查看大小或取消。声音页可下载并导入微软中英离线声库。",
+    "zh-TW": "配音新增 10,000 段錄音與擬音，可按需線上播放，也可下載後離線使用。改善連續對話的人物歸屬、普通詞誤配和跨句音效觸發。完整音效庫支援中斷續傳，下載前可查看大小或取消。聲音頁可下載並匯入微軟中英離線聲庫。",
+    "en-US": "Dubbing adds 10,000 field recordings and Foley sounds for on-demand playback or offline download. Improved speaker attribution, filtering of ordinary words and sound cues split across requests. Full-library downloads show size, support cancellation and resume after an interruption. Install Microsoft Chinese and English offline voices from Voices."
   },
-  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.4.0/SceneVox-TTS-2.4.0-arm64.apk",
-  "notes": "人物页支持按姓名搜索、分配音色和分类。修正普通词被误建成人物的问题。配音页可搜索并试听在线音效，自动匹配在更多菜单中，支持按需获取、离线包和本地导入。用户页可一键上传诊断。修复编号连读、相邻表情和克隆模型修复流程。"
+  "apkUrl": "https://github.com/iamnevillechen-max/smartvoice-android-releases/releases/download/scenevox-v2.4.1/SceneVox-TTS-2.4.1-arm64.apk",
+  "notes": "配音新增 10,000 段录音与拟音，可按需在线播放，也可下载后离线使用。改善连续对话的人物归属、普通词误配和跨句音效触发。完整音效库支持断点续传，下载前可查看大小或取消。声音页可下载并导入微软中英离线声库。"
 }
